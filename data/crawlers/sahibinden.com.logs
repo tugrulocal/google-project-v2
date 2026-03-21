@@ -1,0 +1,5 @@
+[2026-03-22 01:10:18] Crawler starting...
+[2026-03-22 01:10:18] Seeded queue with: https://www.sahibinden.com
+[2026-03-22 01:10:18] HTTP error 403: https://www.sahibinden.com
+[2026-03-22 01:10:19] Queue empty - crawl finished
+[2026-03-22 01:10:19] Crawler finished. Status: Finished, URLs crawled: 0

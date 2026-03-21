@@ -1,0 +1,6 @@
+# Google in a Day - Dependencies
+# Only Flask and CORS are allowed as external dependencies
+# All other functionality uses native Python libraries
+
+flask>=2.0.0
+flask-cors>=3.0.0

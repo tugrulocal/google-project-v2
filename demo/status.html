@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google in a Day - Status</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --bg-primary: #f8f9fa;
+            --bg-secondary: #ffffff;
+            --text-primary: #202124;
+            --text-secondary: #5f6368;
+            --border-color: #dadce0;
+            --primary: #4285f4;
+            --success: #34a853;
+            --warning: #fbbc05;
+            --danger: #ea4335;
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #0f0f23;
+            --bg-secondary: #1a1a2e;
+            --text-primary: #e4e6eb;
+            --text-secondary: #b0b3b8;
+            --border-color: rgba(255, 255, 255, 0.1);
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Product Sans', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #4285f4, #58aefa, #5aaef7, #3084ce);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .nav-links a {
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: var(--text-primary);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover { background: var(--glass-bg); }
+        .nav-links a.active { background: var(--primary); color: white; }
+
+        .theme-toggle {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            color: var(--text-primary);
+        }
+
+        .theme-toggle:hover {
+            transform: rotate(15deg);
+            background: var(--bg-secondary);
+        }
+
+        .theme-toggle svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+
+        /* Cards with Glassmorphism */
+        .card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow);
+        }
+
+        .card h2 {
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        /* Header with status */
+        .status-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .status-badge {
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.5px;
+        }
+
+        .status-active { background: rgba(52, 168, 83, 0.2); color: var(--success); }
+        .status-paused { background: rgba(251, 188, 5, 0.2); color: var(--warning); }
+        .status-stopped { background: rgba(234, 67, 53, 0.2); color: var(--danger); }
+        .status-finished { background: rgba(66, 133, 244, 0.2); color: var(--primary); }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-success { background: linear-gradient(135deg, var(--success), #2e7d32); color: white; }
+        .btn-warning { background: linear-gradient(135deg, var(--warning), #f9a825); color: #202124; }
+        .btn-danger { background: linear-gradient(135deg, var(--danger), #c5221f); color: white; }
+        .btn-primary { background: linear-gradient(135deg, var(--primary), #3367d6); color: white; }
+
+        .btn:hover { transform: translateY(-2px); }
+        .btn-group { display: flex; gap: 0.5rem; }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 1.25rem;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+        }
+
+        .stat-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), var(--success));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 0.25rem;
+        }
+
+        /* Progress Bar */
+        .progress-container { margin: 1.5rem 0; }
+
+        .progress-bar {
+            height: 10px;
+            background: var(--bg-secondary);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--success));
+            border-radius: 5px;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        /* Queue & Back-Pressure Layout - FIXED OVERLAP */
+        .metrics-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            align-items: flex-start;
+        }
+
+        /* Queue Depth Gauge */
+        .queue-section {
+            flex: 0 0 140px;
+            text-align: center;
+        }
+
+        .queue-section h3 {
+            font-size: 0.75rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .queue-gauge {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .gauge-label {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .gauge-bar {
+            width: 60px;
+            height: 100px;
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .gauge-fill {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: var(--success);
+            transition: height 0.3s ease, background-color 0.3s ease;
+        }
+
+        .gauge-fill.warning { background: var(--warning); }
+        .gauge-fill.danger { background: var(--danger); }
+
+        .gauge-text {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        /* Back-Pressure Section */
+        .backpressure-section {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .backpressure-section h3 {
+            font-size: 0.75rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .backpressure-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem;
+            border-radius: 12px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .backpressure-indicator.normal {
+            background: rgba(52, 168, 83, 0.15);
+            color: var(--success);
+        }
+
+        .backpressure-indicator.warning {
+            background: rgba(251, 188, 5, 0.15);
+            color: var(--warning);
+        }
+
+        .backpressure-indicator.critical {
+            background: rgba(234, 67, 53, 0.15);
+            color: var(--danger);
+        }
+
+        .backpressure-indicator::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: currentColor;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .throttle-info {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+        }
+
+        .throttle-info ul {
+            margin-left: 1.25rem;
+            margin-top: 0.5rem;
+        }
+
+        .throttle-info li {
+            margin-bottom: 0.25rem;
+        }
+
+        /* Rate & Session Limits - Separate Row */
+        .limits-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 1.25rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .limit-item {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .limit-item strong {
+            color: var(--text-primary);
+        }
+
+        /* Info Grid */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+
+        .info-item label {
+            display: block;
+            color: var(--text-secondary);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.25rem;
+        }
+
+        .info-item span {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        /* Log Container */
+        .log-container {
+            background: #0d1117;
+            border-radius: 12px;
+            padding: 1rem;
+            max-height: 400px;
+            overflow-y: auto;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.8rem;
+        }
+
+        .log-entry {
+            color: #c9d1d9;
+            padding: 0.25rem 0;
+            border-bottom: 1px solid #21262d;
+        }
+
+        .log-entry:last-child { border-bottom: none; }
+
+        .log-timestamp { color: #7ee787; }
+        .log-level-info { color: #58a6ff; }
+        .log-level-warn { color: #d29922; }
+        .log-level-error { color: #f85149; }
+
+        /* Crawler Selector */
+        .crawler-select {
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 1rem;
+            width: 100%;
+            max-width: 500px;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        .crawler-select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .no-crawler {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+
+        .no-crawler a {
+            color: var(--primary);
+        }
+
+        @media (max-width: 768px) {
+            .status-header { flex-direction: column; align-items: flex-start; }
+            .btn-group { width: 100%; justify-content: flex-start; }
+            .metrics-container { flex-direction: column; }
+            .queue-section { flex: 0 0 auto; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Google in a Day</div>
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="/crawler">Crawler</a>
+                <a href="/status" class="active">Status</a>
+                <a href="/search-page">Search</a>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
+                <i id="themeIconLight" data-lucide="sun"></i>
+                <i id="themeIconDark" data-lucide="moon" style="display: none;"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Crawler Selector -->
+        <div class="card">
+            <h2>Select Crawler</h2>
+            <select id="crawlerSelect" class="crawler-select" onchange="selectCrawler()">
+                <option value="">-- Select a crawler --</option>
+            </select>
+        </div>
+
+        <!-- Status Display -->
+        <div id="statusDisplay" style="display: none;">
+            <!-- Header -->
+            <div class="card">
+                <div class="status-header">
+                    <div>
+                        <h2 id="crawlerId">Crawler ID</h2>
+                        <span id="originUrl" style="color: var(--text-secondary); word-break: break-all;"></span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <span id="statusBadge" class="status-badge status-active">Active</span>
+                        <div class="btn-group" id="actionButtons"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="card">
+                <h2>Statistics & Performance Metrics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="statCrawled">0</div>
+                        <div class="stat-label">URLs Crawled</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="statQueued">0</div>
+                        <div class="stat-label">In Queue</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="statVisited">0</div>
+                        <div class="stat-label">Visited</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="statFailed">0</div>
+                        <div class="stat-label">Failed</div>
+                    </div>
+                </div>
+
+                <!-- Indexing Progress Bar -->
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 0%;"></div>
+                    </div>
+                    <div class="progress-text" id="progressText">0 / 0 URLs (Indexing Progress)</div>
+                </div>
+
+                <!-- Queue Depth & Back-Pressure - FIXED LAYOUT -->
+                <div class="metrics-container">
+                    <!-- Queue Depth Gauge -->
+                    <div class="queue-section">
+                        <h3>Queue Depth</h3>
+                        <div class="queue-gauge">
+                            <div class="gauge-label" id="queuePercent">0%</div>
+                            <div class="gauge-bar">
+                                <div class="gauge-fill" id="gaugeFill" style="height: 0%;"></div>
+                            </div>
+                            <div class="gauge-text" id="queueDepthText">0 / 10,000</div>
+                        </div>
+                    </div>
+
+                    <!-- Back-Pressure Status -->
+                    <div class="backpressure-section">
+                        <h3>Back-Pressure Status</h3>
+                        <div id="backpressureIndicator" class="backpressure-indicator normal">
+                            Normal - Queue accepting new URLs
+                        </div>
+                        <div class="throttle-info">
+                            <strong>Throttling Logic:</strong>
+                            <ul>
+                                <li>Queue &lt; 70%: Normal operation</li>
+                                <li>Queue 70-90%: Warning (throttling)</li>
+                                <li>Queue &gt; 90%: Critical (rejecting URLs)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rate & Session Limits - Separate Row -->
+                <div class="limits-row">
+                    <div class="limit-item">
+                        <strong>Rate Limiting:</strong> <span id="rateLimitText">100 req/s</span>
+                    </div>
+                    <div class="limit-item">
+                        <strong>Session Limit:</strong> <span id="sessionLimitText">0 / 1,000 URLs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Configuration -->
+            <div class="card">
+                <h2>Configuration</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <label>Max Depth</label>
+                        <span id="configDepth">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Hit Rate</label>
+                        <span id="configRate">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Queue Capacity</label>
+                        <span id="configQueue">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>URL Limit</label>
+                        <span id="configLimit">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Same Domain Only</label>
+                        <span id="configDomain">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Include Subdomains</label>
+                        <span id="configSubdomains">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Started</label>
+                        <span id="configStarted">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Finished</label>
+                        <span id="configFinished">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logs -->
+            <div class="card">
+                <h2>Live Logs</h2>
+                <div class="log-container" id="logContainer">
+                    <div class="log-entry">Waiting for logs...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- No Crawler Selected -->
+        <div id="noCrawler" class="card">
+            <div class="no-crawler">
+                <p>Select a crawler from the dropdown above to view its status.</p>
+                <p style="margin-top: 1rem;">
+                    <a href="/crawler">Or create a new crawler</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = '';
+        let currentCrawlerId = null;
+        let refreshInterval = null;
+
+        // Initialize Lucide icons
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            initTheme();
+            loadCrawlerList();
+        });
+
+        // Theme Management
+        function initTheme() {
+            const saved = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', saved);
+            updateThemeIcon(saved);
+        }
+
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            updateThemeIcon(next);
+        }
+
+        function updateThemeIcon(theme) {
+            const lightIcon = document.getElementById('themeIconLight');
+            const darkIcon = document.getElementById('themeIconDark');
+            if (theme === 'dark') {
+                lightIcon.style.display = 'block';
+                darkIcon.style.display = 'none';
+            } else {
+                lightIcon.style.display = 'none';
+                darkIcon.style.display = 'block';
+            }
+        }
+
+        // Get URL parameter
+        function getUrlParam(name) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(name);
+        }
+
+        // Format date
+        function formatDate(isoString) {
+            if (!isoString) return '-';
+            try {
+                return new Date(isoString).toLocaleString('tr-TR');
+            } catch {
+                return isoString;
+            }
+        }
+
+        // Load crawler list
+        async function loadCrawlerList() {
+            try {
+                const res = await fetch(`${API_BASE}/crawler/list`);
+                const crawlers = await res.json();
+
+                const select = document.getElementById('crawlerSelect');
+                const currentValue = select.value;
+
+                select.innerHTML = '<option value="">-- Select a crawler --</option>';
+
+                crawlers.forEach(c => {
+                    const option = document.createElement('option');
+                    option.value = c.crawler_id;
+                    option.textContent = `${c.crawler_id} - ${c.origin || 'N/A'} (${c.status || 'Unknown'})`;
+                    select.appendChild(option);
+                });
+
+                // Restore selection or use URL param
+                const urlId = getUrlParam('id');
+                if (urlId) {
+                    select.value = urlId;
+                    selectCrawler();
+                } else if (currentValue) {
+                    select.value = currentValue;
+                }
+            } catch (e) {
+                console.error('Failed to load crawler list:', e);
+            }
+        }
+
+        // Select crawler
+        function selectCrawler() {
+            const select = document.getElementById('crawlerSelect');
+            currentCrawlerId = select.value;
+
+            if (currentCrawlerId) {
+                document.getElementById('statusDisplay').style.display = 'block';
+                document.getElementById('noCrawler').style.display = 'none';
+
+                history.replaceState(null, '', `?id=${currentCrawlerId}`);
+                loadCrawlerStatus();
+
+                if (refreshInterval) clearInterval(refreshInterval);
+                refreshInterval = setInterval(loadCrawlerStatus, 2000);
+            } else {
+                document.getElementById('statusDisplay').style.display = 'none';
+                document.getElementById('noCrawler').style.display = 'block';
+
+                history.replaceState(null, '', '/status');
+
+                if (refreshInterval) {
+                    clearInterval(refreshInterval);
+                    refreshInterval = null;
+                }
+            }
+        }
+
+        // Load crawler status
+        async function loadCrawlerStatus() {
+            if (!currentCrawlerId) return;
+
+            try {
+                const res = await fetch(`${API_BASE}/crawler/status/${currentCrawlerId}`);
+
+                if (!res.ok) {
+                    if (res.status === 404) {
+                        document.getElementById('statusDisplay').style.display = 'none';
+                        document.getElementById('noCrawler').innerHTML = `
+                            <div class="no-crawler">
+                                <p>Crawler not found: ${currentCrawlerId}</p>
+                                <p style="margin-top: 1rem;">
+                                    <a href="/crawler">Go back to crawler list</a>
+                                </p>
+                            </div>
+                        `;
+                        document.getElementById('noCrawler').style.display = 'block';
+                    }
+                    return;
+                }
+
+                const data = await res.json();
+                updateUI(data);
+            } catch (e) {
+                console.error('Failed to load status:', e);
+            }
+        }
+
+        // Update UI with status data
+        function updateUI(data) {
+            const status = (data.status || 'Unknown').toLowerCase();
+            const stats = data.stats || {};
+            const config = data.config || {};
+
+            // Header
+            document.getElementById('crawlerId').textContent = data.crawler_id;
+            document.getElementById('originUrl').textContent = data.origin || 'N/A';
+
+            // Status badge
+            const badge = document.getElementById('statusBadge');
+            badge.textContent = data.status || 'Unknown';
+            badge.className = `status-badge status-${status}`;
+
+            // Action buttons
+            const buttons = document.getElementById('actionButtons');
+            if (status === 'active') {
+                buttons.innerHTML = `
+                    <button class="btn btn-warning" onclick="pauseCrawler()">Pause</button>
+                    <button class="btn btn-danger" onclick="stopCrawler()">Stop</button>
+                `;
+            } else if (status === 'paused') {
+                buttons.innerHTML = `
+                    <button class="btn btn-success" onclick="resumeCrawler()">Resume</button>
+                    <button class="btn btn-danger" onclick="stopCrawler()">Stop</button>
+                `;
+            } else if (status === 'stopped') {
+                buttons.innerHTML = `
+                    <button class="btn btn-primary" onclick="resumeFromFiles()">Resume from Files</button>
+                `;
+            } else {
+                buttons.innerHTML = '';
+            }
+
+            // Stats
+            document.getElementById('statCrawled').textContent = (stats.urls_crawled || 0).toLocaleString();
+            document.getElementById('statQueued').textContent = (stats.urls_queued || 0).toLocaleString();
+            document.getElementById('statVisited').textContent = (stats.urls_visited || 0).toLocaleString();
+            document.getElementById('statFailed').textContent = (stats.urls_failed || 0).toLocaleString();
+
+            // Indexing Progress
+            const urlLimit = config.max_urls_to_visit || 1000;
+            const crawled = stats.urls_crawled || 0;
+            const percent = Math.min(100, (crawled / urlLimit) * 100);
+
+            document.getElementById('progressFill').style.width = `${percent}%`;
+            document.getElementById('progressText').textContent = `${crawled.toLocaleString()} / ${urlLimit.toLocaleString()} URLs (${percent.toFixed(1)}%)`;
+
+            // Queue Depth Gauge
+            const queueCapacity = config.max_queue_capacity || 10000;
+            const queueSize = stats.urls_queued || 0;
+            const queuePercent = Math.min(100, (queueSize / queueCapacity) * 100);
+
+            const gaugeFill = document.getElementById('gaugeFill');
+            gaugeFill.style.height = `${queuePercent}%`;
+
+            if (queuePercent < 70) {
+                gaugeFill.className = 'gauge-fill';
+            } else if (queuePercent < 90) {
+                gaugeFill.className = 'gauge-fill warning';
+            } else {
+                gaugeFill.className = 'gauge-fill danger';
+            }
+
+            document.getElementById('queuePercent').textContent = `${queuePercent.toFixed(0)}%`;
+            document.getElementById('queueDepthText').textContent = `${queueSize.toLocaleString()} / ${queueCapacity.toLocaleString()}`;
+
+            // Back-Pressure Status
+            const backpressureIndicator = document.getElementById('backpressureIndicator');
+            if (queuePercent < 70) {
+                backpressureIndicator.className = 'backpressure-indicator normal';
+                backpressureIndicator.textContent = 'Normal - Queue accepting new URLs';
+            } else if (queuePercent < 90) {
+                backpressureIndicator.className = 'backpressure-indicator warning';
+                backpressureIndicator.textContent = 'Warning - Queue filling up (throttling)';
+            } else {
+                backpressureIndicator.className = 'backpressure-indicator critical';
+                backpressureIndicator.textContent = 'Critical - Queue near capacity (rejecting)';
+            }
+
+            // Rate Limiting & Session Info
+            document.getElementById('rateLimitText').textContent = `${config.hit_rate || 100} req/s`;
+            document.getElementById('sessionLimitText').textContent = `${crawled.toLocaleString()} / ${urlLimit.toLocaleString()} URLs`;
+
+            // Config
+            document.getElementById('configDepth').textContent = config.max_depth || '-';
+            document.getElementById('configRate').textContent = `${config.hit_rate || '-'} req/s`;
+            document.getElementById('configQueue').textContent = (config.max_queue_capacity || '-').toLocaleString();
+            document.getElementById('configLimit').textContent = (config.max_urls_to_visit || '-').toLocaleString();
+            document.getElementById('configDomain').textContent = config.same_domain_only !== undefined ? (config.same_domain_only ? 'Yes' : 'No') : '-';
+            document.getElementById('configSubdomains').textContent = config.include_subdomains !== undefined ? (config.include_subdomains ? 'Yes' : 'No') : '-';
+            document.getElementById('configStarted').textContent = formatDate(data.started_at);
+            document.getElementById('configFinished').textContent = formatDate(data.finished_at);
+
+            // Logs
+            const logs = data.logs || [];
+            const logContainer = document.getElementById('logContainer');
+
+            if (logs.length === 0) {
+                logContainer.innerHTML = '<div class="log-entry">No logs available</div>';
+            } else {
+                logContainer.innerHTML = logs.map(log => {
+                    let levelClass = 'log-level-info';
+                    if (log.toLowerCase().includes('error') || log.toLowerCase().includes('failed')) {
+                        levelClass = 'log-level-error';
+                    } else if (log.toLowerCase().includes('warn')) {
+                        levelClass = 'log-level-warn';
+                    }
+
+                    const match = log.match(/^\[([^\]]+)\]\s*(.*)$/);
+                    if (match) {
+                        return `<div class="log-entry"><span class="log-timestamp">[${match[1]}]</span> <span class="${levelClass}">${match[2]}</span></div>`;
+                    }
+                    return `<div class="log-entry"><span class="${levelClass}">${log}</span></div>`;
+                }).join('');
+
+                logContainer.scrollTop = logContainer.scrollHeight;
+            }
+        }
+
+        // Control actions
+        async function pauseCrawler() {
+            try {
+                await fetch(`${API_BASE}/crawler/pause/${currentCrawlerId}`, { method: 'POST' });
+                loadCrawlerStatus();
+            } catch (e) {
+                alert('Failed to pause crawler');
+            }
+        }
+
+        async function resumeCrawler() {
+            try {
+                await fetch(`${API_BASE}/crawler/resume/${currentCrawlerId}`, { method: 'POST' });
+                loadCrawlerStatus();
+            } catch (e) {
+                alert('Failed to resume crawler');
+            }
+        }
+
+        async function stopCrawler() {
+            if (!confirm('Are you sure you want to stop this crawler?')) return;
+            try {
+                await fetch(`${API_BASE}/crawler/stop/${currentCrawlerId}`, { method: 'POST' });
+                loadCrawlerStatus();
+            } catch (e) {
+                alert('Failed to stop crawler');
+            }
+        }
+
+        async function resumeFromFiles() {
+            try {
+                await fetch(`${API_BASE}/crawler/resume-from-files/${currentCrawlerId}`, { method: 'POST' });
+                loadCrawlerStatus();
+            } catch (e) {
+                alert('Failed to resume from files');
+            }
+        }
+
+        // Refresh crawler list periodically
+        setInterval(loadCrawlerList, 10000);
+    </script>
+</body>
+</html>

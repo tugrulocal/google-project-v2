@@ -1,0 +1,7 @@
+[2026-03-22 01:08:08] Crawler starting...
+[2026-03-22 01:08:08] Seeded queue with: https://www.imdb.com/?ref_=hm_nv_home
+[2026-03-22 01:08:08] Crawled: https://www.imdb.com/?ref_=hm_nv_home (202)
+[2026-03-22 01:08:08] Extracted 26 total words, 23 unique from https://www.imdb.com/?ref_=hm_nv_home
+[2026-03-22 01:08:08] Indexing 23 unique words from https://www.imdb.com/?ref_=hm_nv_home
+[2026-03-22 01:08:09] Queue empty - crawl finished
+[2026-03-22 01:08:09] Crawler finished. Status: Finished, URLs crawled: 1

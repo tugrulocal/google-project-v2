@@ -1,0 +1,7 @@
+[2026-03-22 01:07:40] Crawler starting...
+[2026-03-22 01:07:40] Seeded queue with: https://imdb.com
+[2026-03-22 01:07:40] Crawled: https://imdb.com (202)
+[2026-03-22 01:07:40] Extracted 26 total words, 23 unique from https://imdb.com
+[2026-03-22 01:07:40] Indexing 23 unique words from https://imdb.com
+[2026-03-22 01:07:41] Queue empty - crawl finished
+[2026-03-22 01:07:41] Crawler finished. Status: Finished, URLs crawled: 1

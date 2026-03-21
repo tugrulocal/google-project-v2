@@ -1,0 +1,20 @@
+{
+  "crawler_id": "eksisozluk.com",
+  "origin": "https://eksisozluk.com/",
+  "status": "Finished",
+  "created_at": "2026-03-22T01:23:01.305247",
+  "started_at": "2026-03-22T01:23:01.523486",
+  "finished_at": "2026-03-22T01:23:02.615709",
+  "config": {
+    "max_depth": 3,
+    "hit_rate": 100,
+    "max_queue_capacity": 10000,
+    "max_urls_to_visit": 1000
+  },
+  "stats": {
+    "urls_crawled": 0,
+    "urls_failed": 1,
+    "urls_queued": 0,
+    "urls_visited": 1
+  }
+}

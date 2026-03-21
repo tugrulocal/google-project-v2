@@ -1,0 +1,20 @@
+{
+  "crawler_id": "imdb.com_1",
+  "origin": "https://www.imdb.com/?ref_=hm_nv_home",
+  "status": "Finished",
+  "created_at": "2026-03-22T01:08:07.905564",
+  "started_at": "2026-03-22T01:08:08.101685",
+  "finished_at": "2026-03-22T01:08:09.173137",
+  "config": {
+    "max_depth": 3,
+    "hit_rate": 100,
+    "max_queue_capacity": 10000,
+    "max_urls_to_visit": 1000
+  },
+  "stats": {
+    "urls_crawled": 1,
+    "urls_failed": 0,
+    "urls_queued": 0,
+    "urls_visited": 1
+  }
+}

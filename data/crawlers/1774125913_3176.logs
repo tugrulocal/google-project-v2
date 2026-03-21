@@ -1,0 +1,7 @@
+[2026-03-21 23:45:13] Crawler starting...
+[2026-03-21 23:45:13] Seeded queue with: https://seriesboxd.com.tr
+[2026-03-21 23:45:13] Crawled: https://seriesboxd.com.tr (200)
+[2026-03-21 23:45:13] Extracted 0 total words, 0 unique from https://seriesboxd.com.tr
+[2026-03-21 23:45:13] No words extracted from https://seriesboxd.com.tr - skipping index
+[2026-03-21 23:45:14] Queue empty - crawl finished
+[2026-03-21 23:45:14] Crawler finished. Status: Finished, URLs crawled: 1

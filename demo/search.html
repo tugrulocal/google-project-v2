@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google in a Day - Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --bg-primary: #f8f9fa;
+            --bg-secondary: #ffffff;
+            --text-primary: #202124;
+            --text-secondary: #5f6368;
+            --border-color: #dadce0;
+            --primary: #4285f4;
+            --success: #34a853;
+            --warning: #fbbc05;
+            --danger: #ea4335;
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            --link-color: #1a0dab;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #0f0f23;
+            --bg-secondary: #1a1a2e;
+            --text-primary: #e4e6eb;
+            --text-secondary: #b0b3b8;
+            --border-color: rgba(255, 255, 255, 0.1);
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+            --link-color: #8ab4f8;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Product Sans', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #4285f4, #58aefa, #5aaef7, #3084ce);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .nav-links a {
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: var(--text-primary);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover { background: var(--glass-bg); }
+        .nav-links a.active { background: var(--primary); color: white; }
+
+        .theme-toggle {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            color: var(--text-primary);
+        }
+
+        .theme-toggle:hover {
+            transform: rotate(15deg);
+            background: var(--bg-secondary);
+        }
+
+        .theme-toggle svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+
+        /* Search Box */
+        .search-container {
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        .search-logo {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        .search-logo span:nth-child(1) { color: #4285f4; }
+        .search-logo span:nth-child(2) { color: #ea4335; }
+        .search-logo span:nth-child(3) { color: #fbbc05; }
+        .search-logo span:nth-child(4) { color: #4285f4; }
+        .search-logo span:nth-child(5) { color: #34a853; }
+        .search-logo span:nth-child(6) { color: #ea4335; }
+
+        .search-box {
+            display: flex;
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+        }
+
+        .search-box:focus-within {
+            border-color: var(--primary);
+            box-shadow: 0 4px 20px rgba(66, 133, 244, 0.2);
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 1rem 1.5rem;
+            border: none;
+            font-size: 1rem;
+            outline: none;
+            background: transparent;
+            color: var(--text-primary);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-secondary);
+        }
+
+        .search-btn {
+            padding: 0 1.5rem;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            color: var(--primary);
+            transition: all 0.3s ease;
+        }
+
+        .search-btn:hover {
+            background: var(--glass-bg);
+        }
+
+        .search-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), #3367d6);
+            border: none;
+            color: white;
+        }
+
+        /* Sort Options */
+        .sort-options {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1.25rem;
+            font-size: 0.875rem;
+        }
+
+        .sort-options label {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            cursor: pointer;
+            color: var(--text-secondary);
+        }
+
+        .sort-options input[type="radio"] {
+            accent-color: var(--primary);
+        }
+
+        /* Results */
+        .results-container {
+            margin-top: 2rem;
+        }
+
+        .results-info {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .results-info code {
+            background: var(--glass-bg);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        .result-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .result-item:last-child {
+            border-bottom: none;
+        }
+
+        .result-url {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.25rem;
+            word-break: break-all;
+        }
+
+        .result-url a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+
+        .result-url a:hover {
+            text-decoration: underline;
+        }
+
+        .result-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .result-title a {
+            text-decoration: none;
+            color: var(--link-color);
+        }
+
+        .result-title a:visited {
+            color: #a076c5;
+        }
+
+        .result-title a:hover {
+            text-decoration: underline;
+        }
+
+        .result-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .result-meta .badge {
+            background: rgba(66, 133, 244, 0.15);
+            color: var(--primary);
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+
+        .result-meta .score {
+            color: var(--success);
+            font-weight: 600;
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        .pagination button {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border-color);
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .pagination button:hover:not(:disabled) {
+            background: var(--glass-bg);
+        }
+
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .pagination .current {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+
+        /* Index Stats */
+        .index-stats {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-top: 2rem;
+            box-shadow: var(--shadow);
+        }
+
+        .index-stats h3 {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stats-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            font-size: 0.875rem;
+        }
+
+        .stats-row span {
+            color: var(--text-secondary);
+        }
+
+        .stats-row strong {
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 600px) {
+            .search-logo { font-size: 2.5rem; }
+            .search-buttons { flex-direction: column; }
+            .result-meta { flex-direction: column; gap: 0.5rem; }
+            .sort-options { flex-direction: column; gap: 0.5rem; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Google in a Day</div>
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="/crawler">Crawler</a>
+                <a href="/status">Status</a>
+                <a href="/search-page" class="active">Search</a>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
+                <i id="themeIconLight" data-lucide="sun"></i>
+                <i id="themeIconDark" data-lucide="moon" style="display: none;"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Search Box -->
+        <div class="search-container">
+            <div class="search-logo">
+                <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+            </div>
+
+            <form id="searchForm" class="search-box">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search indexed content..." autocomplete="off">
+                <button type="submit" class="search-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.35-4.35"></path>
+                    </svg>
+                </button>
+            </form>
+
+            <div class="search-buttons">
+                <button class="btn btn-primary" onclick="doSearch()">Search</button>
+                <button class="btn" onclick="randomWord()">Random Word</button>
+            </div>
+
+            <div class="sort-options">
+                <label>
+                    <input type="radio" name="sortBy" value="relevance" checked> Relevance
+                </label>
+                <label>
+                    <input type="radio" name="sortBy" value="frequency"> Frequency
+                </label>
+                <label>
+                    <input type="radio" name="sortBy" value="depth"> Depth
+                </label>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div id="resultsContainer" class="results-container" style="display: none;">
+            <div class="results-info" id="resultsInfo"></div>
+            <div id="resultsList"></div>
+            <div class="pagination" id="pagination"></div>
+        </div>
+
+        <!-- Empty State (initial) -->
+        <div id="emptyState" class="empty-state">
+            <p>Enter a search query to find indexed content.</p>
+        </div>
+
+        <!-- Index Stats -->
+        <div class="index-stats" id="indexStats">
+            <h3>Index Statistics</h3>
+            <div class="stats-row">
+                <span>Total Entries: <strong id="statEntries">0</strong></span>
+                <span>Unique Words: <strong id="statWords">0</strong></span>
+                <span>Unique URLs: <strong id="statUrls">0</strong></span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = '';
+        let currentQuery = '';
+        let currentPage = 0;
+        const PAGE_SIZE = 10;
+
+        // Initialize Lucide icons
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            initTheme();
+            loadIndexStats();
+
+            // Check for query param
+            const urlParams = new URLSearchParams(window.location.search);
+            const queryParam = urlParams.get('q');
+            if (queryParam) {
+                document.getElementById('searchInput').value = queryParam;
+                doSearch();
+            }
+        });
+
+        // Theme Management
+        function initTheme() {
+            const saved = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', saved);
+            updateThemeIcon(saved);
+        }
+
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            updateThemeIcon(next);
+        }
+
+        function updateThemeIcon(theme) {
+            const lightIcon = document.getElementById('themeIconLight');
+            const darkIcon = document.getElementById('themeIconDark');
+            if (theme === 'dark') {
+                lightIcon.style.display = 'block';
+                darkIcon.style.display = 'none';
+            } else {
+                lightIcon.style.display = 'none';
+                darkIcon.style.display = 'block';
+            }
+        }
+
+        // Load index stats
+        async function loadIndexStats() {
+            try {
+                const res = await fetch(`${API_BASE}/index/stats`);
+                const stats = await res.json();
+
+                document.getElementById('statEntries').textContent = (stats.total_entries || 0).toLocaleString();
+                document.getElementById('statWords').textContent = (stats.unique_words || 0).toLocaleString();
+                document.getElementById('statUrls').textContent = (stats.unique_urls || 0).toLocaleString();
+            } catch (e) {
+                console.error('Failed to load index stats:', e);
+            }
+        }
+
+        // Do search
+        async function doSearch() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (!query) return;
+
+            currentQuery = query;
+            currentPage = 0;
+            await executeSearch();
+        }
+
+        // Execute search
+        async function executeSearch() {
+            const sortBy = document.querySelector('input[name="sortBy"]:checked').value;
+
+            try {
+                const params = new URLSearchParams({
+                    query: currentQuery,
+                    pageLimit: PAGE_SIZE,
+                    pageOffset: currentPage * PAGE_SIZE,
+                    sortBy: sortBy
+                });
+
+                const res = await fetch(`${API_BASE}/search?${params}`);
+                const data = await res.json();
+
+                displayResults(data);
+            } catch (e) {
+                console.error('Search failed:', e);
+                document.getElementById('emptyState').innerHTML = '<p>Search failed. Please try again.</p>';
+                document.getElementById('emptyState').style.display = 'block';
+                document.getElementById('resultsContainer').style.display = 'none';
+            }
+        }
+
+        // Display results
+        function displayResults(data) {
+            const resultsContainer = document.getElementById('resultsContainer');
+            const emptyState = document.getElementById('emptyState');
+            const resultsInfo = document.getElementById('resultsInfo');
+            const resultsList = document.getElementById('resultsList');
+            const pagination = document.getElementById('pagination');
+
+            if (!data.results || data.results.length === 0) {
+                emptyState.innerHTML = `<p>No results found for "<strong>${escapeHtml(data.query)}</strong>"</p>`;
+                emptyState.style.display = 'block';
+                resultsContainer.style.display = 'none';
+                return;
+            }
+
+            emptyState.style.display = 'none';
+            resultsContainer.style.display = 'block';
+
+            // Results info
+            const start = currentPage * PAGE_SIZE + 1;
+            const end = Math.min(start + data.results.length - 1, data.total_results);
+            resultsInfo.innerHTML = `
+                About <strong>${data.total_results.toLocaleString()}</strong> results for
+                "<strong>${escapeHtml(data.query)}</strong>"
+                (showing ${start}-${end})
+                ${data.query_words ? `<br>Words: ${data.query_words.map(w => `<code>${w}</code>`).join(', ')}` : ''}
+            `;
+
+            // Results list
+            resultsList.innerHTML = data.results.map(result => `
+                <div class="result-item">
+                    <div class="result-url">
+                        <a href="${escapeHtml(result.url)}" target="_blank">${escapeHtml(result.url)}</a>
+                    </div>
+                    <div class="result-title">
+                        <a href="${escapeHtml(result.url)}" target="_blank">${escapeHtml(result.word)}</a>
+                    </div>
+                    <div class="result-meta">
+                        <span class="badge">${escapeHtml(result.word)}</span>
+                        <span>Frequency: ${result.frequency}</span>
+                        <span>Depth: ${result.depth}</span>
+                        <span class="score">Score: ${result.score}</span>
+                        <span>Origin: ${escapeHtml(truncateUrl(result.origin))}</span>
+                    </div>
+                </div>
+            `).join('');
+
+            // Pagination
+            const totalPages = Math.ceil(data.total_results / PAGE_SIZE);
+            if (totalPages > 1) {
+                let paginationHtml = '';
+
+                paginationHtml += `<button ${currentPage === 0 ? 'disabled' : ''} onclick="goToPage(${currentPage - 1})">Previous</button>`;
+
+                const maxVisible = 5;
+                let startPage = Math.max(0, currentPage - Math.floor(maxVisible / 2));
+                let endPage = Math.min(totalPages, startPage + maxVisible);
+
+                if (endPage - startPage < maxVisible) {
+                    startPage = Math.max(0, endPage - maxVisible);
+                }
+
+                for (let i = startPage; i < endPage; i++) {
+                    paginationHtml += `<button class="${i === currentPage ? 'current' : ''}" onclick="goToPage(${i})">${i + 1}</button>`;
+                }
+
+                paginationHtml += `<button ${currentPage >= totalPages - 1 ? 'disabled' : ''} onclick="goToPage(${currentPage + 1})">Next</button>`;
+
+                pagination.innerHTML = paginationHtml;
+                pagination.style.display = 'flex';
+            } else {
+                pagination.style.display = 'none';
+            }
+        }
+
+        // Go to page
+        function goToPage(page) {
+            currentPage = page;
+            executeSearch();
+            window.scrollTo(0, 0);
+        }
+
+        // Random Word
+        async function randomWord() {
+            try {
+                const res = await fetch(`${API_BASE}/search/random`);
+                const data = await res.json();
+
+                if (data.word) {
+                    document.getElementById('searchInput').value = data.word;
+                    doSearch();
+                } else {
+                    alert('No indexed words available. Please crawl some pages first.');
+                }
+            } catch (e) {
+                alert('Failed to get random word');
+            }
+        }
+
+        // Escape HTML
+        function escapeHtml(str) {
+            if (!str) return '';
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        // Truncate URL
+        function truncateUrl(url) {
+            if (!url) return '';
+            if (url.length > 50) {
+                return url.substring(0, 47) + '...';
+            }
+            return url;
+        }
+
+        // Form submit
+        document.getElementById('searchForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            doSearch();
+        });
+
+        // Sort change
+        document.querySelectorAll('input[name="sortBy"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+                if (currentQuery) {
+                    currentPage = 0;
+                    executeSearch();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

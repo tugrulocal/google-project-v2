@@ -1,0 +1,20 @@
+{
+  "crawler_id": "1774126361_15612",
+  "origin": "https://www.mackolik.com/canli-sonuclar",
+  "status": "Stopped",
+  "created_at": "2026-03-22T00:56:46.960343",
+  "started_at": "2026-03-22T00:56:47.148515",
+  "finished_at": "2026-03-22T01:03:17.142521",
+  "config": {
+    "max_depth": 3,
+    "hit_rate": 100,
+    "max_queue_capacity": 10000,
+    "max_urls_to_visit": 1000
+  },
+  "stats": {
+    "urls_crawled": 618,
+    "urls_failed": 29,
+    "urls_queued": 10000,
+    "urls_visited": 1562
+  }
+}

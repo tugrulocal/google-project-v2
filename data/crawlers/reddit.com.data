@@ -1,0 +1,20 @@
+{
+  "crawler_id": "reddit.com",
+  "origin": "https://reddit.com",
+  "status": "Finished",
+  "created_at": "2026-03-22T01:23:59.845081",
+  "started_at": "2026-03-22T01:24:00.023463",
+  "finished_at": "2026-03-22T01:24:04.293142",
+  "config": {
+    "max_depth": 3,
+    "hit_rate": 100,
+    "max_queue_capacity": 10000,
+    "max_urls_to_visit": 1000
+  },
+  "stats": {
+    "urls_crawled": 3,
+    "urls_failed": 0,
+    "urls_queued": 0,
+    "urls_visited": 3
+  }
+}

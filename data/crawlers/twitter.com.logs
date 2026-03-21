@@ -1,0 +1,7 @@
+[2026-03-22 01:23:20] Crawler starting...
+[2026-03-22 01:23:20] Seeded queue with: https://twitter.com/home
+[2026-03-22 01:23:22] Crawled: https://twitter.com/home (200)
+[2026-03-22 01:23:22] Extracted 79 total words, 63 unique from https://twitter.com/home
+[2026-03-22 01:23:22] Indexing 63 unique words from https://twitter.com/home
+[2026-03-22 01:23:23] Queue empty - crawl finished
+[2026-03-22 01:23:23] Crawler finished. Status: Finished, URLs crawled: 1

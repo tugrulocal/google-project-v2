@@ -1,0 +1,1936 @@
+[2026-03-22 01:11:09] Crawler starting...
+[2026-03-22 01:11:09] Seeded queue with: https://www.themoviedb.org/
+[2026-03-22 01:11:09] Crawled: https://www.themoviedb.org/ (200)
+[2026-03-22 01:11:09] Extracted 416 total words, 217 unique from https://www.themoviedb.org/
+[2026-03-22 01:11:09] Indexing 217 unique words from https://www.themoviedb.org/
+[2026-03-22 01:11:10] Crawled: https://www.themoviedb.org/u/Romika (200)
+[2026-03-22 01:11:10] Extracted 429 total words, 216 unique from https://www.themoviedb.org/u/Romika
+[2026-03-22 01:11:10] Indexing 216 unique words from https://www.themoviedb.org/u/Romika
+[2026-03-22 01:11:11] Crawled: https://www.themoviedb.org/u/strong_style (200)
+[2026-03-22 01:11:11] Extracted 423 total words, 215 unique from https://www.themoviedb.org/u/strong_style
+[2026-03-22 01:11:11] Indexing 215 unique words from https://www.themoviedb.org/u/strong_style
+[2026-03-22 01:11:12] Crawled: https://www.themoviedb.org/talk (200)
+[2026-03-22 01:11:12] Extracted 763 total words, 278 unique from https://www.themoviedb.org/talk
+[2026-03-22 01:11:12] Indexing 278 unique words from https://www.themoviedb.org/talk
+[2026-03-22 01:11:14] Crawled: https://www.themoviedb.org/leaderboard (200)
+[2026-03-22 01:11:14] Extracted 1331 total words, 455 unique from https://www.themoviedb.org/leaderboard
+[2026-03-22 01:11:14] Indexing 455 unique words from https://www.themoviedb.org/leaderboard
+[2026-03-22 01:11:14] Crawled: https://www.themoviedb.org/u/Kuzhagan (200)
+[2026-03-22 01:11:14] Extracted 423 total words, 211 unique from https://www.themoviedb.org/u/Kuzhagan
+[2026-03-22 01:11:14] Indexing 211 unique words from https://www.themoviedb.org/u/Kuzhagan
+[2026-03-22 01:11:14] Crawled: https://www.themoviedb.org/bible/general (200)
+[2026-03-22 01:11:15] Extracted 5583 total words, 1190 unique from https://www.themoviedb.org/bible/general
+[2026-03-22 01:11:15] Indexing 1190 unique words from https://www.themoviedb.org/bible/general
+[2026-03-22 01:11:16] Crawled: https://www.themoviedb.org/person (200)
+[2026-03-22 01:11:16] Extracted 469 total words, 272 unique from https://www.themoviedb.org/person
+[2026-03-22 01:11:16] Indexing 272 unique words from https://www.themoviedb.org/person
+[2026-03-22 01:11:16] Crawled: https://www.themoviedb.org/u/Sheigutn (200)
+[2026-03-22 01:11:16] Extracted 443 total words, 218 unique from https://www.themoviedb.org/u/Sheigutn
+[2026-03-22 01:11:16] Indexing 218 unique words from https://www.themoviedb.org/u/Sheigutn
+[2026-03-22 01:11:17] HTTP error 404: https://www.themoviedb.org/docs
+[2026-03-22 01:11:18] Crawled: https://www.themoviedb.org/search (200)
+[2026-03-22 01:11:18] Extracted 324 total words, 143 unique from https://www.themoviedb.org/search
+[2026-03-22 01:11:18] Indexing 143 unique words from https://www.themoviedb.org/search
+[2026-03-22 01:11:18] Crawled: https://www.themoviedb.org/movie/now-playing (200)
+[2026-03-22 01:11:18] Extracted 474 total words, 247 unique from https://www.themoviedb.org/movie/now-playing
+[2026-03-22 01:11:18] Indexing 247 unique words from https://www.themoviedb.org/movie/now-playing
+[2026-03-22 01:11:18] Crawled: https://www.themoviedb.org/award (200)
+[2026-03-22 01:11:19] Extracted 400 total words, 202 unique from https://www.themoviedb.org/award
+[2026-03-22 01:11:19] Indexing 202 unique words from https://www.themoviedb.org/award
+[2026-03-22 01:11:19] Crawled: https://www.themoviedb.org/api-terms-of-use (200)
+[2026-03-22 01:11:19] Extracted 2942 total words, 761 unique from https://www.themoviedb.org/api-terms-of-use
+[2026-03-22 01:11:19] Indexing 761 unique words from https://www.themoviedb.org/api-terms-of-use
+[2026-03-22 01:11:19] Crawled: https://www.themoviedb.org/movie/top-rated (200)
+[2026-03-22 01:11:20] Extracted 486 total words, 283 unique from https://www.themoviedb.org/movie/top-rated
+[2026-03-22 01:11:20] Indexing 283 unique words from https://www.themoviedb.org/movie/top-rated
+[2026-03-22 01:11:20] Crawled: https://www.themoviedb.org/movie/upcoming (200)
+[2026-03-22 01:11:20] Extracted 408 total words, 221 unique from https://www.themoviedb.org/movie/upcoming
+[2026-03-22 01:11:20] Indexing 221 unique words from https://www.themoviedb.org/movie/upcoming
+[2026-03-22 01:11:21] Crawled: https://www.themoviedb.org/tv/airing-today (200)
+[2026-03-22 01:11:21] Extracted 487 total words, 275 unique from https://www.themoviedb.org/tv/airing-today
+[2026-03-22 01:11:21] Indexing 275 unique words from https://www.themoviedb.org/tv/airing-today
+[2026-03-22 01:11:22] Crawled: https://www.themoviedb.org/movie (200)
+[2026-03-22 01:11:22] Extracted 474 total words, 267 unique from https://www.themoviedb.org/movie
+[2026-03-22 01:11:22] Indexing 267 unique words from https://www.themoviedb.org/movie
+[2026-03-22 01:11:22] Crawled: https://www.themoviedb.org/u/Samara (200)
+[2026-03-22 01:11:23] Extracted 332 total words, 171 unique from https://www.themoviedb.org/u/Samara
+[2026-03-22 01:11:23] Indexing 171 unique words from https://www.themoviedb.org/u/Samara
+[2026-03-22 01:11:23] HTTP error 401: https://www.themoviedb.org/tv/new
+[2026-03-22 01:11:23] Crawled: https://www.themoviedb.org/u/howardyu77 (200)
+[2026-03-22 01:11:23] Extracted 337 total words, 178 unique from https://www.themoviedb.org/u/howardyu77
+[2026-03-22 01:11:23] Indexing 178 unique words from https://www.themoviedb.org/u/howardyu77
+[2026-03-22 01:11:23] Crawled: https://www.themoviedb.org/privacy-policy (200)
+[2026-03-22 01:11:23] Extracted 4664 total words, 903 unique from https://www.themoviedb.org/privacy-policy
+[2026-03-22 01:11:23] Indexing 903 unique words from https://www.themoviedb.org/privacy-policy
+[2026-03-22 01:11:24] Crawled: https://www.themoviedb.org/award/upcoming (200)
+[2026-03-22 01:11:25] Extracted 297 total words, 157 unique from https://www.themoviedb.org/award/upcoming
+[2026-03-22 01:11:25] Indexing 157 unique words from https://www.themoviedb.org/award/upcoming
+[2026-03-22 01:11:25] Crawled: https://www.themoviedb.org/terms-of-use (200)
+[2026-03-22 01:11:25] Extracted 4887 total words, 956 unique from https://www.themoviedb.org/terms-of-use
+[2026-03-22 01:11:25] Indexing 956 unique words from https://www.themoviedb.org/terms-of-use
+[2026-03-22 01:11:26] Crawled: https://www.themoviedb.org/login (200)
+[2026-03-22 01:11:26] Extracted 304 total words, 152 unique from https://www.themoviedb.org/login
+[2026-03-22 01:11:26] Indexing 152 unique words from https://www.themoviedb.org/login
+[2026-03-22 01:11:27] Crawled: https://www.themoviedb.org/u/amyslithium (200)
+[2026-03-22 01:11:27] Extracted 425 total words, 204 unique from https://www.themoviedb.org/u/amyslithium
+[2026-03-22 01:11:27] Indexing 204 unique words from https://www.themoviedb.org/u/amyslithium
+[2026-03-22 01:11:28] Crawled: https://www.themoviedb.org/tv/on-the-air (200)
+[2026-03-22 01:11:28] Extracted 468 total words, 272 unique from https://www.themoviedb.org/tv/on-the-air
+[2026-03-22 01:11:28] Indexing 272 unique words from https://www.themoviedb.org/tv/on-the-air
+[2026-03-22 01:11:36] Crawled: https://www.themoviedb.org/about (200)
+[2026-03-22 01:11:36] Extracted 704 total words, 339 unique from https://www.themoviedb.org/about
+[2026-03-22 01:11:36] Indexing 339 unique words from https://www.themoviedb.org/about
+[2026-03-22 01:11:37] Crawled: https://www.themoviedb.org/api-for-business (200)
+[2026-03-22 01:11:37] Extracted 504 total words, 251 unique from https://www.themoviedb.org/api-for-business
+[2026-03-22 01:11:37] Indexing 251 unique words from https://www.themoviedb.org/api-for-business
+[2026-03-22 01:11:37] Crawled: https://www.themoviedb.org/tv/top-rated (200)
+[2026-03-22 01:11:37] Extracted 489 total words, 282 unique from https://www.themoviedb.org/tv/top-rated
+[2026-03-22 01:11:37] Indexing 282 unique words from https://www.themoviedb.org/tv/top-rated
+[2026-03-22 01:11:37] HTTP error 401: https://www.themoviedb.org/movie/new
+[2026-03-22 01:11:38] Crawled: https://www.themoviedb.org/about/staying-in-touch (200)
+[2026-03-22 01:11:38] Extracted 312 total words, 159 unique from https://www.themoviedb.org/about/staying-in-touch
+[2026-03-22 01:11:38] Indexing 159 unique words from https://www.themoviedb.org/about/staying-in-touch
+[2026-03-22 01:11:40] Crawled: https://www.themoviedb.org/discuss (200)
+[2026-03-22 01:11:40] Extracted 265 total words, 140 unique from https://www.themoviedb.org/discuss
+[2026-03-22 01:11:40] Indexing 140 unique words from https://www.themoviedb.org/discuss
+[2026-03-22 01:11:40] Crawled: https://www.themoviedb.org/dmca-policy (200)
+[2026-03-22 01:11:40] Extracted 1641 total words, 428 unique from https://www.themoviedb.org/dmca-policy
+[2026-03-22 01:11:40] Indexing 428 unique words from https://www.themoviedb.org/dmca-policy
+[2026-03-22 01:11:41] Crawled: https://www.themoviedb.org/signup (200)
+[2026-03-22 01:11:41] Extracted 357 total words, 177 unique from https://www.themoviedb.org/signup
+[2026-03-22 01:11:41] Indexing 177 unique words from https://www.themoviedb.org/signup
+[2026-03-22 01:11:42] Crawled: https://www.themoviedb.org/tv (200)
+[2026-03-22 01:11:42] Extracted 463 total words, 267 unique from https://www.themoviedb.org/tv
+[2026-03-22 01:11:42] Indexing 267 unique words from https://www.themoviedb.org/tv
+[2026-03-22 01:11:42] Crawled: https://www.themoviedb.org/u/RuiZafon (200)
+[2026-03-22 01:11:43] Extracted 428 total words, 216 unique from https://www.themoviedb.org/u/RuiZafon
+[2026-03-22 01:11:43] Indexing 216 unique words from https://www.themoviedb.org/u/RuiZafon
+[2026-03-22 01:11:43] Crawled: https://www.themoviedb.org/u/dkmovies (200)
+[2026-03-22 01:11:43] Extracted 433 total words, 219 unique from https://www.themoviedb.org/u/dkmovies
+[2026-03-22 01:11:43] Indexing 219 unique words from https://www.themoviedb.org/u/dkmovies
+[2026-03-22 01:11:44] Crawled: https://www.themoviedb.org/bible (200)
+[2026-03-22 01:11:44] Extracted 250 total words, 124 unique from https://www.themoviedb.org/bible
+[2026-03-22 01:11:44] Indexing 124 unique words from https://www.themoviedb.org/bible
+[2026-03-22 01:11:45] Crawled: https://www.themoviedb.org/u/qualitylover (200)
+[2026-03-22 01:11:45] Extracted 433 total words, 213 unique from https://www.themoviedb.org/u/qualitylover
+[2026-03-22 01:11:45] Indexing 213 unique words from https://www.themoviedb.org/u/qualitylover
+[2026-03-22 01:11:46] Crawled: https://www.themoviedb.org/u/Romika/lists (200)
+[2026-03-22 01:11:46] Extracted 325 total words, 169 unique from https://www.themoviedb.org/u/Romika/lists
+[2026-03-22 01:11:46] Indexing 169 unique words from https://www.themoviedb.org/u/Romika/lists
+[2026-03-22 01:11:46] Crawled: https://www.themoviedb.org/u/Romika/watchlist (200)
+[2026-03-22 01:11:46] Extracted 332 total words, 165 unique from https://www.themoviedb.org/u/Romika/watchlist
+[2026-03-22 01:11:46] Indexing 165 unique words from https://www.themoviedb.org/u/Romika/watchlist
+[2026-03-22 01:11:47] Crawled: https://www.themoviedb.org/u/Romika/favorites (200)
+[2026-03-22 01:11:47] Extracted 753 total words, 417 unique from https://www.themoviedb.org/u/Romika/favorites
+[2026-03-22 01:11:47] Indexing 417 unique words from https://www.themoviedb.org/u/Romika/favorites
+[2026-03-22 01:11:47] Crawled: https://www.themoviedb.org/u/Romika/watchlist/tv (200)
+[2026-03-22 01:11:47] Extracted 786 total words, 394 unique from https://www.themoviedb.org/u/Romika/watchlist/tv
+[2026-03-22 01:11:47] Indexing 394 unique words from https://www.themoviedb.org/u/Romika/watchlist/tv
+[2026-03-22 01:11:48] Crawled: https://www.themoviedb.org/tv/55165 (200)
+[2026-03-22 01:11:48] Extracted 515 total words, 265 unique from https://www.themoviedb.org/tv/55165
+[2026-03-22 01:11:48] Indexing 265 unique words from https://www.themoviedb.org/tv/55165
+[2026-03-22 01:11:49] Crawled: https://www.themoviedb.org/person/3783-brigitte-bardot (200)
+[2026-03-22 01:11:49] Extracted 1669 total words, 695 unique from https://www.themoviedb.org/person/3783-brigitte-bardot
+[2026-03-22 01:11:49] Indexing 695 unique words from https://www.themoviedb.org/person/3783-brigitte-bardot
+[2026-03-22 01:11:50] Crawled: https://www.themoviedb.org/person/588756-aleksandr-vertinskiy (200)
+[2026-03-22 01:11:50] Extracted 430 total words, 223 unique from https://www.themoviedb.org/person/588756-aleksandr-vertinskiy
+[2026-03-22 01:11:50] Indexing 223 unique words from https://www.themoviedb.org/person/588756-aleksandr-vertinskiy
+[2026-03-22 01:11:51] Crawled: https://www.themoviedb.org/tv/296827-institut-blagorodnyh-devits (200)
+[2026-03-22 01:11:51] Extracted 484 total words, 255 unique from https://www.themoviedb.org/tv/296827-institut-blagorodnyh-devits
+[2026-03-22 01:11:51] Indexing 255 unique words from https://www.themoviedb.org/tv/296827-institut-blagorodnyh-devits
+[2026-03-22 01:11:51] Crawled: https://www.themoviedb.org/tv/72720 (200)
+[2026-03-22 01:11:51] Extracted 452 total words, 236 unique from https://www.themoviedb.org/tv/72720
+[2026-03-22 01:11:51] Indexing 236 unique words from https://www.themoviedb.org/tv/72720
+[2026-03-22 01:11:53] Crawled: https://www.themoviedb.org/u/Romika/ratings (200)
+[2026-03-22 01:11:53] Extracted 3287 total words, 1443 unique from https://www.themoviedb.org/u/Romika/ratings
+[2026-03-22 01:11:53] Indexing 1443 unique words from https://www.themoviedb.org/u/Romika/ratings
+[2026-03-22 01:11:53] Crawled: https://www.themoviedb.org/tv/93014 (200)
+[2026-03-22 01:11:53] Extracted 494 total words, 265 unique from https://www.themoviedb.org/tv/93014
+[2026-03-22 01:11:54] Indexing 265 unique words from https://www.themoviedb.org/tv/93014
+[2026-03-22 01:11:55] Crawled: https://www.themoviedb.org/u/Romika/activity (200)
+[2026-03-22 01:11:55] Extracted 556 total words, 213 unique from https://www.themoviedb.org/u/Romika/activity
+[2026-03-22 01:11:55] Indexing 213 unique words from https://www.themoviedb.org/u/Romika/activity
+[2026-03-22 01:11:55] HTTP error 401: https://www.themoviedb.org/settings/import-list
+[2026-03-22 01:11:56] Crawled: https://www.themoviedb.org/u/Romika/favorites/tv (200)
+[2026-03-22 01:11:56] Extracted 771 total words, 419 unique from https://www.themoviedb.org/u/Romika/favorites/tv
+[2026-03-22 01:11:56] Indexing 419 unique words from https://www.themoviedb.org/u/Romika/favorites/tv
+[2026-03-22 01:11:57] Crawled: https://www.themoviedb.org/tv/304371-die-nibelungen (200)
+[2026-03-22 01:11:57] Extracted 514 total words, 287 unique from https://www.themoviedb.org/tv/304371-die-nibelungen
+[2026-03-22 01:11:57] Indexing 287 unique words from https://www.themoviedb.org/tv/304371-die-nibelungen
+[2026-03-22 01:11:58] Crawled: https://www.themoviedb.org/tv/13945-gute-zeiten-schlechte-zeiten (200)
+[2026-03-22 01:11:58] Extracted 575 total words, 313 unique from https://www.themoviedb.org/tv/13945-gute-zeiten-schlechte-zeiten
+[2026-03-22 01:11:58] Indexing 313 unique words from https://www.themoviedb.org/tv/13945-gute-zeiten-schlechte-zeiten
+[2026-03-22 01:11:59] Crawled: https://www.themoviedb.org/u/Romika/ratings/tv (200)
+[2026-03-22 01:11:59] Extracted 2987 total words, 1250 unique from https://www.themoviedb.org/u/Romika/ratings/tv
+[2026-03-22 01:11:59] Indexing 1250 unique words from https://www.themoviedb.org/u/Romika/ratings/tv
+[2026-03-22 01:12:00] Crawled: https://www.themoviedb.org/tv/73121 (200)
+[2026-03-22 01:12:00] Extracted 453 total words, 224 unique from https://www.themoviedb.org/tv/73121
+[2026-03-22 01:12:00] Indexing 224 unique words from https://www.themoviedb.org/tv/73121
+[2026-03-22 01:12:00] Crawled: https://www.themoviedb.org/person/4235838-cecil-harmsworth-king (200)
+[2026-03-22 01:12:00] Extracted 401 total words, 203 unique from https://www.themoviedb.org/person/4235838-cecil-harmsworth-king
+[2026-03-22 01:12:00] Indexing 203 unique words from https://www.themoviedb.org/person/4235838-cecil-harmsworth-king
+[2026-03-22 01:12:01] Crawled: https://www.themoviedb.org/person/5892351-dallas-brodie (200)
+[2026-03-22 01:12:01] Extracted 417 total words, 210 unique from https://www.themoviedb.org/person/5892351-dallas-brodie
+[2026-03-22 01:12:01] Indexing 210 unique words from https://www.themoviedb.org/person/5892351-dallas-brodie
+[2026-03-22 01:12:02] Crawled: https://www.themoviedb.org/u/strong_style/activity (200)
+[2026-03-22 01:12:02] Extracted 378 total words, 200 unique from https://www.themoviedb.org/u/strong_style/activity
+[2026-03-22 01:12:02] Indexing 200 unique words from https://www.themoviedb.org/u/strong_style/activity
+[2026-03-22 01:12:02] Crawled: https://www.themoviedb.org/u/strong_style/lists (200)
+[2026-03-22 01:12:02] Extracted 306 total words, 155 unique from https://www.themoviedb.org/u/strong_style/lists
+[2026-03-22 01:12:02] Indexing 155 unique words from https://www.themoviedb.org/u/strong_style/lists
+[2026-03-22 01:12:03] Crawled: https://www.themoviedb.org/person/1744274-michel-aoun (200)
+[2026-03-22 01:12:03] Extracted 442 total words, 210 unique from https://www.themoviedb.org/person/1744274-michel-aoun
+[2026-03-22 01:12:03] Indexing 210 unique words from https://www.themoviedb.org/person/1744274-michel-aoun
+[2026-03-22 01:12:04] Crawled: https://www.themoviedb.org/person/3796438-andrew-jennings (200)
+[2026-03-22 01:12:04] Extracted 395 total words, 202 unique from https://www.themoviedb.org/person/3796438-andrew-jennings
+[2026-03-22 01:12:04] Indexing 202 unique words from https://www.themoviedb.org/person/3796438-andrew-jennings
+[2026-03-22 01:12:04] Crawled: https://www.themoviedb.org/person/2617734-phillip-whitehead (200)
+[2026-03-22 01:12:04] Extracted 420 total words, 209 unique from https://www.themoviedb.org/person/2617734-phillip-whitehead
+[2026-03-22 01:12:04] Indexing 209 unique words from https://www.themoviedb.org/person/2617734-phillip-whitehead
+[2026-03-22 01:12:06] Crawled: https://www.themoviedb.org/person/5047551-john-gau (200)
+[2026-03-22 01:12:06] Extracted 457 total words, 221 unique from https://www.themoviedb.org/person/5047551-john-gau
+[2026-03-22 01:12:06] Indexing 221 unique words from https://www.themoviedb.org/person/5047551-john-gau
+[2026-03-22 01:12:07] Crawled: https://www.themoviedb.org/tv/2442-world-in-action (200)
+[2026-03-22 01:12:07] Extracted 529 total words, 288 unique from https://www.themoviedb.org/tv/2442-world-in-action
+[2026-03-22 01:12:07] Indexing 288 unique words from https://www.themoviedb.org/tv/2442-world-in-action
+[2026-03-22 01:12:07] Crawled: https://www.themoviedb.org/person/1046732-john-browne (200)
+[2026-03-22 01:12:07] Extracted 409 total words, 204 unique from https://www.themoviedb.org/person/1046732-john-browne
+[2026-03-22 01:12:07] Indexing 204 unique words from https://www.themoviedb.org/person/1046732-john-browne
+[2026-03-22 01:12:08] Crawled: https://www.themoviedb.org/person/5537449-keith-vaz (200)
+[2026-03-22 01:12:08] Extracted 442 total words, 216 unique from https://www.themoviedb.org/person/5537449-keith-vaz
+[2026-03-22 01:12:08] Indexing 216 unique words from https://www.themoviedb.org/person/5537449-keith-vaz
+[2026-03-22 01:12:08] Crawled: https://www.themoviedb.org/person/1241873-nicholas-van-hoogstraten (200)
+[2026-03-22 01:12:08] Extracted 453 total words, 223 unique from https://www.themoviedb.org/person/1241873-nicholas-van-hoogstraten
+[2026-03-22 01:12:08] Indexing 223 unique words from https://www.themoviedb.org/person/1241873-nicholas-van-hoogstraten
+[2026-03-22 01:12:09] Crawled: https://www.themoviedb.org/talk/69b8597b181da5e9383b9d42 (200)
+[2026-03-22 01:12:09] Extracted 365 total words, 175 unique from https://www.themoviedb.org/talk/69b8597b181da5e9383b9d42
+[2026-03-22 01:12:09] Indexing 175 unique words from https://www.themoviedb.org/talk/69b8597b181da5e9383b9d42
+[2026-03-22 01:12:10] Crawled: https://www.themoviedb.org/talk/69bf0f5b23c27c7064a24c53 (200)
+[2026-03-22 01:12:10] Extracted 270 total words, 138 unique from https://www.themoviedb.org/talk/69bf0f5b23c27c7064a24c53
+[2026-03-22 01:12:10] Indexing 138 unique words from https://www.themoviedb.org/talk/69bf0f5b23c27c7064a24c53
+[2026-03-22 01:12:11] Crawled: https://www.themoviedb.org/talk/category/504794a319c29527aa000640 (200)
+[2026-03-22 01:12:11] Extracted 498 total words, 182 unique from https://www.themoviedb.org/talk/category/504794a319c29527aa000640
+[2026-03-22 01:12:11] Indexing 182 unique words from https://www.themoviedb.org/talk/category/504794a319c29527aa000640
+[2026-03-22 01:12:11] Crawled: https://www.themoviedb.org/talk/69b5b90166f46a7d63ce5dcf?page=1 (200)
+[2026-03-22 01:12:11] Extracted 419 total words, 213 unique from https://www.themoviedb.org/talk/69b5b90166f46a7d63ce5dcf?page=1
+[2026-03-22 01:12:11] Indexing 213 unique words from https://www.themoviedb.org/talk/69b5b90166f46a7d63ce5dcf?page=1
+[2026-03-22 01:12:12] Crawled: https://www.themoviedb.org/talk/696180435526a33e15596026 (200)
+[2026-03-22 01:12:12] Extracted 663 total words, 256 unique from https://www.themoviedb.org/talk/696180435526a33e15596026
+[2026-03-22 01:12:12] Indexing 256 unique words from https://www.themoviedb.org/talk/696180435526a33e15596026
+[2026-03-22 01:12:12] Crawled: https://www.themoviedb.org/person/2458789-mihail-reshetnyak (200)
+[2026-03-22 01:12:12] Extracted 407 total words, 212 unique from https://www.themoviedb.org/person/2458789-mihail-reshetnyak
+[2026-03-22 01:12:12] Indexing 212 unique words from https://www.themoviedb.org/person/2458789-mihail-reshetnyak
+[2026-03-22 01:12:13] Crawled: https://www.themoviedb.org/u/verilyeb (200)
+[2026-03-22 01:12:13] Extracted 336 total words, 176 unique from https://www.themoviedb.org/u/verilyeb
+[2026-03-22 01:12:13] Indexing 176 unique words from https://www.themoviedb.org/u/verilyeb
+[2026-03-22 01:12:13] Crawled: https://www.themoviedb.org/talk/69b88028564d6fe53721e2c4 (200)
+[2026-03-22 01:12:13] Extracted 293 total words, 156 unique from https://www.themoviedb.org/talk/69b88028564d6fe53721e2c4
+[2026-03-22 01:12:13] Indexing 156 unique words from https://www.themoviedb.org/talk/69b88028564d6fe53721e2c4
+[2026-03-22 01:12:14] Crawled: https://www.themoviedb.org/talk/69b9fc1874b23bd5e521ea08 (200)
+[2026-03-22 01:12:14] Extracted 401 total words, 186 unique from https://www.themoviedb.org/talk/69b9fc1874b23bd5e521ea08
+[2026-03-22 01:12:14] Indexing 186 unique words from https://www.themoviedb.org/talk/69b9fc1874b23bd5e521ea08
+[2026-03-22 01:12:14] Crawled: https://www.themoviedb.org/talk/698f1acdcc357cd62d5916fe?page=1 (200)
+[2026-03-22 01:12:14] Extracted 698 total words, 209 unique from https://www.themoviedb.org/talk/698f1acdcc357cd62d5916fe?page=1
+[2026-03-22 01:12:14] Indexing 209 unique words from https://www.themoviedb.org/talk/698f1acdcc357cd62d5916fe?page=1
+[2026-03-22 01:12:15] Crawled: https://www.themoviedb.org/talk/69bace00a648bf33449b33d2 (200)
+[2026-03-22 01:12:15] Extracted 309 total words, 151 unique from https://www.themoviedb.org/talk/69bace00a648bf33449b33d2
+[2026-03-22 01:12:15] Indexing 151 unique words from https://www.themoviedb.org/talk/69bace00a648bf33449b33d2
+[2026-03-22 01:12:15] Crawled: https://www.themoviedb.org/u/tehehe (200)
+[2026-03-22 01:12:15] Extracted 328 total words, 169 unique from https://www.themoviedb.org/u/tehehe
+[2026-03-22 01:12:15] Indexing 169 unique words from https://www.themoviedb.org/u/tehehe
+[2026-03-22 01:12:16] Crawled: https://www.themoviedb.org/talk/69b5b90166f46a7d63ce5dcf (200)
+[2026-03-22 01:12:16] Extracted 419 total words, 213 unique from https://www.themoviedb.org/talk/69b5b90166f46a7d63ce5dcf
+[2026-03-22 01:12:16] Indexing 213 unique words from https://www.themoviedb.org/talk/69b5b90166f46a7d63ce5dcf
+[2026-03-22 01:12:16] Crawled: https://www.themoviedb.org/talk/69bdb2c9bda6a4332e7540f3 (200)
+[2026-03-22 01:12:16] Extracted 316 total words, 156 unique from https://www.themoviedb.org/talk/69bdb2c9bda6a4332e7540f3
+[2026-03-22 01:12:16] Indexing 156 unique words from https://www.themoviedb.org/talk/69bdb2c9bda6a4332e7540f3
+[2026-03-22 01:12:17] Crawled: https://www.themoviedb.org/talk/69b6b42e391cadcad195f349?page=1 (200)
+[2026-03-22 01:12:17] Extracted 308 total words, 151 unique from https://www.themoviedb.org/talk/69b6b42e391cadcad195f349?page=1
+[2026-03-22 01:12:17] Indexing 151 unique words from https://www.themoviedb.org/talk/69b6b42e391cadcad195f349?page=1
+[2026-03-22 01:12:17] Crawled: https://www.themoviedb.org/talk/69bc65debb175917d9a9899a?page=1 (200)
+[2026-03-22 01:12:18] Extracted 366 total words, 172 unique from https://www.themoviedb.org/talk/69bc65debb175917d9a9899a?page=1
+[2026-03-22 01:12:18] Indexing 172 unique words from https://www.themoviedb.org/talk/69bc65debb175917d9a9899a?page=1
+[2026-03-22 01:12:18] Crawled: https://www.themoviedb.org/u/mafese3 (200)
+[2026-03-22 01:12:19] Extracted 324 total words, 167 unique from https://www.themoviedb.org/u/mafese3
+[2026-03-22 01:12:19] Indexing 167 unique words from https://www.themoviedb.org/u/mafese3
+[2026-03-22 01:12:20] Crawled: https://www.themoviedb.org/person/4386196-ashvin-borad (200)
+[2026-03-22 01:12:20] Extracted 1219 total words, 490 unique from https://www.themoviedb.org/person/4386196-ashvin-borad
+[2026-03-22 01:12:20] Indexing 490 unique words from https://www.themoviedb.org/person/4386196-ashvin-borad
+[2026-03-22 01:12:20] Crawled: https://www.themoviedb.org/u/Aln (200)
+[2026-03-22 01:12:20] Extracted 325 total words, 168 unique from https://www.themoviedb.org/u/Aln
+[2026-03-22 01:12:20] Indexing 168 unique words from https://www.themoviedb.org/u/Aln
+[2026-03-22 01:12:21] Crawled: https://www.themoviedb.org/talk/69bc65debb175917d9a9899a (200)
+[2026-03-22 01:12:21] Extracted 366 total words, 172 unique from https://www.themoviedb.org/talk/69bc65debb175917d9a9899a
+[2026-03-22 01:12:21] Indexing 172 unique words from https://www.themoviedb.org/talk/69bc65debb175917d9a9899a
+[2026-03-22 01:12:21] Crawled: https://www.themoviedb.org/u/DsPauloo (200)
+[2026-03-22 01:12:21] Extracted 380 total words, 204 unique from https://www.themoviedb.org/u/DsPauloo
+[2026-03-22 01:12:21] Indexing 204 unique words from https://www.themoviedb.org/u/DsPauloo
+[2026-03-22 01:12:22] Crawled: https://www.themoviedb.org/talk/69b3584d7e05c67bf0cbd8c5?page=1 (200)
+[2026-03-22 01:12:22] Extracted 1364 total words, 387 unique from https://www.themoviedb.org/talk/69b3584d7e05c67bf0cbd8c5?page=1
+[2026-03-22 01:12:22] Indexing 387 unique words from https://www.themoviedb.org/talk/69b3584d7e05c67bf0cbd8c5?page=1
+[2026-03-22 01:12:24] Crawled: https://www.themoviedb.org/talk/696180435526a33e15596026?page=1 (200)
+[2026-03-22 01:12:24] Extracted 663 total words, 256 unique from https://www.themoviedb.org/talk/696180435526a33e15596026?page=1
+[2026-03-22 01:12:24] Indexing 256 unique words from https://www.themoviedb.org/talk/696180435526a33e15596026?page=1
+[2026-03-22 01:12:25] Crawled: https://www.themoviedb.org/u/idro (200)
+[2026-03-22 01:12:25] Extracted 395 total words, 204 unique from https://www.themoviedb.org/u/idro
+[2026-03-22 01:12:25] Indexing 204 unique words from https://www.themoviedb.org/u/idro
+[2026-03-22 01:12:26] Crawled: https://www.themoviedb.org/u/lukas.lis (200)
+[2026-03-22 01:12:26] Extracted 327 total words, 168 unique from https://www.themoviedb.org/u/lukas.lis
+[2026-03-22 01:12:26] Indexing 168 unique words from https://www.themoviedb.org/u/lukas.lis
+[2026-03-22 01:12:28] Crawled: https://www.themoviedb.org/tv/26324-flikken-maastricht (200)
+[2026-03-22 01:12:28] Extracted 568 total words, 324 unique from https://www.themoviedb.org/tv/26324-flikken-maastricht
+[2026-03-22 01:12:28] Indexing 324 unique words from https://www.themoviedb.org/tv/26324-flikken-maastricht
+[2026-03-22 01:12:28] Crawled: https://www.themoviedb.org/u/Ritx (200)
+[2026-03-22 01:12:28] Extracted 428 total words, 213 unique from https://www.themoviedb.org/u/Ritx
+[2026-03-22 01:12:28] Indexing 213 unique words from https://www.themoviedb.org/u/Ritx
+[2026-03-22 01:12:29] Crawled: https://www.themoviedb.org/u/Ashvin29 (200)
+[2026-03-22 01:12:29] Extracted 657 total words, 385 unique from https://www.themoviedb.org/u/Ashvin29
+[2026-03-22 01:12:29] Indexing 385 unique words from https://www.themoviedb.org/u/Ashvin29
+[2026-03-22 01:12:30] Crawled: https://www.themoviedb.org/u/softpillow (200)
+[2026-03-22 01:12:30] Extracted 428 total words, 215 unique from https://www.themoviedb.org/u/softpillow
+[2026-03-22 01:12:30] Indexing 215 unique words from https://www.themoviedb.org/u/softpillow
+[2026-03-22 01:12:31] Crawled: https://www.themoviedb.org/u/sudoExistence (200)
+[2026-03-22 01:12:31] Extracted 327 total words, 168 unique from https://www.themoviedb.org/u/sudoExistence
+[2026-03-22 01:12:31] Indexing 168 unique words from https://www.themoviedb.org/u/sudoExistence
+[2026-03-22 01:12:31] Crawled: https://www.themoviedb.org/talk/69b8917b5d77b49f4e5ca6a0 (200)
+[2026-03-22 01:12:31] Extracted 379 total words, 196 unique from https://www.themoviedb.org/talk/69b8917b5d77b49f4e5ca6a0
+[2026-03-22 01:12:31] Indexing 196 unique words from https://www.themoviedb.org/talk/69b8917b5d77b49f4e5ca6a0
+[2026-03-22 01:12:32] Crawled: https://www.themoviedb.org/u/bayramova (200)
+[2026-03-22 01:12:32] Extracted 424 total words, 212 unique from https://www.themoviedb.org/u/bayramova
+[2026-03-22 01:12:32] Indexing 212 unique words from https://www.themoviedb.org/u/bayramova
+[2026-03-22 01:12:32] Crawled: https://www.themoviedb.org/talk/670cbb6f4df59a608c63849e?page=23 (200)
+[2026-03-22 01:12:32] Extracted 660 total words, 257 unique from https://www.themoviedb.org/talk/670cbb6f4df59a608c63849e?page=23
+[2026-03-22 01:12:32] Indexing 257 unique words from https://www.themoviedb.org/talk/670cbb6f4df59a608c63849e?page=23
+[2026-03-22 01:12:32] Crawled: https://www.themoviedb.org/person/2458789/discuss/69bf0e09ebbf129bfa13ba20 (200)
+[2026-03-22 01:12:32] Extracted 261 total words, 144 unique from https://www.themoviedb.org/person/2458789/discuss/69bf0e09ebbf129bfa13ba20
+[2026-03-22 01:12:32] Indexing 144 unique words from https://www.themoviedb.org/person/2458789/discuss/69bf0e09ebbf129bfa13ba20
+[2026-03-22 01:12:33] Crawled: https://www.themoviedb.org/tv/26324-flikken-maastricht/discuss/69bf171e23c066b9994fed00 (200)
+[2026-03-22 01:12:33] Extracted 272 total words, 147 unique from https://www.themoviedb.org/tv/26324-flikken-maastricht/discuss/69bf171e23c066b9994fed00
+[2026-03-22 01:12:33] Indexing 147 unique words from https://www.themoviedb.org/tv/26324-flikken-maastricht/discuss/69bf171e23c066b9994fed00
+[2026-03-22 01:12:33] Crawled: https://www.themoviedb.org/u/Disander (200)
+[2026-03-22 01:12:34] Extracted 324 total words, 167 unique from https://www.themoviedb.org/u/Disander
+[2026-03-22 01:12:34] Indexing 167 unique words from https://www.themoviedb.org/u/Disander
+[2026-03-22 01:12:34] Crawled: https://www.themoviedb.org/talk/69b6e899afbe36128908ec91 (200)
+[2026-03-22 01:12:34] Extracted 280 total words, 144 unique from https://www.themoviedb.org/talk/69b6e899afbe36128908ec91
+[2026-03-22 01:12:34] Indexing 144 unique words from https://www.themoviedb.org/talk/69b6e899afbe36128908ec91
+[2026-03-22 01:12:35] Crawled: https://www.themoviedb.org/talk/69bdb2c9bda6a4332e7540f3?page=1 (200)
+[2026-03-22 01:12:35] Extracted 316 total words, 156 unique from https://www.themoviedb.org/talk/69bdb2c9bda6a4332e7540f3?page=1
+[2026-03-22 01:12:35] Indexing 156 unique words from https://www.themoviedb.org/talk/69bdb2c9bda6a4332e7540f3?page=1
+[2026-03-22 01:12:35] Crawled: https://www.themoviedb.org/u/superbigrobot (200)
+[2026-03-22 01:12:35] Extracted 324 total words, 167 unique from https://www.themoviedb.org/u/superbigrobot
+[2026-03-22 01:12:35] Indexing 167 unique words from https://www.themoviedb.org/u/superbigrobot
+[2026-03-22 01:12:36] Crawled: https://www.themoviedb.org/talk/698f1acdcc357cd62d5916fe (200)
+[2026-03-22 01:12:36] Extracted 698 total words, 209 unique from https://www.themoviedb.org/talk/698f1acdcc357cd62d5916fe
+[2026-03-22 01:12:36] Indexing 209 unique words from https://www.themoviedb.org/talk/698f1acdcc357cd62d5916fe
+[2026-03-22 01:12:36] Crawled: https://www.themoviedb.org/talk/69b6b42e391cadcad195f349 (200)
+[2026-03-22 01:12:37] Extracted 308 total words, 151 unique from https://www.themoviedb.org/talk/69b6b42e391cadcad195f349
+[2026-03-22 01:12:37] Indexing 151 unique words from https://www.themoviedb.org/talk/69b6b42e391cadcad195f349
+[2026-03-22 01:12:37] Crawled: https://www.themoviedb.org/talk/69bf0f6f4669fd755e1b0665 (200)
+[2026-03-22 01:12:37] Extracted 270 total words, 138 unique from https://www.themoviedb.org/talk/69bf0f6f4669fd755e1b0665
+[2026-03-22 01:12:37] Indexing 138 unique words from https://www.themoviedb.org/talk/69bf0f6f4669fd755e1b0665
+[2026-03-22 01:12:37] Crawled: https://www.themoviedb.org/u/bjpittman (200)
+[2026-03-22 01:12:37] Extracted 334 total words, 175 unique from https://www.themoviedb.org/u/bjpittman
+[2026-03-22 01:12:37] Indexing 175 unique words from https://www.themoviedb.org/u/bjpittman
+[2026-03-22 01:12:38] Crawled: https://www.themoviedb.org/talk/69bf15cb53abdbb5f415e5e2 (200)
+[2026-03-22 01:12:38] Extracted 278 total words, 144 unique from https://www.themoviedb.org/talk/69bf15cb53abdbb5f415e5e2
+[2026-03-22 01:12:38] Indexing 144 unique words from https://www.themoviedb.org/talk/69bf15cb53abdbb5f415e5e2
+[2026-03-22 01:12:39] Crawled: https://www.themoviedb.org/person/2427119-mikhail-marvin/discuss/69bf0df2131231c72b4febd5 (200)
+[2026-03-22 01:12:40] Extracted 267 total words, 144 unique from https://www.themoviedb.org/person/2427119-mikhail-marvin/discuss/69bf0df2131231c72b4febd5
+[2026-03-22 01:12:40] Indexing 144 unique words from https://www.themoviedb.org/person/2427119-mikhail-marvin/discuss/69bf0df2131231c72b4febd5
+[2026-03-22 01:12:40] Crawled: https://www.themoviedb.org/u/ridhwaans (200)
+[2026-03-22 01:12:40] Extracted 324 total words, 167 unique from https://www.themoviedb.org/u/ridhwaans
+[2026-03-22 01:12:40] Indexing 167 unique words from https://www.themoviedb.org/u/ridhwaans
+[2026-03-22 01:12:41] Crawled: https://www.themoviedb.org/talk/69bf0f52743250a87301c5bb (200)
+[2026-03-22 01:12:41] Extracted 270 total words, 138 unique from https://www.themoviedb.org/talk/69bf0f52743250a87301c5bb
+[2026-03-22 01:12:41] Indexing 138 unique words from https://www.themoviedb.org/talk/69bf0f52743250a87301c5bb
+[2026-03-22 01:12:42] Crawled: https://www.themoviedb.org/talk/69b992850040fb8b9257cc45 (200)
+[2026-03-22 01:12:42] Extracted 325 total words, 171 unique from https://www.themoviedb.org/talk/69b992850040fb8b9257cc45
+[2026-03-22 01:12:42] Indexing 171 unique words from https://www.themoviedb.org/talk/69b992850040fb8b9257cc45
+[2026-03-22 01:12:43] Crawled: https://www.themoviedb.org/talk/69b91fa9551d9b5e2e08facd?page=1 (200)
+[2026-03-22 01:12:43] Extracted 381 total words, 200 unique from https://www.themoviedb.org/talk/69b91fa9551d9b5e2e08facd?page=1
+[2026-03-22 01:12:43] Indexing 200 unique words from https://www.themoviedb.org/talk/69b91fa9551d9b5e2e08facd?page=1
+[2026-03-22 01:12:43] Crawled: https://www.themoviedb.org/u/marcellasr2 (200)
+[2026-03-22 01:12:43] Extracted 324 total words, 167 unique from https://www.themoviedb.org/u/marcellasr2
+[2026-03-22 01:12:43] Indexing 167 unique words from https://www.themoviedb.org/u/marcellasr2
+[2026-03-22 01:12:44] Crawled: https://www.themoviedb.org/person/4386196-ashvin-borad/discuss/69ba6ababfd765812c57d269?page=1 (200)
+[2026-03-22 01:12:44] Extracted 344 total words, 184 unique from https://www.themoviedb.org/person/4386196-ashvin-borad/discuss/69ba6ababfd765812c57d269?page=1
+[2026-03-22 01:12:44] Indexing 184 unique words from https://www.themoviedb.org/person/4386196-ashvin-borad/discuss/69ba6ababfd765812c57d269?page=1
+[2026-03-22 01:12:45] Crawled: https://www.themoviedb.org/talk/category/5047954b760ee3369b000001 (200)
+[2026-03-22 01:12:45] Extracted 471 total words, 216 unique from https://www.themoviedb.org/talk/category/5047954b760ee3369b000001
+[2026-03-22 01:12:45] Indexing 216 unique words from https://www.themoviedb.org/talk/category/5047954b760ee3369b000001
+[2026-03-22 01:12:46] Crawled: https://www.themoviedb.org/u/Munna_ (200)
+[2026-03-22 01:12:46] Extracted 432 total words, 212 unique from https://www.themoviedb.org/u/Munna_
+[2026-03-22 01:12:46] Indexing 212 unique words from https://www.themoviedb.org/u/Munna_
+[2026-03-22 01:12:47] Crawled: https://www.themoviedb.org/u/ayaharrison@icloud.com (200)
+[2026-03-22 01:12:47] Extracted 337 total words, 172 unique from https://www.themoviedb.org/u/ayaharrison@icloud.com
+[2026-03-22 01:12:47] Indexing 172 unique words from https://www.themoviedb.org/u/ayaharrison@icloud.com
+[2026-03-22 01:12:48] Crawled: https://www.themoviedb.org/person/4386196-ashvin-borad/discuss/69ba6ababfd765812c57d269 (200)
+[2026-03-22 01:12:48] Extracted 344 total words, 184 unique from https://www.themoviedb.org/person/4386196-ashvin-borad/discuss/69ba6ababfd765812c57d269
+[2026-03-22 01:12:48] Indexing 184 unique words from https://www.themoviedb.org/person/4386196-ashvin-borad/discuss/69ba6ababfd765812c57d269
+[2026-03-22 01:12:48] Crawled: https://www.themoviedb.org/u/tulgaralan (200)
+[2026-03-22 01:12:48] Extracted 389 total words, 197 unique from https://www.themoviedb.org/u/tulgaralan
+[2026-03-22 01:12:48] Indexing 197 unique words from https://www.themoviedb.org/u/tulgaralan
+[2026-03-22 01:12:49] Crawled: https://www.themoviedb.org/talk/69b337183901379121d43e13 (200)
+[2026-03-22 01:12:49] Extracted 2797 total words, 665 unique from https://www.themoviedb.org/talk/69b337183901379121d43e13
+[2026-03-22 01:12:49] Indexing 665 unique words from https://www.themoviedb.org/talk/69b337183901379121d43e13
+[2026-03-22 01:12:50] Crawled: https://www.themoviedb.org/u/babyclav (200)
+[2026-03-22 01:12:50] Extracted 324 total words, 167 unique from https://www.themoviedb.org/u/babyclav
+[2026-03-22 01:12:50] Indexing 167 unique words from https://www.themoviedb.org/u/babyclav
+[2026-03-22 01:12:50] Crawled: https://www.themoviedb.org/signup?redirect=/talk (200)
+[2026-03-22 01:12:50] Extracted 357 total words, 177 unique from https://www.themoviedb.org/signup?redirect=/talk
+[2026-03-22 01:12:50] Indexing 177 unique words from https://www.themoviedb.org/signup?redirect=/talk
+[2026-03-22 01:12:50] Crawled: https://www.themoviedb.org/talk/69b8d4a53d21e1ea023ba21f (200)
+[2026-03-22 01:12:51] Extracted 321 total words, 166 unique from https://www.themoviedb.org/talk/69b8d4a53d21e1ea023ba21f
+[2026-03-22 01:12:51] Indexing 166 unique words from https://www.themoviedb.org/talk/69b8d4a53d21e1ea023ba21f
+[2026-03-22 01:12:51] HTTP error 404: https://www.themoviedb.org/u/tmdb91711593
+[2026-03-22 01:12:52] Crawled: https://www.themoviedb.org/talk/69b1f042bf7dd299794ef907?page=1 (200)
+[2026-03-22 01:12:52] Extracted 637 total words, 288 unique from https://www.themoviedb.org/talk/69b1f042bf7dd299794ef907?page=1
+[2026-03-22 01:12:52] Indexing 288 unique words from https://www.themoviedb.org/talk/69b1f042bf7dd299794ef907?page=1
+[2026-03-22 01:12:53] Crawled: https://www.themoviedb.org/talk/69b91fa9551d9b5e2e08facd (200)
+[2026-03-22 01:12:53] Extracted 381 total words, 200 unique from https://www.themoviedb.org/talk/69b91fa9551d9b5e2e08facd
+[2026-03-22 01:12:53] Indexing 200 unique words from https://www.themoviedb.org/talk/69b91fa9551d9b5e2e08facd
+[2026-03-22 01:12:54] Crawled: https://www.themoviedb.org/u/alltimemarr (200)
+[2026-03-22 01:12:54] Extracted 435 total words, 218 unique from https://www.themoviedb.org/u/alltimemarr
+[2026-03-22 01:12:54] Indexing 218 unique words from https://www.themoviedb.org/u/alltimemarr
+[2026-03-22 01:12:54] Crawled: https://www.themoviedb.org/talk/69b3584d7e05c67bf0cbd8c5 (200)
+[2026-03-22 01:12:54] Extracted 1364 total words, 387 unique from https://www.themoviedb.org/talk/69b3584d7e05c67bf0cbd8c5
+[2026-03-22 01:12:54] Indexing 387 unique words from https://www.themoviedb.org/talk/69b3584d7e05c67bf0cbd8c5
+[2026-03-22 01:12:55] Crawled: https://www.themoviedb.org/talk/69bf0f648110a6d154d341ac (200)
+[2026-03-22 01:12:55] Extracted 270 total words, 138 unique from https://www.themoviedb.org/talk/69bf0f648110a6d154d341ac
+[2026-03-22 01:12:55] Indexing 138 unique words from https://www.themoviedb.org/talk/69bf0f648110a6d154d341ac
+[2026-03-22 01:12:55] Crawled: https://www.themoviedb.org/talk/category/5047958519c29526b50017d6 (200)
+[2026-03-22 01:12:55] Extracted 487 total words, 215 unique from https://www.themoviedb.org/talk/category/5047958519c29526b50017d6
+[2026-03-22 01:12:55] Indexing 215 unique words from https://www.themoviedb.org/talk/category/5047958519c29526b50017d6
+[2026-03-22 01:12:56] Crawled: https://www.themoviedb.org/talk/69b337183901379121d43e13?page=5 (200)
+[2026-03-22 01:12:56] Extracted 2325 total words, 670 unique from https://www.themoviedb.org/talk/69b337183901379121d43e13?page=5
+[2026-03-22 01:12:56] Indexing 670 unique words from https://www.themoviedb.org/talk/69b337183901379121d43e13?page=5
+[2026-03-22 01:12:56] Crawled: https://www.themoviedb.org/talk/69b8597b181da5e9383b9d42?page=1 (200)
+[2026-03-22 01:12:56] Extracted 365 total words, 175 unique from https://www.themoviedb.org/talk/69b8597b181da5e9383b9d42?page=1
+[2026-03-22 01:12:56] Indexing 175 unique words from https://www.themoviedb.org/talk/69b8597b181da5e9383b9d42?page=1
+[2026-03-22 01:12:57] Crawled: https://www.themoviedb.org/talk/670cbb6f4df59a608c63849e (200)
+[2026-03-22 01:12:57] Extracted 1773 total words, 572 unique from https://www.themoviedb.org/talk/670cbb6f4df59a608c63849e
+[2026-03-22 01:12:57] Indexing 572 unique words from https://www.themoviedb.org/talk/670cbb6f4df59a608c63849e
+[2026-03-22 01:12:58] Crawled: https://www.themoviedb.org/u/Jefff_73 (200)
+[2026-03-22 01:12:58] Extracted 317 total words, 167 unique from https://www.themoviedb.org/u/Jefff_73
+[2026-03-22 01:12:58] Indexing 167 unique words from https://www.themoviedb.org/u/Jefff_73
+[2026-03-22 01:12:58] Crawled: https://www.themoviedb.org/talk/69bace00a648bf33449b33d2?page=1 (200)
+[2026-03-22 01:12:58] Extracted 309 total words, 151 unique from https://www.themoviedb.org/talk/69bace00a648bf33449b33d2?page=1
+[2026-03-22 01:12:58] Indexing 151 unique words from https://www.themoviedb.org/talk/69bace00a648bf33449b33d2?page=1
+[2026-03-22 01:12:59] Crawled: https://www.themoviedb.org/talk/69b1f042bf7dd299794ef907 (200)
+[2026-03-22 01:12:59] Extracted 637 total words, 288 unique from https://www.themoviedb.org/talk/69b1f042bf7dd299794ef907
+[2026-03-22 01:12:59] Indexing 288 unique words from https://www.themoviedb.org/talk/69b1f042bf7dd299794ef907
+[2026-03-22 01:12:59] Crawled: https://www.themoviedb.org/talk/69b9eda1ba0cd59c782c8f05?page=1 (200)
+[2026-03-22 01:12:59] Extracted 417 total words, 174 unique from https://www.themoviedb.org/talk/69b9eda1ba0cd59c782c8f05?page=1
+[2026-03-22 01:12:59] Indexing 174 unique words from https://www.themoviedb.org/talk/69b9eda1ba0cd59c782c8f05?page=1
+[2026-03-22 01:13:00] Crawled: https://www.themoviedb.org/talk/category/5047951f760ee3318900009a (200)
+[2026-03-22 01:13:00] Extracted 466 total words, 207 unique from https://www.themoviedb.org/talk/category/5047951f760ee3318900009a
+[2026-03-22 01:13:00] Indexing 207 unique words from https://www.themoviedb.org/talk/category/5047951f760ee3318900009a
+[2026-03-22 01:13:01] Crawled: https://www.themoviedb.org/talk/5227fc02760ee319f81c3545?page=1 (200)
+[2026-03-22 01:13:01] Extracted 393 total words, 199 unique from https://www.themoviedb.org/talk/5227fc02760ee319f81c3545?page=1
+[2026-03-22 01:13:01] Indexing 199 unique words from https://www.themoviedb.org/talk/5227fc02760ee319f81c3545?page=1
+[2026-03-22 01:13:01] Crawled: https://www.themoviedb.org/person/2427119 (200)
+[2026-03-22 01:13:02] Extracted 357 total words, 197 unique from https://www.themoviedb.org/person/2427119
+[2026-03-22 01:13:02] Indexing 197 unique words from https://www.themoviedb.org/person/2427119
+[2026-03-22 01:13:02] Crawled: https://www.themoviedb.org/talk/69b3e5bbf552a33a95dca17c (200)
+[2026-03-22 01:13:02] Extracted 367 total words, 195 unique from https://www.themoviedb.org/talk/69b3e5bbf552a33a95dca17c
+[2026-03-22 01:13:02] Indexing 195 unique words from https://www.themoviedb.org/talk/69b3e5bbf552a33a95dca17c
+[2026-03-22 01:13:03] Crawled: https://www.themoviedb.org/talk/69b9eda1ba0cd59c782c8f05 (200)
+[2026-03-22 01:13:03] Extracted 417 total words, 174 unique from https://www.themoviedb.org/talk/69b9eda1ba0cd59c782c8f05
+[2026-03-22 01:13:03] Indexing 174 unique words from https://www.themoviedb.org/talk/69b9eda1ba0cd59c782c8f05
+[2026-03-22 01:13:04] Crawled: https://www.themoviedb.org/talk/5227fc02760ee319f81c3545 (200)
+[2026-03-22 01:13:04] Extracted 393 total words, 199 unique from https://www.themoviedb.org/talk/5227fc02760ee319f81c3545
+[2026-03-22 01:13:04] Indexing 199 unique words from https://www.themoviedb.org/talk/5227fc02760ee319f81c3545
+[2026-03-22 01:13:04] Crawler paused
+[2026-03-22 01:13:05] Crawled: https://www.themoviedb.org/u/Javierub (200)
+[2026-03-22 01:13:05] Extracted 324 total words, 167 unique from https://www.themoviedb.org/u/Javierub
+[2026-03-22 01:13:05] Indexing 167 unique words from https://www.themoviedb.org/u/Javierub
+[2026-03-22 01:22:34] Crawler resumed
+[2026-03-22 01:22:34] Crawled: https://www.themoviedb.org/talk/69b85abc486119034708f427 (200)
+[2026-03-22 01:22:34] Extracted 346 total words, 178 unique from https://www.themoviedb.org/talk/69b85abc486119034708f427
+[2026-03-22 01:22:34] Indexing 178 unique words from https://www.themoviedb.org/talk/69b85abc486119034708f427
+[2026-03-22 01:22:35] Crawled: https://www.themoviedb.org/talk/69b9fc1874b23bd5e521ea08?page=1 (200)
+[2026-03-22 01:22:35] Extracted 401 total words, 186 unique from https://www.themoviedb.org/talk/69b9fc1874b23bd5e521ea08?page=1
+[2026-03-22 01:22:35] Indexing 186 unique words from https://www.themoviedb.org/talk/69b9fc1874b23bd5e521ea08?page=1
+[2026-03-22 01:22:35] HTTP error 404: https://www.themoviedb.org/title
+[2026-03-22 01:22:36] Crawled: https://www.themoviedb.org/u/tmdb_user_xxx (200)
+[2026-03-22 01:22:36] Extracted 408 total words, 196 unique from https://www.themoviedb.org/u/tmdb_user_xxx
+[2026-03-22 01:22:36] Indexing 196 unique words from https://www.themoviedb.org/u/tmdb_user_xxx
+[2026-03-22 01:22:37] Crawled: https://www.themoviedb.org/u/LarsDK (200)
+[2026-03-22 01:22:37] Extracted 432 total words, 217 unique from https://www.themoviedb.org/u/LarsDK
+[2026-03-22 01:22:37] Indexing 217 unique words from https://www.themoviedb.org/u/LarsDK
+[2026-03-22 01:22:38] Crawled: https://www.themoviedb.org/u/sverippola (200)
+[2026-03-22 01:22:38] Extracted 436 total words, 214 unique from https://www.themoviedb.org/u/sverippola
+[2026-03-22 01:22:38] Indexing 214 unique words from https://www.themoviedb.org/u/sverippola
+[2026-03-22 01:22:38] Crawled: https://www.themoviedb.org/u/albabunai (200)
+[2026-03-22 01:22:38] Extracted 439 total words, 219 unique from https://www.themoviedb.org/u/albabunai
+[2026-03-22 01:22:38] Indexing 219 unique words from https://www.themoviedb.org/u/albabunai
+[2026-03-22 01:22:38] Crawled: https://www.themoviedb.org/u/HideeM (200)
+[2026-03-22 01:22:38] Extracted 430 total words, 208 unique from https://www.themoviedb.org/u/HideeM
+[2026-03-22 01:22:38] Indexing 208 unique words from https://www.themoviedb.org/u/HideeM
+[2026-03-22 01:22:39] Crawled: https://www.themoviedb.org/u/ardarvin (200)
+[2026-03-22 01:22:39] Extracted 351 total words, 185 unique from https://www.themoviedb.org/u/ardarvin
+[2026-03-22 01:22:39] Indexing 185 unique words from https://www.themoviedb.org/u/ardarvin
+[2026-03-22 01:22:39] Crawled: https://www.themoviedb.org/u/Denbarkco (200)
+[2026-03-22 01:22:39] Extracted 440 total words, 225 unique from https://www.themoviedb.org/u/Denbarkco
+[2026-03-22 01:22:39] Indexing 225 unique words from https://www.themoviedb.org/u/Denbarkco
+[2026-03-22 01:22:40] HTTP error 403: https://www.themoviedb.org/u/williamsjames0960
+[2026-03-22 01:22:41] Crawled: https://www.themoviedb.org/u/markjirousek (200)
+[2026-03-22 01:22:41] Extracted 439 total words, 214 unique from https://www.themoviedb.org/u/markjirousek
+[2026-03-22 01:22:41] Indexing 214 unique words from https://www.themoviedb.org/u/markjirousek
+[2026-03-22 01:22:42] Crawled: https://www.themoviedb.org/u/MovieBuff420 (200)
+[2026-03-22 01:22:42] Extracted 416 total words, 204 unique from https://www.themoviedb.org/u/MovieBuff420
+[2026-03-22 01:22:42] Indexing 204 unique words from https://www.themoviedb.org/u/MovieBuff420
+[2026-03-22 01:22:44] Crawled: https://www.themoviedb.org/u/WarFi_RS (200)
+[2026-03-22 01:22:44] Extracted 422 total words, 212 unique from https://www.themoviedb.org/u/WarFi_RS
+[2026-03-22 01:22:44] Indexing 212 unique words from https://www.themoviedb.org/u/WarFi_RS
+[2026-03-22 01:22:44] Crawled: https://www.themoviedb.org/u/Waad.88 (200)
+[2026-03-22 01:22:44] Extracted 433 total words, 213 unique from https://www.themoviedb.org/u/Waad.88
+[2026-03-22 01:22:44] Indexing 213 unique words from https://www.themoviedb.org/u/Waad.88
+[2026-03-22 01:22:44] Crawled: https://www.themoviedb.org/u/kampfkeks75 (200)
+[2026-03-22 01:22:44] Extracted 409 total words, 202 unique from https://www.themoviedb.org/u/kampfkeks75
+[2026-03-22 01:22:44] Indexing 202 unique words from https://www.themoviedb.org/u/kampfkeks75
+[2026-03-22 01:22:45] Crawled: https://www.themoviedb.org/u/Bitrudeuk (200)
+[2026-03-22 01:22:45] Extracted 434 total words, 213 unique from https://www.themoviedb.org/u/Bitrudeuk
+[2026-03-22 01:22:45] Indexing 213 unique words from https://www.themoviedb.org/u/Bitrudeuk
+[2026-03-22 01:22:45] Crawled: https://www.themoviedb.org/u/pLaCeB0 (200)
+[2026-03-22 01:22:45] Extracted 431 total words, 208 unique from https://www.themoviedb.org/u/pLaCeB0
+[2026-03-22 01:22:45] Indexing 208 unique words from https://www.themoviedb.org/u/pLaCeB0
+[2026-03-22 01:22:46] Crawled: https://www.themoviedb.org/u/HeelerCattle86 (200)
+[2026-03-22 01:22:46] Extracted 512 total words, 269 unique from https://www.themoviedb.org/u/HeelerCattle86
+[2026-03-22 01:22:46] Indexing 269 unique words from https://www.themoviedb.org/u/HeelerCattle86
+[2026-03-22 01:22:46] Crawled: https://www.themoviedb.org/u/Il_Cinepatico (200)
+[2026-03-22 01:22:46] Extracted 443 total words, 228 unique from https://www.themoviedb.org/u/Il_Cinepatico
+[2026-03-22 01:22:46] Indexing 228 unique words from https://www.themoviedb.org/u/Il_Cinepatico
+[2026-03-22 01:22:47] Crawled: https://www.themoviedb.org/u/ArtSeries (200)
+[2026-03-22 01:22:47] Extracted 458 total words, 229 unique from https://www.themoviedb.org/u/ArtSeries
+[2026-03-22 01:22:47] Indexing 229 unique words from https://www.themoviedb.org/u/ArtSeries
+[2026-03-22 01:22:48] Crawled: https://www.themoviedb.org/u/veposid (200)
+[2026-03-22 01:22:48] Extracted 442 total words, 218 unique from https://www.themoviedb.org/u/veposid
+[2026-03-22 01:22:48] Indexing 218 unique words from https://www.themoviedb.org/u/veposid
+[2026-03-22 01:22:49] Crawled: https://www.themoviedb.org/u/baranosoretsu (200)
+[2026-03-22 01:22:49] Extracted 448 total words, 224 unique from https://www.themoviedb.org/u/baranosoretsu
+[2026-03-22 01:22:49] Indexing 224 unique words from https://www.themoviedb.org/u/baranosoretsu
+[2026-03-22 01:22:50] Crawled: https://www.themoviedb.org/u/h0000000000 (200)
+[2026-03-22 01:22:50] Extracted 446 total words, 222 unique from https://www.themoviedb.org/u/h0000000000
+[2026-03-22 01:22:50] Indexing 222 unique words from https://www.themoviedb.org/u/h0000000000
+[2026-03-22 01:22:51] Crawled: https://www.themoviedb.org/u/janar72 (200)
+[2026-03-22 01:22:51] Extracted 391 total words, 201 unique from https://www.themoviedb.org/u/janar72
+[2026-03-22 01:22:51] Indexing 201 unique words from https://www.themoviedb.org/u/janar72
+[2026-03-22 01:22:51] Crawled: https://www.themoviedb.org/u/nfrains (200)
+[2026-03-22 01:22:51] Extracted 415 total words, 204 unique from https://www.themoviedb.org/u/nfrains
+[2026-03-22 01:22:51] Indexing 204 unique words from https://www.themoviedb.org/u/nfrains
+[2026-03-22 01:22:52] Crawled: https://www.themoviedb.org/u/ucdrlg (200)
+[2026-03-22 01:22:52] Extracted 431 total words, 216 unique from https://www.themoviedb.org/u/ucdrlg
+[2026-03-22 01:22:52] Indexing 216 unique words from https://www.themoviedb.org/u/ucdrlg
+[2026-03-22 01:22:52] Crawled: https://www.themoviedb.org/u/dinkelbrot (200)
+[2026-03-22 01:22:52] Extracted 443 total words, 217 unique from https://www.themoviedb.org/u/dinkelbrot
+[2026-03-22 01:22:52] Indexing 217 unique words from https://www.themoviedb.org/u/dinkelbrot
+[2026-03-22 01:22:53] Crawled: https://www.themoviedb.org/u/beepol4 (200)
+[2026-03-22 01:22:53] Extracted 423 total words, 210 unique from https://www.themoviedb.org/u/beepol4
+[2026-03-22 01:22:53] Indexing 210 unique words from https://www.themoviedb.org/u/beepol4
+[2026-03-22 01:22:53] Crawled: https://www.themoviedb.org/u/ribood (200)
+[2026-03-22 01:22:53] Extracted 346 total words, 183 unique from https://www.themoviedb.org/u/ribood
+[2026-03-22 01:22:53] Indexing 183 unique words from https://www.themoviedb.org/u/ribood
+[2026-03-22 01:22:54] Crawled: https://www.themoviedb.org/u/abdosamir3 (200)
+[2026-03-22 01:22:54] Extracted 435 total words, 212 unique from https://www.themoviedb.org/u/abdosamir3
+[2026-03-22 01:22:54] Indexing 212 unique words from https://www.themoviedb.org/u/abdosamir3
+[2026-03-22 01:22:55] Crawled: https://www.themoviedb.org/u/danielr02 (200)
+[2026-03-22 01:22:55] Extracted 446 total words, 224 unique from https://www.themoviedb.org/u/danielr02
+[2026-03-22 01:22:55] Indexing 224 unique words from https://www.themoviedb.org/u/danielr02
+[2026-03-22 01:22:55] Crawled: https://www.themoviedb.org/u/Tdog7rug (200)
+[2026-03-22 01:22:55] Extracted 420 total words, 207 unique from https://www.themoviedb.org/u/Tdog7rug
+[2026-03-22 01:22:55] Indexing 207 unique words from https://www.themoviedb.org/u/Tdog7rug
+[2026-03-22 01:22:55] Crawled: https://www.themoviedb.org/u/aduevel (200)
+[2026-03-22 01:22:55] Extracted 441 total words, 231 unique from https://www.themoviedb.org/u/aduevel
+[2026-03-22 01:22:55] Indexing 231 unique words from https://www.themoviedb.org/u/aduevel
+[2026-03-22 01:22:56] Crawled: https://www.themoviedb.org/u/__skywalker (200)
+[2026-03-22 01:22:56] Extracted 429 total words, 211 unique from https://www.themoviedb.org/u/__skywalker
+[2026-03-22 01:22:56] Indexing 211 unique words from https://www.themoviedb.org/u/__skywalker
+[2026-03-22 01:22:56] Crawled: https://www.themoviedb.org/u/lineker (200)
+[2026-03-22 01:22:56] Extracted 418 total words, 206 unique from https://www.themoviedb.org/u/lineker
+[2026-03-22 01:22:56] Indexing 206 unique words from https://www.themoviedb.org/u/lineker
+[2026-03-22 01:22:57] Crawled: https://www.themoviedb.org/u/tummoth (200)
+[2026-03-22 01:22:57] Extracted 434 total words, 211 unique from https://www.themoviedb.org/u/tummoth
+[2026-03-22 01:22:57] Indexing 211 unique words from https://www.themoviedb.org/u/tummoth
+[2026-03-22 01:22:58] Crawled: https://www.themoviedb.org/u/joeyjoseph309 (200)
+[2026-03-22 01:22:58] Extracted 422 total words, 208 unique from https://www.themoviedb.org/u/joeyjoseph309
+[2026-03-22 01:22:58] Indexing 208 unique words from https://www.themoviedb.org/u/joeyjoseph309
+[2026-03-22 01:22:59] Crawled: https://www.themoviedb.org/u/azkar (200)
+[2026-03-22 01:22:59] Extracted 384 total words, 197 unique from https://www.themoviedb.org/u/azkar
+[2026-03-22 01:22:59] Indexing 197 unique words from https://www.themoviedb.org/u/azkar
+[2026-03-22 01:22:59] Crawled: https://www.themoviedb.org/u/talestalker (200)
+[2026-03-22 01:22:59] Extracted 425 total words, 205 unique from https://www.themoviedb.org/u/talestalker
+[2026-03-22 01:22:59] Indexing 205 unique words from https://www.themoviedb.org/u/talestalker
+[2026-03-22 01:23:00] Crawled: https://www.themoviedb.org/u/Segramer (200)
+[2026-03-22 01:23:00] Extracted 481 total words, 242 unique from https://www.themoviedb.org/u/Segramer
+[2026-03-22 01:23:00] Indexing 242 unique words from https://www.themoviedb.org/u/Segramer
+[2026-03-22 01:23:00] Crawled: https://www.themoviedb.org/u/lukip (200)
+[2026-03-22 01:23:00] Extracted 448 total words, 228 unique from https://www.themoviedb.org/u/lukip
+[2026-03-22 01:23:00] Indexing 228 unique words from https://www.themoviedb.org/u/lukip
+[2026-03-22 01:23:01] Crawled: https://www.themoviedb.org/u/5lucina5 (200)
+[2026-03-22 01:23:01] Extracted 424 total words, 207 unique from https://www.themoviedb.org/u/5lucina5
+[2026-03-22 01:23:01] Indexing 207 unique words from https://www.themoviedb.org/u/5lucina5
+[2026-03-22 01:23:02] Crawled: https://www.themoviedb.org/u/andremario33 (200)
+[2026-03-22 01:23:02] Extracted 438 total words, 219 unique from https://www.themoviedb.org/u/andremario33
+[2026-03-22 01:23:02] Indexing 219 unique words from https://www.themoviedb.org/u/andremario33
+[2026-03-22 01:23:02] Crawled: https://www.themoviedb.org/u/912660376 (200)
+[2026-03-22 01:23:02] Extracted 403 total words, 205 unique from https://www.themoviedb.org/u/912660376
+[2026-03-22 01:23:02] Indexing 205 unique words from https://www.themoviedb.org/u/912660376
+[2026-03-22 01:23:03] Crawled: https://www.themoviedb.org/u/enterpr1se (200)
+[2026-03-22 01:23:03] Extracted 426 total words, 206 unique from https://www.themoviedb.org/u/enterpr1se
+[2026-03-22 01:23:03] Indexing 206 unique words from https://www.themoviedb.org/u/enterpr1se
+[2026-03-22 01:23:04] Crawled: https://www.themoviedb.org/u/KiberFlag (200)
+[2026-03-22 01:23:04] Extracted 416 total words, 205 unique from https://www.themoviedb.org/u/KiberFlag
+[2026-03-22 01:23:04] Indexing 205 unique words from https://www.themoviedb.org/u/KiberFlag
+[2026-03-22 01:23:04] Crawled: https://www.themoviedb.org/u/tmdb0815 (200)
+[2026-03-22 01:23:04] Extracted 440 total words, 215 unique from https://www.themoviedb.org/u/tmdb0815
+[2026-03-22 01:23:04] Indexing 215 unique words from https://www.themoviedb.org/u/tmdb0815
+[2026-03-22 01:23:05] Crawled: https://www.themoviedb.org/u/jmphillips92 (200)
+[2026-03-22 01:23:05] Extracted 436 total words, 215 unique from https://www.themoviedb.org/u/jmphillips92
+[2026-03-22 01:23:05] Indexing 215 unique words from https://www.themoviedb.org/u/jmphillips92
+[2026-03-22 01:23:06] Crawled: https://www.themoviedb.org/u/Vadvon (200)
+[2026-03-22 01:23:06] Extracted 454 total words, 223 unique from https://www.themoviedb.org/u/Vadvon
+[2026-03-22 01:23:06] Indexing 223 unique words from https://www.themoviedb.org/u/Vadvon
+[2026-03-22 01:23:07] Crawled: https://www.themoviedb.org/u/s5ka (200)
+[2026-03-22 01:23:07] Extracted 433 total words, 218 unique from https://www.themoviedb.org/u/s5ka
+[2026-03-22 01:23:07] Indexing 218 unique words from https://www.themoviedb.org/u/s5ka
+[2026-03-22 01:23:07] Crawled: https://www.themoviedb.org/u/EvilChachouuu (200)
+[2026-03-22 01:23:07] Extracted 425 total words, 209 unique from https://www.themoviedb.org/u/EvilChachouuu
+[2026-03-22 01:23:07] Indexing 209 unique words from https://www.themoviedb.org/u/EvilChachouuu
+[2026-03-22 01:23:08] Crawled: https://www.themoviedb.org/u/Asheek (200)
+[2026-03-22 01:23:08] Extracted 426 total words, 214 unique from https://www.themoviedb.org/u/Asheek
+[2026-03-22 01:23:08] Indexing 214 unique words from https://www.themoviedb.org/u/Asheek
+[2026-03-22 01:23:09] Crawled: https://www.themoviedb.org/u/EvilLarry (200)
+[2026-03-22 01:23:09] Extracted 441 total words, 215 unique from https://www.themoviedb.org/u/EvilLarry
+[2026-03-22 01:23:09] Indexing 215 unique words from https://www.themoviedb.org/u/EvilLarry
+[2026-03-22 01:23:09] Crawled: https://www.themoviedb.org/u/Highbird (200)
+[2026-03-22 01:23:09] Extracted 446 total words, 215 unique from https://www.themoviedb.org/u/Highbird
+[2026-03-22 01:23:09] Indexing 215 unique words from https://www.themoviedb.org/u/Highbird
+[2026-03-22 01:23:10] Crawled: https://www.themoviedb.org/u/julesheart (200)
+[2026-03-22 01:23:10] Extracted 433 total words, 214 unique from https://www.themoviedb.org/u/julesheart
+[2026-03-22 01:23:10] Indexing 214 unique words from https://www.themoviedb.org/u/julesheart
+[2026-03-22 01:23:11] Crawled: https://www.themoviedb.org/u/PKsidinana (200)
+[2026-03-22 01:23:11] Extracted 430 total words, 215 unique from https://www.themoviedb.org/u/PKsidinana
+[2026-03-22 01:23:11] Indexing 215 unique words from https://www.themoviedb.org/u/PKsidinana
+[2026-03-22 01:23:12] Crawled: https://www.themoviedb.org/u/maximuslucas (200)
+[2026-03-22 01:23:12] Extracted 393 total words, 201 unique from https://www.themoviedb.org/u/maximuslucas
+[2026-03-22 01:23:12] Indexing 201 unique words from https://www.themoviedb.org/u/maximuslucas
+[2026-03-22 01:23:12] Crawled: https://www.themoviedb.org/u/hanwoochul (200)
+[2026-03-22 01:23:12] Extracted 429 total words, 215 unique from https://www.themoviedb.org/u/hanwoochul
+[2026-03-22 01:23:12] Indexing 215 unique words from https://www.themoviedb.org/u/hanwoochul
+[2026-03-22 01:23:13] Crawled: https://www.themoviedb.org/u/AS1_4 (200)
+[2026-03-22 01:23:13] Extracted 432 total words, 212 unique from https://www.themoviedb.org/u/AS1_4
+[2026-03-22 01:23:13] Indexing 212 unique words from https://www.themoviedb.org/u/AS1_4
+[2026-03-22 01:23:14] Crawled: https://www.themoviedb.org/u/wei180531 (200)
+[2026-03-22 01:23:14] Extracted 364 total words, 189 unique from https://www.themoviedb.org/u/wei180531
+[2026-03-22 01:23:14] Indexing 189 unique words from https://www.themoviedb.org/u/wei180531
+[2026-03-22 01:23:14] Fetch failed: https://www.themoviedb.org/u/梦应归于何处 - 'ascii' codec can't encode characters in position 7-12: ordinal not in range(128)
+[2026-03-22 01:23:14] Crawled: https://www.themoviedb.org/u/a7ri (200)
+[2026-03-22 01:23:14] Extracted 444 total words, 226 unique from https://www.themoviedb.org/u/a7ri
+[2026-03-22 01:23:14] Indexing 226 unique words from https://www.themoviedb.org/u/a7ri
+[2026-03-22 01:23:14] Crawled: https://www.themoviedb.org/u/LEPlex (200)
+[2026-03-22 01:23:14] Extracted 447 total words, 230 unique from https://www.themoviedb.org/u/LEPlex
+[2026-03-22 01:23:14] Indexing 230 unique words from https://www.themoviedb.org/u/LEPlex
+[2026-03-22 01:23:15] Crawled: https://www.themoviedb.org/u/psyboy (200)
+[2026-03-22 01:23:15] Extracted 447 total words, 215 unique from https://www.themoviedb.org/u/psyboy
+[2026-03-22 01:23:15] Indexing 215 unique words from https://www.themoviedb.org/u/psyboy
+[2026-03-22 01:23:16] Crawled: https://www.themoviedb.org/u/kyriakoschrist3 (200)
+[2026-03-22 01:23:16] Extracted 423 total words, 208 unique from https://www.themoviedb.org/u/kyriakoschrist3
+[2026-03-22 01:23:16] Indexing 208 unique words from https://www.themoviedb.org/u/kyriakoschrist3
+[2026-03-22 01:23:17] Crawled: https://www.themoviedb.org/u/daphie (200)
+[2026-03-22 01:23:17] Extracted 393 total words, 200 unique from https://www.themoviedb.org/u/daphie
+[2026-03-22 01:23:17] Indexing 200 unique words from https://www.themoviedb.org/u/daphie
+[2026-03-22 01:23:17] Crawled: https://www.themoviedb.org/u/GoodMonster (200)
+[2026-03-22 01:23:17] Extracted 449 total words, 224 unique from https://www.themoviedb.org/u/GoodMonster
+[2026-03-22 01:23:17] Indexing 224 unique words from https://www.themoviedb.org/u/GoodMonster
+[2026-03-22 01:23:18] Crawled: https://www.themoviedb.org/u/tssdl (200)
+[2026-03-22 01:23:18] Extracted 392 total words, 200 unique from https://www.themoviedb.org/u/tssdl
+[2026-03-22 01:23:18] Indexing 200 unique words from https://www.themoviedb.org/u/tssdl
+[2026-03-22 01:23:19] Crawled: https://www.themoviedb.org/u/Penny28 (200)
+[2026-03-22 01:23:19] Extracted 419 total words, 211 unique from https://www.themoviedb.org/u/Penny28
+[2026-03-22 01:23:19] Indexing 211 unique words from https://www.themoviedb.org/u/Penny28
+[2026-03-22 01:23:19] Crawled: https://www.themoviedb.org/u/lucasandre1822 (200)
+[2026-03-22 01:23:19] Extracted 329 total words, 176 unique from https://www.themoviedb.org/u/lucasandre1822
+[2026-03-22 01:23:19] Indexing 176 unique words from https://www.themoviedb.org/u/lucasandre1822
+[2026-03-22 01:23:20] Crawled: https://www.themoviedb.org/u/purplelilies (200)
+[2026-03-22 01:23:20] Extracted 436 total words, 211 unique from https://www.themoviedb.org/u/purplelilies
+[2026-03-22 01:23:20] Indexing 211 unique words from https://www.themoviedb.org/u/purplelilies
+[2026-03-22 01:23:20] Crawled: https://www.themoviedb.org/u/takenokoshi (200)
+[2026-03-22 01:23:20] Extracted 413 total words, 211 unique from https://www.themoviedb.org/u/takenokoshi
+[2026-03-22 01:23:20] Indexing 211 unique words from https://www.themoviedb.org/u/takenokoshi
+[2026-03-22 01:23:21] Crawled: https://www.themoviedb.org/u/RaoulDukeKD (200)
+[2026-03-22 01:23:21] Extracted 393 total words, 205 unique from https://www.themoviedb.org/u/RaoulDukeKD
+[2026-03-22 01:23:21] Indexing 205 unique words from https://www.themoviedb.org/u/RaoulDukeKD
+[2026-03-22 01:23:21] Crawled: https://www.themoviedb.org/u/Nonnaame (200)
+[2026-03-22 01:23:21] Extracted 425 total words, 211 unique from https://www.themoviedb.org/u/Nonnaame
+[2026-03-22 01:23:21] Indexing 211 unique words from https://www.themoviedb.org/u/Nonnaame
+[2026-03-22 01:23:22] Crawled: https://www.themoviedb.org/u/didj75 (200)
+[2026-03-22 01:23:22] Extracted 440 total words, 221 unique from https://www.themoviedb.org/u/didj75
+[2026-03-22 01:23:22] Indexing 221 unique words from https://www.themoviedb.org/u/didj75
+[2026-03-22 01:23:23] Crawled: https://www.themoviedb.org/u/vhs_leite (200)
+[2026-03-22 01:23:23] Extracted 429 total words, 215 unique from https://www.themoviedb.org/u/vhs_leite
+[2026-03-22 01:23:23] Indexing 215 unique words from https://www.themoviedb.org/u/vhs_leite
+[2026-03-22 01:23:24] Crawled: https://www.themoviedb.org/u/NickNightingale (200)
+[2026-03-22 01:23:24] Extracted 421 total words, 204 unique from https://www.themoviedb.org/u/NickNightingale
+[2026-03-22 01:23:24] Indexing 204 unique words from https://www.themoviedb.org/u/NickNightingale
+[2026-03-22 01:23:24] Crawled: https://www.themoviedb.org/u/bonchiver_ (200)
+[2026-03-22 01:23:24] Extracted 424 total words, 203 unique from https://www.themoviedb.org/u/bonchiver_
+[2026-03-22 01:23:24] Indexing 203 unique words from https://www.themoviedb.org/u/bonchiver_
+[2026-03-22 01:23:25] Crawled: https://www.themoviedb.org/u/chkchkboom (200)
+[2026-03-22 01:23:25] Extracted 430 total words, 215 unique from https://www.themoviedb.org/u/chkchkboom
+[2026-03-22 01:23:25] Indexing 215 unique words from https://www.themoviedb.org/u/chkchkboom
+[2026-03-22 01:23:26] Crawled: https://www.themoviedb.org/u/Ybc (200)
+[2026-03-22 01:23:26] Extracted 435 total words, 211 unique from https://www.themoviedb.org/u/Ybc
+[2026-03-22 01:23:26] Indexing 211 unique words from https://www.themoviedb.org/u/Ybc
+[2026-03-22 01:23:27] Crawled: https://www.themoviedb.org/u/raze464 (200)
+[2026-03-22 01:23:27] Extracted 397 total words, 207 unique from https://www.themoviedb.org/u/raze464
+[2026-03-22 01:23:27] Indexing 207 unique words from https://www.themoviedb.org/u/raze464
+[2026-03-22 01:23:27] Crawled: https://www.themoviedb.org/u/zubiaks (200)
+[2026-03-22 01:23:27] Extracted 328 total words, 174 unique from https://www.themoviedb.org/u/zubiaks
+[2026-03-22 01:23:27] Indexing 174 unique words from https://www.themoviedb.org/u/zubiaks
+[2026-03-22 01:23:28] Crawled: https://www.themoviedb.org/u/Itachi0833 (200)
+[2026-03-22 01:23:28] Extracted 414 total words, 203 unique from https://www.themoviedb.org/u/Itachi0833
+[2026-03-22 01:23:28] Indexing 203 unique words from https://www.themoviedb.org/u/Itachi0833
+[2026-03-22 01:23:28] Crawled: https://www.themoviedb.org/u/terrywei (200)
+[2026-03-22 01:23:28] Extracted 424 total words, 205 unique from https://www.themoviedb.org/u/terrywei
+[2026-03-22 01:23:28] Indexing 205 unique words from https://www.themoviedb.org/u/terrywei
+[2026-03-22 01:23:28] Crawled: https://www.themoviedb.org/u/arezola (200)
+[2026-03-22 01:23:29] Extracted 434 total words, 211 unique from https://www.themoviedb.org/u/arezola
+[2026-03-22 01:23:29] Indexing 211 unique words from https://www.themoviedb.org/u/arezola
+[2026-03-22 01:23:29] Crawled: https://www.themoviedb.org/u/vanonorm (200)
+[2026-03-22 01:23:29] Extracted 458 total words, 227 unique from https://www.themoviedb.org/u/vanonorm
+[2026-03-22 01:23:29] Indexing 227 unique words from https://www.themoviedb.org/u/vanonorm
+[2026-03-22 01:23:30] Crawled: https://www.themoviedb.org/u/pepper_head (200)
+[2026-03-22 01:23:30] Extracted 429 total words, 206 unique from https://www.themoviedb.org/u/pepper_head
+[2026-03-22 01:23:30] Indexing 206 unique words from https://www.themoviedb.org/u/pepper_head
+[2026-03-22 01:23:31] Crawled: https://www.themoviedb.org/u/se2003 (200)
+[2026-03-22 01:23:31] Extracted 430 total words, 215 unique from https://www.themoviedb.org/u/se2003
+[2026-03-22 01:23:31] Indexing 215 unique words from https://www.themoviedb.org/u/se2003
+[2026-03-22 01:23:31] Crawled: https://www.themoviedb.org/u/omurbas (200)
+[2026-03-22 01:23:31] Extracted 434 total words, 213 unique from https://www.themoviedb.org/u/omurbas
+[2026-03-22 01:23:31] Indexing 213 unique words from https://www.themoviedb.org/u/omurbas
+[2026-03-22 01:23:32] Crawled: https://www.themoviedb.org/u/Shadowless (200)
+[2026-03-22 01:23:32] Extracted 417 total words, 205 unique from https://www.themoviedb.org/u/Shadowless
+[2026-03-22 01:23:32] Indexing 205 unique words from https://www.themoviedb.org/u/Shadowless
+[2026-03-22 01:23:32] Crawled: https://www.themoviedb.org/u/jedi.jesse (200)
+[2026-03-22 01:23:32] Extracted 420 total words, 208 unique from https://www.themoviedb.org/u/jedi.jesse
+[2026-03-22 01:23:32] Indexing 208 unique words from https://www.themoviedb.org/u/jedi.jesse
+[2026-03-22 01:23:33] Crawled: https://www.themoviedb.org/tv/285512-girls-high-school (200)
+[2026-03-22 01:23:33] Extracted 454 total words, 230 unique from https://www.themoviedb.org/tv/285512-girls-high-school
+[2026-03-22 01:23:33] Indexing 230 unique words from https://www.themoviedb.org/tv/285512-girls-high-school
+[2026-03-22 01:23:33] Crawled: https://www.themoviedb.org/person/237662-d-imman (200)
+[2026-03-22 01:23:33] Extracted 1046 total words, 422 unique from https://www.themoviedb.org/person/237662-d-imman
+[2026-03-22 01:23:33] Indexing 422 unique words from https://www.themoviedb.org/person/237662-d-imman
+[2026-03-22 01:23:34] Crawled: https://www.themoviedb.org/person/6082277-vijayan-palakkad (200)
+[2026-03-22 01:23:34] Extracted 329 total words, 175 unique from https://www.themoviedb.org/person/6082277-vijayan-palakkad
+[2026-03-22 01:23:34] Indexing 175 unique words from https://www.themoviedb.org/person/6082277-vijayan-palakkad
+[2026-03-22 01:23:34] Crawled: https://www.themoviedb.org/person/4024891-pranika-abeneya (200)
+[2026-03-22 01:23:34] Extracted 331 total words, 177 unique from https://www.themoviedb.org/person/4024891-pranika-abeneya
+[2026-03-22 01:23:34] Indexing 177 unique words from https://www.themoviedb.org/person/4024891-pranika-abeneya
+[2026-03-22 01:23:35] Crawled: https://www.themoviedb.org/collection/1654897-meesaya-murukku-collection (200)
+[2026-03-22 01:23:35] Extracted 392 total words, 226 unique from https://www.themoviedb.org/collection/1654897-meesaya-murukku-collection
+[2026-03-22 01:23:35] Indexing 226 unique words from https://www.themoviedb.org/collection/1654897-meesaya-murukku-collection
+[2026-03-22 01:23:36] Crawled: https://www.themoviedb.org/tv/16619 (200)
+[2026-03-22 01:23:36] Extracted 528 total words, 281 unique from https://www.themoviedb.org/tv/16619
+[2026-03-22 01:23:36] Indexing 281 unique words from https://www.themoviedb.org/tv/16619
+[2026-03-22 01:23:36] Crawled: https://www.themoviedb.org/tv/315038-resort (200)
+[2026-03-22 01:23:36] Extracted 466 total words, 256 unique from https://www.themoviedb.org/tv/315038-resort
+[2026-03-22 01:23:36] Indexing 256 unique words from https://www.themoviedb.org/tv/315038-resort
+[2026-03-22 01:23:37] Crawled: https://www.themoviedb.org/u/Kuzhagan/lists (200)
+[2026-03-22 01:23:37] Extracted 306 total words, 155 unique from https://www.themoviedb.org/u/Kuzhagan/lists
+[2026-03-22 01:23:37] Indexing 155 unique words from https://www.themoviedb.org/u/Kuzhagan/lists
+[2026-03-22 01:23:37] Crawled: https://www.themoviedb.org/movie/1538457-2 (200)
+[2026-03-22 01:23:37] Extracted 412 total words, 228 unique from https://www.themoviedb.org/movie/1538457-2
+[2026-03-22 01:23:37] Indexing 228 unique words from https://www.themoviedb.org/movie/1538457-2
+[2026-03-22 01:23:38] Crawled: https://www.themoviedb.org/person/6079517-bhavana-balakrishnan (200)
+[2026-03-22 01:23:38] Extracted 486 total words, 228 unique from https://www.themoviedb.org/person/6079517-bhavana-balakrishnan
+[2026-03-22 01:23:38] Indexing 228 unique words from https://www.themoviedb.org/person/6079517-bhavana-balakrishnan
+[2026-03-22 01:23:38] Crawled: https://www.themoviedb.org/person/3775945-amar-keerthy (200)
+[2026-03-22 01:23:38] Extracted 333 total words, 178 unique from https://www.themoviedb.org/person/3775945-amar-keerthy
+[2026-03-22 01:23:38] Indexing 178 unique words from https://www.themoviedb.org/person/3775945-amar-keerthy
+[2026-03-22 01:23:39] Crawled: https://www.themoviedb.org/u/Kuzhagan/activity (200)
+[2026-03-22 01:23:39] Extracted 510 total words, 231 unique from https://www.themoviedb.org/u/Kuzhagan/activity
+[2026-03-22 01:23:39] Indexing 231 unique words from https://www.themoviedb.org/u/Kuzhagan/activity
+[2026-03-22 01:23:39] Crawled: https://www.themoviedb.org/bible/tv (200)
+[2026-03-22 01:23:39] Extracted 1306 total words, 454 unique from https://www.themoviedb.org/bible/tv
+[2026-03-22 01:23:39] Indexing 454 unique words from https://www.themoviedb.org/bible/tv
+[2026-03-22 01:23:39] Crawled: https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000009 (200)
+[2026-03-22 01:23:39] Extracted 936 total words, 358 unique from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000009
+[2026-03-22 01:23:40] Indexing 358 unique words from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000009
+[2026-03-22 01:23:40] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f793929251413e9300000f
+[2026-03-22 01:23:40] Crawled: https://www.themoviedb.org/bible/image/59f7583e9251416e7100006e (200)
+[2026-03-22 01:23:40] Extracted 1104 total words, 412 unique from https://www.themoviedb.org/bible/image/59f7583e9251416e7100006e
+[2026-03-22 01:23:40] Indexing 412 unique words from https://www.themoviedb.org/bible/image/59f7583e9251416e7100006e
+[2026-03-22 01:23:40] Crawled: https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000003 (200)
+[2026-03-22 01:23:41] Extracted 1220 total words, 458 unique from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000003
+[2026-03-22 01:23:41] Indexing 458 unique words from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000003
+[2026-03-22 01:23:41] Crawled: https://www.themoviedb.org/bible/image/59f7582c9251416e7100005f (200)
+[2026-03-22 01:23:41] Extracted 1421 total words, 470 unique from https://www.themoviedb.org/bible/image/59f7582c9251416e7100005f
+[2026-03-22 01:23:41] Indexing 470 unique words from https://www.themoviedb.org/bible/image/59f7582c9251416e7100005f
+[2026-03-22 01:23:41] HTTP error 404: https://www.themoviedb.org/bible/web.archive.org
+[2026-03-22 01:23:43] Crawled: https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000002 (200)
+[2026-03-22 01:23:43] Extracted 436 total words, 182 unique from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000002
+[2026-03-22 01:23:43] Indexing 182 unique words from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000002
+[2026-03-22 01:23:43] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f793939251413e93000015
+[2026-03-22 01:23:43] Crawled: https://www.themoviedb.org/bible/movie (200)
+[2026-03-22 01:23:43] Extracted 3134 total words, 854 unique from https://www.themoviedb.org/bible/movie
+[2026-03-22 01:23:43] Indexing 854 unique words from https://www.themoviedb.org/bible/movie
+[2026-03-22 01:23:44] Crawled: https://www.themoviedb.org/bible/new_content (200)
+[2026-03-22 01:23:44] Extracted 3780 total words, 951 unique from https://www.themoviedb.org/bible/new_content
+[2026-03-22 01:23:44] Indexing 951 unique words from https://www.themoviedb.org/bible/new_content
+[2026-03-22 01:23:44] Crawled: https://www.themoviedb.org/search?query=boy+7+y%3A2015 (200)
+[2026-03-22 01:23:44] Extracted 655 total words, 359 unique from https://www.themoviedb.org/search?query=boy+7+y%3A2015
+[2026-03-22 01:23:44] Indexing 359 unique words from https://www.themoviedb.org/search?query=boy+7+y%3A2015
+[2026-03-22 01:23:45] Crawled: https://www.themoviedb.org/bible/people/59f747aa9251416e71000047 (200)
+[2026-03-22 01:23:45] Extracted 358 total words, 180 unique from https://www.themoviedb.org/bible/people/59f747aa9251416e71000047
+[2026-03-22 01:23:45] Indexing 180 unique words from https://www.themoviedb.org/bible/people/59f747aa9251416e71000047
+[2026-03-22 01:23:45] Crawled: https://www.themoviedb.org/bible/people (200)
+[2026-03-22 01:23:45] Extracted 1376 total words, 537 unique from https://www.themoviedb.org/bible/people
+[2026-03-22 01:23:45] Indexing 537 unique words from https://www.themoviedb.org/bible/people
+[2026-03-22 01:23:46] Crawled: https://www.themoviedb.org/tv/69629-the-gifted/season/1/episode/4 (200)
+[2026-03-22 01:23:46] Extracted 927 total words, 452 unique from https://www.themoviedb.org/tv/69629-the-gifted/season/1/episode/4
+[2026-03-22 01:23:46] Indexing 452 unique words from https://www.themoviedb.org/tv/69629-the-gifted/season/1/episode/4
+[2026-03-22 01:23:47] Crawled: https://www.themoviedb.org/movie/367412 (200)
+[2026-03-22 01:23:47] Extracted 455 total words, 252 unique from https://www.themoviedb.org/movie/367412
+[2026-03-22 01:23:47] Indexing 252 unique words from https://www.themoviedb.org/movie/367412
+[2026-03-22 01:23:48] Crawled: https://www.themoviedb.org/talk/508aa4f619c2951bd00002a8 (200)
+[2026-03-22 01:23:48] Extracted 1333 total words, 525 unique from https://www.themoviedb.org/talk/508aa4f619c2951bd00002a8
+[2026-03-22 01:23:48] Indexing 525 unique words from https://www.themoviedb.org/talk/508aa4f619c2951bd00002a8
+[2026-03-22 01:23:49] HTTP error 401: https://www.themoviedb.org/settings/account
+[2026-03-22 01:23:49] Crawled: https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000007 (200)
+[2026-03-22 01:23:49] Extracted 770 total words, 342 unique from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000007
+[2026-03-22 01:23:49] Indexing 342 unique words from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000007
+[2026-03-22 01:23:51] Crawled: https://www.themoviedb.org/person/2888 (200)
+[2026-03-22 01:23:51] Extracted 2600 total words, 762 unique from https://www.themoviedb.org/person/2888
+[2026-03-22 01:23:52] Indexing 762 unique words from https://www.themoviedb.org/person/2888
+[2026-03-22 01:23:52] Crawled: https://www.themoviedb.org/bible/general/59f792a29251413e93000001 (200)
+[2026-03-22 01:23:52] Extracted 5583 total words, 1190 unique from https://www.themoviedb.org/bible/general/59f792a29251413e93000001
+[2026-03-22 01:23:52] Indexing 1190 unique words from https://www.themoviedb.org/bible/general/59f792a29251413e93000001
+[2026-03-22 01:23:52] Crawled: https://www.themoviedb.org/bible/tv/59f743289251416e71000037 (200)
+[2026-03-22 01:23:52] Extracted 2984 total words, 776 unique from https://www.themoviedb.org/bible/tv/59f743289251416e71000037
+[2026-03-22 01:23:52] Indexing 776 unique words from https://www.themoviedb.org/bible/tv/59f743289251416e71000037
+[2026-03-22 01:23:52] Crawled: https://www.themoviedb.org/movie/671-harry-potter-and-the-philosopher-s-stone/discuss (200)
+[2026-03-22 01:23:53] Extracted 580 total words, 238 unique from https://www.themoviedb.org/movie/671-harry-potter-and-the-philosopher-s-stone/discuss
+[2026-03-22 01:23:53] Indexing 238 unique words from https://www.themoviedb.org/movie/671-harry-potter-and-the-philosopher-s-stone/discuss
+[2026-03-22 01:23:53] HTTP error 401: https://www.themoviedb.org/admin/bible/document/65dd0c6c7314a13a50071ddb
+[2026-03-22 01:23:53] Crawled: https://www.themoviedb.org/bible/people/59f747aa9251416e71000046 (200)
+[2026-03-22 01:23:53] Extracted 1376 total words, 537 unique from https://www.themoviedb.org/bible/people/59f747aa9251416e71000046
+[2026-03-22 01:23:53] Indexing 537 unique words from https://www.themoviedb.org/bible/people/59f747aa9251416e71000046
+[2026-03-22 01:23:54] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f793929251413e9300000d
+[2026-03-22 01:23:54] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f792a29251413e93000002
+[2026-03-22 01:23:54] HTTP error 401: https://www.themoviedb.org/admin/bible/document/5af1bddbc3a368762c000001
+[2026-03-22 01:23:54] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f793929251413e93000011
+[2026-03-22 01:23:54] Crawled: https://www.themoviedb.org/bible/image (200)
+[2026-03-22 01:23:54] Extracted 1104 total words, 412 unique from https://www.themoviedb.org/bible/image
+[2026-03-22 01:23:54] Indexing 412 unique words from https://www.themoviedb.org/bible/image
+[2026-03-22 01:23:55] Crawled: https://www.themoviedb.org/bible/tv/59f73eb49251416e71000022 (200)
+[2026-03-22 01:23:55] Extracted 688 total words, 268 unique from https://www.themoviedb.org/bible/tv/59f73eb49251416e71000022
+[2026-03-22 01:23:55] Indexing 268 unique words from https://www.themoviedb.org/bible/tv/59f73eb49251416e71000022
+[2026-03-22 01:23:55] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f793929251413e93000010
+[2026-03-22 01:23:55] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f793929251413e9300000e
+[2026-03-22 01:23:56] Crawled: https://www.themoviedb.org/tv/4607-lost/discuss/58bee7b8c3a3680d680168d1 (200)
+[2026-03-22 01:23:56] Extracted 540 total words, 271 unique from https://www.themoviedb.org/tv/4607-lost/discuss/58bee7b8c3a3680d680168d1
+[2026-03-22 01:23:56] Indexing 271 unique words from https://www.themoviedb.org/tv/4607-lost/discuss/58bee7b8c3a3680d680168d1
+[2026-03-22 01:23:56] Crawled: https://www.themoviedb.org/bible/tv/59f73eb49251416e71000023 (200)
+[2026-03-22 01:23:56] Extracted 449 total words, 206 unique from https://www.themoviedb.org/bible/tv/59f73eb49251416e71000023
+[2026-03-22 01:23:56] Indexing 206 unique words from https://www.themoviedb.org/bible/tv/59f73eb49251416e71000023
+[2026-03-22 01:23:56] Crawled: https://www.themoviedb.org/bible/image/5bb6259dc3a3687983000001 (200)
+[2026-03-22 01:23:56] Extracted 537 total words, 264 unique from https://www.themoviedb.org/bible/image/5bb6259dc3a3687983000001
+[2026-03-22 01:23:56] Indexing 264 unique words from https://www.themoviedb.org/bible/image/5bb6259dc3a3687983000001
+[2026-03-22 01:23:57] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f793929251413e93000012
+[2026-03-22 01:23:57] Crawled: https://www.themoviedb.org/bible/tv/59f73eb49251416e71000026 (200)
+[2026-03-22 01:23:57] Extracted 1104 total words, 412 unique from https://www.themoviedb.org/bible/tv/59f73eb49251416e71000026
+[2026-03-22 01:23:57] Indexing 412 unique words from https://www.themoviedb.org/bible/tv/59f73eb49251416e71000026
+[2026-03-22 01:23:59] Crawled: https://www.themoviedb.org/movie/246252 (200)
+[2026-03-22 01:23:59] Extracted 463 total words, 246 unique from https://www.themoviedb.org/movie/246252
+[2026-03-22 01:23:59] Indexing 246 unique words from https://www.themoviedb.org/movie/246252
+[2026-03-22 01:23:59] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f793929251413e93000013
+[2026-03-22 01:23:59] Crawled: https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000005 (200)
+[2026-03-22 01:23:59] Extracted 483 total words, 208 unique from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000005
+[2026-03-22 01:23:59] Indexing 208 unique words from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000005
+[2026-03-22 01:24:00] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f793929251413e93000014
+[2026-03-22 01:24:00] Crawled: https://www.themoviedb.org/bible/collection (200)
+[2026-03-22 01:24:00] Extracted 677 total words, 294 unique from https://www.themoviedb.org/bible/collection
+[2026-03-22 01:24:00] Indexing 294 unique words from https://www.themoviedb.org/bible/collection
+[2026-03-22 01:24:00] HTTP error 401: https://www.themoviedb.org/admin/bible/document/59f792a29251413e93000003
+[2026-03-22 01:24:00] HTTP error 401: https://www.themoviedb.org/admin/bible/document/674f287930fc85cab62597b4
+[2026-03-22 01:24:01] Crawled: https://www.themoviedb.org/person/976-jason-statham (200)
+[2026-03-22 01:24:01] Extracted 1566 total words, 531 unique from https://www.themoviedb.org/person/976-jason-statham
+[2026-03-22 01:24:01] Indexing 531 unique words from https://www.themoviedb.org/person/976-jason-statham
+[2026-03-22 01:24:02] Crawled: https://www.themoviedb.org/person/115440-sydney-sweeney (200)
+[2026-03-22 01:24:02] Extracted 1224 total words, 486 unique from https://www.themoviedb.org/person/115440-sydney-sweeney
+[2026-03-22 01:24:02] Indexing 486 unique words from https://www.themoviedb.org/person/115440-sydney-sweeney
+[2026-03-22 01:24:02] Crawled: https://www.themoviedb.org/person/1245-scarlett-johansson (200)
+[2026-03-22 01:24:03] Extracted 2622 total words, 819 unique from https://www.themoviedb.org/person/1245-scarlett-johansson
+[2026-03-22 01:24:03] Indexing 819 unique words from https://www.themoviedb.org/person/1245-scarlett-johansson
+[2026-03-22 01:24:03] Crawled: https://www.themoviedb.org/person/51576-chuck-norris (200)
+[2026-03-22 01:24:03] Extracted 2074 total words, 645 unique from https://www.themoviedb.org/person/51576-chuck-norris
+[2026-03-22 01:24:03] Indexing 645 unique words from https://www.themoviedb.org/person/51576-chuck-norris
+[2026-03-22 01:24:03] Crawled: https://www.themoviedb.org/person/6193-leonardo-dicaprio (200)
+[2026-03-22 01:24:04] Extracted 2444 total words, 804 unique from https://www.themoviedb.org/person/6193-leonardo-dicaprio
+[2026-03-22 01:24:04] Indexing 804 unique words from https://www.themoviedb.org/person/6193-leonardo-dicaprio
+[2026-03-22 01:24:04] Crawled: https://www.themoviedb.org/person/18897 (200)
+[2026-03-22 01:24:04] Extracted 3818 total words, 1058 unique from https://www.themoviedb.org/person/18897
+[2026-03-22 01:24:04] Indexing 1058 unique words from https://www.themoviedb.org/person/18897
+[2026-03-22 01:24:05] Crawled: https://www.themoviedb.org/person/2454-matt-clark (200)
+[2026-03-22 01:24:05] Extracted 1432 total words, 669 unique from https://www.themoviedb.org/person/2454-matt-clark
+[2026-03-22 01:24:05] Indexing 669 unique words from https://www.themoviedb.org/person/2454-matt-clark
+[2026-03-22 01:24:05] Crawled: https://www.themoviedb.org/person/135651-michael-b-jordan (200)
+[2026-03-22 01:24:05] Extracted 1765 total words, 590 unique from https://www.themoviedb.org/person/135651-michael-b-jordan
+[2026-03-22 01:24:05] Indexing 590 unique words from https://www.themoviedb.org/person/135651-michael-b-jordan
+[2026-03-22 01:24:06] Crawled: https://www.themoviedb.org/person/31-tom-hanks (200)
+[2026-03-22 01:24:06] Extracted 3406 total words, 985 unique from https://www.themoviedb.org/person/31-tom-hanks
+[2026-03-22 01:24:06] Indexing 985 unique words from https://www.themoviedb.org/person/31-tom-hanks
+[2026-03-22 01:24:07] Crawled: https://www.themoviedb.org/person?page=2 (200)
+[2026-03-22 01:24:07] Extracted 442 total words, 257 unique from https://www.themoviedb.org/person?page=2
+[2026-03-22 01:24:07] Indexing 257 unique words from https://www.themoviedb.org/person?page=2
+[2026-03-22 01:24:07] Crawled: https://www.themoviedb.org/person?page=5 (200)
+[2026-03-22 01:24:07] Extracted 449 total words, 269 unique from https://www.themoviedb.org/person?page=5
+[2026-03-22 01:24:07] Indexing 269 unique words from https://www.themoviedb.org/person?page=5
+[2026-03-22 01:24:08] Crawled: https://www.themoviedb.org/person/64295-alan-ritchson (200)
+[2026-03-22 01:24:08] Extracted 1207 total words, 470 unique from https://www.themoviedb.org/person/64295-alan-ritchson
+[2026-03-22 01:24:08] Indexing 470 unique words from https://www.themoviedb.org/person/64295-alan-ritchson
+[2026-03-22 01:24:09] HTTP error 400: https://www.themoviedb.org/person?page=229600
+[2026-03-22 01:24:10] Crawled: https://www.themoviedb.org/person?page=3 (200)
+[2026-03-22 01:24:10] Extracted 469 total words, 281 unique from https://www.themoviedb.org/person?page=3
+[2026-03-22 01:24:10] Indexing 281 unique words from https://www.themoviedb.org/person?page=3
+[2026-03-22 01:24:11] Crawled: https://www.themoviedb.org/person?page=4 (200)
+[2026-03-22 01:24:11] Extracted 470 total words, 285 unique from https://www.themoviedb.org/person?page=4
+[2026-03-22 01:24:11] Indexing 285 unique words from https://www.themoviedb.org/person?page=4
+[2026-03-22 01:24:11] Crawled: https://www.themoviedb.org/person/1190668-timothee-chalamet (200)
+[2026-03-22 01:24:11] Extracted 1536 total words, 527 unique from https://www.themoviedb.org/person/1190668-timothee-chalamet
+[2026-03-22 01:24:11] Indexing 527 unique words from https://www.themoviedb.org/person/1190668-timothee-chalamet
+[2026-03-22 01:24:12] Crawled: https://www.themoviedb.org/person/500-tom-cruise (200)
+[2026-03-22 01:24:12] Extracted 2404 total words, 711 unique from https://www.themoviedb.org/person/500-tom-cruise
+[2026-03-22 01:24:12] Indexing 711 unique words from https://www.themoviedb.org/person/500-tom-cruise
+[2026-03-22 01:24:13] Crawled: https://www.themoviedb.org/person/1450450-debby-gerber (200)
+[2026-03-22 01:24:13] Extracted 592 total words, 299 unique from https://www.themoviedb.org/person/1450450-debby-gerber
+[2026-03-22 01:24:13] Indexing 299 unique words from https://www.themoviedb.org/person/1450450-debby-gerber
+[2026-03-22 01:24:13] Crawled: https://www.themoviedb.org/person/955-penelope-cruz (200)
+[2026-03-22 01:24:13] Extracted 1925 total words, 703 unique from https://www.themoviedb.org/person/955-penelope-cruz
+[2026-03-22 01:24:13] Indexing 703 unique words from https://www.themoviedb.org/person/955-penelope-cruz
+[2026-03-22 01:24:14] Crawled: https://www.themoviedb.org/person/3152643 (200)
+[2026-03-22 01:24:14] Extracted 677 total words, 339 unique from https://www.themoviedb.org/person/3152643
+[2026-03-22 01:24:14] Indexing 339 unique words from https://www.themoviedb.org/person/3152643
+[2026-03-22 01:24:15] Crawled: https://www.themoviedb.org/person/2430198 (200)
+[2026-03-22 01:24:15] Extracted 768 total words, 332 unique from https://www.themoviedb.org/person/2430198
+[2026-03-22 01:24:15] Indexing 332 unique words from https://www.themoviedb.org/person/2430198
+[2026-03-22 01:24:15] Crawled: https://www.themoviedb.org/person/1498158-jessie-buckley (200)
+[2026-03-22 01:24:15] Extracted 1357 total words, 487 unique from https://www.themoviedb.org/person/1498158-jessie-buckley
+[2026-03-22 01:24:15] Indexing 487 unique words from https://www.themoviedb.org/person/1498158-jessie-buckley
+[2026-03-22 01:24:16] Crawled: https://www.themoviedb.org/person/30614-ryan-gosling (200)
+[2026-03-22 01:24:16] Extracted 1527 total words, 577 unique from https://www.themoviedb.org/person/30614-ryan-gosling
+[2026-03-22 01:24:16] Indexing 577 unique words from https://www.themoviedb.org/person/30614-ryan-gosling
+[2026-03-22 01:24:16] Crawled: https://www.themoviedb.org/person/3756947-elle-chapman (200)
+[2026-03-22 01:24:16] Extracted 399 total words, 209 unique from https://www.themoviedb.org/person/3756947-elle-chapman
+[2026-03-22 01:24:16] Indexing 209 unique words from https://www.themoviedb.org/person/3756947-elle-chapman
+[2026-03-22 01:24:16] Crawled: https://www.themoviedb.org/person/1136406-tom-holland (200)
+[2026-03-22 01:24:17] Extracted 991 total words, 371 unique from https://www.themoviedb.org/person/1136406-tom-holland
+[2026-03-22 01:24:17] Indexing 371 unique words from https://www.themoviedb.org/person/1136406-tom-holland
+[2026-03-22 01:24:17] Crawled: https://www.themoviedb.org/person/4886318 (200)
+[2026-03-22 01:24:17] Extracted 339 total words, 186 unique from https://www.themoviedb.org/person/4886318
+[2026-03-22 01:24:17] Indexing 186 unique words from https://www.themoviedb.org/person/4886318
+[2026-03-22 01:24:17] Crawled: https://www.themoviedb.org/u/Sheigutn/watchlist/tv (200)
+[2026-03-22 01:24:18] Extracted 1359 total words, 728 unique from https://www.themoviedb.org/u/Sheigutn/watchlist/tv
+[2026-03-22 01:24:18] Indexing 728 unique words from https://www.themoviedb.org/u/Sheigutn/watchlist/tv
+[2026-03-22 01:24:19] Crawled: https://www.themoviedb.org/tv/249906 (200)
+[2026-03-22 01:24:19] Extracted 505 total words, 278 unique from https://www.themoviedb.org/tv/249906
+[2026-03-22 01:24:19] Indexing 278 unique words from https://www.themoviedb.org/tv/249906
+[2026-03-22 01:24:19] Crawled: https://www.themoviedb.org/movie/11161-grace-is-gone (200)
+[2026-03-22 01:24:19] Extracted 590 total words, 330 unique from https://www.themoviedb.org/movie/11161-grace-is-gone
+[2026-03-22 01:24:19] Indexing 330 unique words from https://www.themoviedb.org/movie/11161-grace-is-gone
+[2026-03-22 01:24:20] Crawled: https://www.themoviedb.org/person/1551666-tom-calderaro (200)
+[2026-03-22 01:24:20] Extracted 425 total words, 218 unique from https://www.themoviedb.org/person/1551666-tom-calderaro
+[2026-03-22 01:24:20] Indexing 218 unique words from https://www.themoviedb.org/person/1551666-tom-calderaro
+[2026-03-22 01:24:22] Crawled: https://www.themoviedb.org/tv/24274-live-earth-a-concert-for-a-climate-in-crisis (200)
+[2026-03-22 01:24:22] Extracted 483 total words, 248 unique from https://www.themoviedb.org/tv/24274-live-earth-a-concert-for-a-climate-in-crisis
+[2026-03-22 01:24:22] Indexing 248 unique words from https://www.themoviedb.org/tv/24274-live-earth-a-concert-for-a-climate-in-crisis
+[2026-03-22 01:24:23] Crawled: https://www.themoviedb.org/person/65827-keith-david (200)
+[2026-03-22 01:24:23] Extracted 3835 total words, 1330 unique from https://www.themoviedb.org/person/65827-keith-david
+[2026-03-22 01:24:23] Indexing 1330 unique words from https://www.themoviedb.org/person/65827-keith-david
+[2026-03-22 01:24:24] Crawled: https://www.themoviedb.org/u/Sheigutn/watchlist (200)
+[2026-03-22 01:24:24] Extracted 1673 total words, 868 unique from https://www.themoviedb.org/u/Sheigutn/watchlist
+[2026-03-22 01:24:24] Indexing 868 unique words from https://www.themoviedb.org/u/Sheigutn/watchlist
+[2026-03-22 01:24:24] Crawled: https://www.themoviedb.org/movie/1314786-zeta (200)
+[2026-03-22 01:24:24] Extracted 505 total words, 286 unique from https://www.themoviedb.org/movie/1314786-zeta
+[2026-03-22 01:24:24] Indexing 286 unique words from https://www.themoviedb.org/movie/1314786-zeta
+[2026-03-22 01:24:25] Crawled: https://www.themoviedb.org/movie/4523-enchanted (200)
+[2026-03-22 01:24:25] Extracted 657 total words, 374 unique from https://www.themoviedb.org/movie/4523-enchanted
+[2026-03-22 01:24:25] Indexing 374 unique words from https://www.themoviedb.org/movie/4523-enchanted
+[2026-03-22 01:24:26] Crawled: https://www.themoviedb.org/u/Sheigutn/lists (200)
+[2026-03-22 01:24:26] Extracted 314 total words, 159 unique from https://www.themoviedb.org/u/Sheigutn/lists
+[2026-03-22 01:24:26] Indexing 159 unique words from https://www.themoviedb.org/u/Sheigutn/lists
+[2026-03-22 01:24:29] Crawled: https://www.themoviedb.org/u/Sheigutn/activity (200)
+[2026-03-22 01:24:29] Extracted 429 total words, 228 unique from https://www.themoviedb.org/u/Sheigutn/activity
+[2026-03-22 01:24:29] Indexing 228 unique words from https://www.themoviedb.org/u/Sheigutn/activity
+[2026-03-22 01:24:30] Crawled: https://www.themoviedb.org/movie/809576 (200)
+[2026-03-22 01:24:30] Extracted 543 total words, 311 unique from https://www.themoviedb.org/movie/809576
+[2026-03-22 01:24:30] Indexing 311 unique words from https://www.themoviedb.org/movie/809576
+[2026-03-22 01:24:30] Crawled: https://www.themoviedb.org/movie/6575-walk-hard-the-dewey-cox-story (200)
+[2026-03-22 01:24:30] Extracted 626 total words, 359 unique from https://www.themoviedb.org/movie/6575-walk-hard-the-dewey-cox-story
+[2026-03-22 01:24:30] Indexing 359 unique words from https://www.themoviedb.org/movie/6575-walk-hard-the-dewey-cox-story
+[2026-03-22 01:24:31] Crawled: https://www.themoviedb.org/search/network?query= (200)
+[2026-03-22 01:24:31] Extracted 324 total words, 143 unique from https://www.themoviedb.org/search/network?query=
+[2026-03-22 01:24:31] Indexing 143 unique words from https://www.themoviedb.org/search/network?query=
+[2026-03-22 01:24:31] Crawled: https://www.themoviedb.org/search/keyword?query= (200)
+[2026-03-22 01:24:31] Extracted 324 total words, 143 unique from https://www.themoviedb.org/search/keyword?query=
+[2026-03-22 01:24:31] Indexing 143 unique words from https://www.themoviedb.org/search/keyword?query=
+[2026-03-22 01:24:32] Crawled: https://www.themoviedb.org/search/collection?query= (200)
+[2026-03-22 01:24:32] Extracted 324 total words, 143 unique from https://www.themoviedb.org/search/collection?query=
+[2026-03-22 01:24:32] Indexing 143 unique words from https://www.themoviedb.org/search/collection?query=
+[2026-03-22 01:24:33] Crawled: https://www.themoviedb.org/search/award?query= (200)
+[2026-03-22 01:24:33] Extracted 324 total words, 143 unique from https://www.themoviedb.org/search/award?query=
+[2026-03-22 01:24:33] Indexing 143 unique words from https://www.themoviedb.org/search/award?query=
+[2026-03-22 01:24:33] Crawled: https://www.themoviedb.org/search/person?query= (200)
+[2026-03-22 01:24:33] Extracted 324 total words, 143 unique from https://www.themoviedb.org/search/person?query=
+[2026-03-22 01:24:33] Indexing 143 unique words from https://www.themoviedb.org/search/person?query=
+[2026-03-22 01:24:34] Crawled: https://www.themoviedb.org/search/movie?query= (200)
+[2026-03-22 01:24:34] Extracted 324 total words, 143 unique from https://www.themoviedb.org/search/movie?query=
+[2026-03-22 01:24:34] Indexing 143 unique words from https://www.themoviedb.org/search/movie?query=
+[2026-03-22 01:24:34] Crawled: https://www.themoviedb.org/search/tv?query= (200)
+[2026-03-22 01:24:34] Extracted 324 total words, 143 unique from https://www.themoviedb.org/search/tv?query=
+[2026-03-22 01:24:34] Indexing 143 unique words from https://www.themoviedb.org/search/tv?query=
+[2026-03-22 01:24:35] Crawled: https://www.themoviedb.org/search/company?query= (200)
+[2026-03-22 01:24:35] Extracted 324 total words, 143 unique from https://www.themoviedb.org/search/company?query=
+[2026-03-22 01:24:35] Indexing 143 unique words from https://www.themoviedb.org/search/company?query=
+[2026-03-22 01:24:37] Crawled: https://www.themoviedb.org/discover/movie?with_genres=35 (200)
+[2026-03-22 01:24:37] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=35
+[2026-03-22 01:24:37] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=35
+[2026-03-22 01:24:38] Crawled: https://www.themoviedb.org/movie/1159831-the-bride (200)
+[2026-03-22 01:24:38] Extracted 649 total words, 375 unique from https://www.themoviedb.org/movie/1159831-the-bride
+[2026-03-22 01:24:38] Indexing 375 unique words from https://www.themoviedb.org/movie/1159831-the-bride
+[2026-03-22 01:24:39] Crawled: https://www.themoviedb.org/discover/movie?with_genres=99 (200)
+[2026-03-22 01:24:40] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=99
+[2026-03-22 01:24:40] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=99
+[2026-03-22 01:24:40] Crawled: https://www.themoviedb.org/discover/movie?with_genres=36 (200)
+[2026-03-22 01:24:40] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=36
+[2026-03-22 01:24:40] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=36
+[2026-03-22 01:24:41] Crawled: https://www.themoviedb.org/movie/1151272-sirat (200)
+[2026-03-22 01:24:41] Extracted 623 total words, 350 unique from https://www.themoviedb.org/movie/1151272-sirat
+[2026-03-22 01:24:41] Indexing 350 unique words from https://www.themoviedb.org/movie/1151272-sirat
+[2026-03-22 01:24:43] Crawled: https://www.themoviedb.org/discover/movie?with_genres=14 (200)
+[2026-03-22 01:24:43] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=14
+[2026-03-22 01:24:43] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=14
+[2026-03-22 01:24:44] Crawled: https://www.themoviedb.org/discover/movie?with_genres=37 (200)
+[2026-03-22 01:24:44] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=37
+[2026-03-22 01:24:44] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=37
+[2026-03-22 01:24:45] Crawled: https://www.themoviedb.org/discover/movie?with_genres=80 (200)
+[2026-03-22 01:24:45] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=80
+[2026-03-22 01:24:45] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=80
+[2026-03-22 01:24:46] Crawled: https://www.themoviedb.org/movie/687163-project-hail-mary (200)
+[2026-03-22 01:24:46] Extracted 658 total words, 383 unique from https://www.themoviedb.org/movie/687163-project-hail-mary
+[2026-03-22 01:24:46] Indexing 383 unique words from https://www.themoviedb.org/movie/687163-project-hail-mary
+[2026-03-22 01:24:46] Crawled: https://www.themoviedb.org/movie/1175842-momo (200)
+[2026-03-22 01:24:46] Extracted 513 total words, 291 unique from https://www.themoviedb.org/movie/1175842-momo
+[2026-03-22 01:24:46] Indexing 291 unique words from https://www.themoviedb.org/movie/1175842-momo
+[2026-03-22 01:24:47] Crawled: https://www.themoviedb.org/movie/1367642-reminders-of-him (200)
+[2026-03-22 01:24:47] Extracted 651 total words, 378 unique from https://www.themoviedb.org/movie/1367642-reminders-of-him
+[2026-03-22 01:24:47] Indexing 378 unique words from https://www.themoviedb.org/movie/1367642-reminders-of-him
+[2026-03-22 01:24:47] Crawled: https://www.themoviedb.org/movie/1160360-if-i-had-legs-i-d-kick-you (200)
+[2026-03-22 01:24:47] Extracted 600 total words, 350 unique from https://www.themoviedb.org/movie/1160360-if-i-had-legs-i-d-kick-you
+[2026-03-22 01:24:47] Indexing 350 unique words from https://www.themoviedb.org/movie/1160360-if-i-had-legs-i-d-kick-you
+[2026-03-22 01:24:49] Crawled: https://www.themoviedb.org/discover/movie?with_genres=10752 (200)
+[2026-03-22 01:24:49] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=10752
+[2026-03-22 01:24:49] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=10752
+[2026-03-22 01:24:51] Crawled: https://www.themoviedb.org/discover/movie?with_genres=53 (200)
+[2026-03-22 01:24:51] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=53
+[2026-03-22 01:24:51] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=53
+[2026-03-22 01:24:51] Crawled: https://www.themoviedb.org/discover/movie?with_genres=27 (200)
+[2026-03-22 01:24:51] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=27
+[2026-03-22 01:24:51] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=27
+[2026-03-22 01:24:52] Crawled: https://www.themoviedb.org/movie/1327819-hoppers (200)
+[2026-03-22 01:24:52] Extracted 551 total words, 326 unique from https://www.themoviedb.org/movie/1327819-hoppers
+[2026-03-22 01:24:52] Indexing 326 unique words from https://www.themoviedb.org/movie/1327819-hoppers
+[2026-03-22 01:24:53] Crawled: https://www.themoviedb.org/discover/movie?with_genres=16 (200)
+[2026-03-22 01:24:53] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=16
+[2026-03-22 01:24:53] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=16
+[2026-03-22 01:24:54] Crawled: https://www.themoviedb.org/movie/1159559-scream-7 (200)
+[2026-03-22 01:24:54] Extracted 654 total words, 375 unique from https://www.themoviedb.org/movie/1159559-scream-7
+[2026-03-22 01:24:54] Indexing 375 unique words from https://www.themoviedb.org/movie/1159559-scream-7
+[2026-03-22 01:24:55] Crawled: https://www.themoviedb.org/discover/movie?with_genres=18 (200)
+[2026-03-22 01:24:55] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=18
+[2026-03-22 01:24:55] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=18
+[2026-03-22 01:24:56] Crawled: https://www.themoviedb.org/movie/1140498-is-this-thing-on (200)
+[2026-03-22 01:24:56] Extracted 615 total words, 351 unique from https://www.themoviedb.org/movie/1140498-is-this-thing-on
+[2026-03-22 01:24:56] Indexing 351 unique words from https://www.themoviedb.org/movie/1140498-is-this-thing-on
+[2026-03-22 01:24:56] Crawled: https://www.themoviedb.org/movie/1263012-dead-man-s-wire (200)
+[2026-03-22 01:24:56] Extracted 603 total words, 358 unique from https://www.themoviedb.org/movie/1263012-dead-man-s-wire
+[2026-03-22 01:24:56] Indexing 358 unique words from https://www.themoviedb.org/movie/1263012-dead-man-s-wire
+[2026-03-22 01:24:58] Crawled: https://www.themoviedb.org/discover/movie?with_genres=28 (200)
+[2026-03-22 01:24:58] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=28
+[2026-03-22 01:24:58] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=28
+[2026-03-22 01:24:59] Crawled: https://www.themoviedb.org/discover/movie?with_genres=9648 (200)
+[2026-03-22 01:24:59] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=9648
+[2026-03-22 01:24:59] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=9648
+[2026-03-22 01:24:59] Crawled: https://www.themoviedb.org/discover/movie?with_genres=10751 (200)
+[2026-03-22 01:24:59] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=10751
+[2026-03-22 01:24:59] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=10751
+[2026-03-22 01:25:00] Crawled: https://www.themoviedb.org/movie/1406657 (200)
+[2026-03-22 01:25:00] Extracted 619 total words, 346 unique from https://www.themoviedb.org/movie/1406657
+[2026-03-22 01:25:00] Indexing 346 unique words from https://www.themoviedb.org/movie/1406657
+[2026-03-22 01:25:00] Crawled: https://www.themoviedb.org/movie/680493-return-to-silent-hill (200)
+[2026-03-22 01:25:00] Extracted 652 total words, 364 unique from https://www.themoviedb.org/movie/680493-return-to-silent-hill
+[2026-03-22 01:25:00] Indexing 364 unique words from https://www.themoviedb.org/movie/680493-return-to-silent-hill
+[2026-03-22 01:25:01] Crawled: https://www.themoviedb.org/movie/804370-arco (200)
+[2026-03-22 01:25:01] Extracted 564 total words, 329 unique from https://www.themoviedb.org/movie/804370-arco
+[2026-03-22 01:25:01] Indexing 329 unique words from https://www.themoviedb.org/movie/804370-arco
+[2026-03-22 01:25:02] Crawled: https://www.themoviedb.org/movie/1445363-epic-elvis-presley-in-concert (200)
+[2026-03-22 01:25:02] Extracted 620 total words, 337 unique from https://www.themoviedb.org/movie/1445363-epic-elvis-presley-in-concert
+[2026-03-22 01:25:02] Indexing 337 unique words from https://www.themoviedb.org/movie/1445363-epic-elvis-presley-in-concert
+[2026-03-22 01:25:03] Crawled: https://www.themoviedb.org/movie/1145899-marsupilami (200)
+[2026-03-22 01:25:03] Extracted 486 total words, 282 unique from https://www.themoviedb.org/movie/1145899-marsupilami
+[2026-03-22 01:25:03] Indexing 282 unique words from https://www.themoviedb.org/movie/1145899-marsupilami
+[2026-03-22 01:25:04] Crawled: https://www.themoviedb.org/discover/movie?with_genres=10770 (200)
+[2026-03-22 01:25:04] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=10770
+[2026-03-22 01:25:04] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=10770
+[2026-03-22 01:25:05] Crawled: https://www.themoviedb.org/discover/movie?with_genres=10402 (200)
+[2026-03-22 01:25:05] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=10402
+[2026-03-22 01:25:05] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=10402
+[2026-03-22 01:25:06] Crawled: https://www.themoviedb.org/movie/1266127-ready-or-not-here-i-come (200)
+[2026-03-22 01:25:06] Extracted 576 total words, 330 unique from https://www.themoviedb.org/movie/1266127-ready-or-not-here-i-come
+[2026-03-22 01:25:06] Indexing 330 unique words from https://www.themoviedb.org/movie/1266127-ready-or-not-here-i-come
+[2026-03-22 01:25:08] Crawled: https://www.themoviedb.org/discover/movie?with_genres=10749 (200)
+[2026-03-22 01:25:08] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=10749
+[2026-03-22 01:25:08] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=10749
+[2026-03-22 01:25:09] Crawled: https://www.themoviedb.org/discover/movie?with_genres=12 (200)
+[2026-03-22 01:25:09] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=12
+[2026-03-22 01:25:09] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=12
+[2026-03-22 01:25:11] Crawled: https://www.themoviedb.org/discover/movie?with_genres=878 (200)
+[2026-03-22 01:25:11] Extracted 474 total words, 267 unique from https://www.themoviedb.org/discover/movie?with_genres=878
+[2026-03-22 01:25:11] Indexing 267 unique words from https://www.themoviedb.org/discover/movie?with_genres=878
+[2026-03-22 01:25:12] Crawled: https://www.themoviedb.org/movie/1290821-shelter (200)
+[2026-03-22 01:25:12] Extracted 598 total words, 348 unique from https://www.themoviedb.org/movie/1290821-shelter
+[2026-03-22 01:25:12] Indexing 348 unique words from https://www.themoviedb.org/movie/1290821-shelter
+[2026-03-22 01:25:12] Crawled: https://www.themoviedb.org/movie/1316092-wuthering-heights (200)
+[2026-03-22 01:25:12] Extracted 599 total words, 365 unique from https://www.themoviedb.org/movie/1316092-wuthering-heights
+[2026-03-22 01:25:12] Indexing 365 unique words from https://www.themoviedb.org/movie/1316092-wuthering-heights
+[2026-03-22 01:25:13] Crawled: https://www.themoviedb.org/movie/now-playing?page=2 (200)
+[2026-03-22 01:25:13] Extracted 476 total words, 250 unique from https://www.themoviedb.org/movie/now-playing?page=2
+[2026-03-22 01:25:13] Indexing 250 unique words from https://www.themoviedb.org/movie/now-playing?page=2
+[2026-03-22 01:25:13] Crawled: https://www.themoviedb.org/movie/1297842-goat (200)
+[2026-03-22 01:25:13] Extracted 657 total words, 384 unique from https://www.themoviedb.org/movie/1297842-goat
+[2026-03-22 01:25:13] Indexing 384 unique words from https://www.themoviedb.org/movie/1297842-goat
+[2026-03-22 01:25:14] Crawled: https://www.themoviedb.org/movie/1401281-the-testament-of-ann-lee (200)
+[2026-03-22 01:25:14] Extracted 623 total words, 360 unique from https://www.themoviedb.org/movie/1401281-the-testament-of-ann-lee
+[2026-03-22 01:25:14] Indexing 360 unique words from https://www.themoviedb.org/movie/1401281-the-testament-of-ann-lee
+[2026-03-22 01:25:15] Crawled: https://www.themoviedb.org/award/4-the-golden-globe-awards (200)
+[2026-03-22 01:25:15] Extracted 1269 total words, 470 unique from https://www.themoviedb.org/award/4-the-golden-globe-awards
+[2026-03-22 01:25:15] Indexing 470 unique words from https://www.themoviedb.org/award/4-the-golden-globe-awards
+[2026-03-22 01:25:16] Crawled: https://www.themoviedb.org/award/1-academy-awards (200)
+[2026-03-22 01:25:16] Extracted 674 total words, 326 unique from https://www.themoviedb.org/award/1-academy-awards
+[2026-03-22 01:25:16] Indexing 326 unique words from https://www.themoviedb.org/award/1-academy-awards
+[2026-03-22 01:25:17] Crawled: https://www.themoviedb.org/award/2-cesky-lev (200)
+[2026-03-22 01:25:17] Extracted 817 total words, 336 unique from https://www.themoviedb.org/award/2-cesky-lev
+[2026-03-22 01:25:17] Indexing 336 unique words from https://www.themoviedb.org/award/2-cesky-lev
+[2026-03-22 01:25:17] Crawled: https://www.themoviedb.org/award/24-slnko-v-sieti (200)
+[2026-03-22 01:25:17] Extracted 556 total words, 261 unique from https://www.themoviedb.org/award/24-slnko-v-sieti
+[2026-03-22 01:25:17] Indexing 261 unique words from https://www.themoviedb.org/award/24-slnko-v-sieti
+[2026-03-22 01:25:18] Crawled: https://www.themoviedb.org/award/23-polskie-nagrody-filmowe-orly (200)
+[2026-03-22 01:25:18] Extracted 505 total words, 242 unique from https://www.themoviedb.org/award/23-polskie-nagrody-filmowe-orly
+[2026-03-22 01:25:18] Indexing 242 unique words from https://www.themoviedb.org/award/23-polskie-nagrody-filmowe-orly
+[2026-03-22 01:25:19] Crawled: https://www.themoviedb.org/award/27-actor-awards (200)
+[2026-03-22 01:25:19] Extracted 823 total words, 323 unique from https://www.themoviedb.org/award/27-actor-awards
+[2026-03-22 01:25:19] Indexing 323 unique words from https://www.themoviedb.org/award/27-actor-awards
+[2026-03-22 01:25:20] Crawled: https://www.themoviedb.org/award/13-japan-academy-film-prize (200)
+[2026-03-22 01:25:20] Extracted 613 total words, 268 unique from https://www.themoviedb.org/award/13-japan-academy-film-prize
+[2026-03-22 01:25:20] Indexing 268 unique words from https://www.themoviedb.org/award/13-japan-academy-film-prize
+[2026-03-22 01:25:21] Crawled: https://www.themoviedb.org/award/32 (200)
+[2026-03-22 01:25:21] Extracted 929 total words, 385 unique from https://www.themoviedb.org/award/32
+[2026-03-22 01:25:21] Indexing 385 unique words from https://www.themoviedb.org/award/32
+[2026-03-22 01:25:21] Crawled: https://www.themoviedb.org/award/39-film-independent-spirit-awards (200)
+[2026-03-22 01:25:21] Extracted 876 total words, 352 unique from https://www.themoviedb.org/award/39-film-independent-spirit-awards
+[2026-03-22 01:25:21] Indexing 352 unique words from https://www.themoviedb.org/award/39-film-independent-spirit-awards
+[2026-03-22 01:25:22] Crawled: https://www.themoviedb.org/award/29-satellite-awards (200)
+[2026-03-22 01:25:22] Extracted 705 total words, 279 unique from https://www.themoviedb.org/award/29-satellite-awards
+[2026-03-22 01:25:22] Indexing 279 unique words from https://www.themoviedb.org/award/29-satellite-awards
+[2026-03-22 01:25:23] Crawled: https://www.themoviedb.org/award/19-european-film-awards (200)
+[2026-03-22 01:25:23] Extracted 532 total words, 262 unique from https://www.themoviedb.org/award/19-european-film-awards
+[2026-03-22 01:25:23] Indexing 262 unique words from https://www.themoviedb.org/award/19-european-film-awards
+[2026-03-22 01:25:23] Crawled: https://www.themoviedb.org/award/41-naacp-image-awards (200)
+[2026-03-22 01:25:23] Extracted 844 total words, 284 unique from https://www.themoviedb.org/award/41-naacp-image-awards
+[2026-03-22 01:25:23] Indexing 284 unique words from https://www.themoviedb.org/award/41-naacp-image-awards
+[2026-03-22 01:25:24] Crawled: https://www.themoviedb.org/award/6-jussi (200)
+[2026-03-22 01:25:24] Extracted 790 total words, 303 unique from https://www.themoviedb.org/award/6-jussi
+[2026-03-22 01:25:24] Indexing 303 unique words from https://www.themoviedb.org/award/6-jussi
+[2026-03-22 01:25:24] Crawled: https://www.themoviedb.org/award/33-writers-guild-awards (200)
+[2026-03-22 01:25:24] Extracted 902 total words, 380 unique from https://www.themoviedb.org/award/33-writers-guild-awards
+[2026-03-22 01:25:24] Indexing 380 unique words from https://www.themoviedb.org/award/33-writers-guild-awards
+[2026-03-22 01:25:25] Crawled: https://www.themoviedb.org/award/22-cesar-du-cinema (200)
+[2026-03-22 01:25:25] Extracted 569 total words, 275 unique from https://www.themoviedb.org/award/22-cesar-du-cinema
+[2026-03-22 01:25:25] Indexing 275 unique words from https://www.themoviedb.org/award/22-cesar-du-cinema
+[2026-03-22 01:25:26] Crawled: https://www.themoviedb.org/award/37-national-board-of-review-awards (200)
+[2026-03-22 01:25:26] Extracted 531 total words, 249 unique from https://www.themoviedb.org/award/37-national-board-of-review-awards
+[2026-03-22 01:25:26] Indexing 249 unique words from https://www.themoviedb.org/award/37-national-board-of-review-awards
+[2026-03-22 01:25:26] Crawled: https://www.themoviedb.org/award?page=2 (200)
+[2026-03-22 01:25:26] Extracted 427 total words, 205 unique from https://www.themoviedb.org/award?page=2
+[2026-03-22 01:25:26] Indexing 205 unique words from https://www.themoviedb.org/award?page=2
+[2026-03-22 01:25:28] Crawled: https://www.themoviedb.org/award/20-gala-quebec-cinema (200)
+[2026-03-22 01:25:28] Extracted 634 total words, 305 unique from https://www.themoviedb.org/award/20-gala-quebec-cinema
+[2026-03-22 01:25:28] Indexing 305 unique words from https://www.themoviedb.org/award/20-gala-quebec-cinema
+[2026-03-22 01:25:29] Crawled: https://www.themoviedb.org/award/47-artios-awards (200)
+[2026-03-22 01:25:29] Extracted 683 total words, 271 unique from https://www.themoviedb.org/award/47-artios-awards
+[2026-03-22 01:25:29] Indexing 271 unique words from https://www.themoviedb.org/award/47-artios-awards
+[2026-03-22 01:25:30] Crawled: https://www.themoviedb.org/award/5-bafta-film-awards (200)
+[2026-03-22 01:25:30] Extracted 594 total words, 276 unique from https://www.themoviedb.org/award/5-bafta-film-awards
+[2026-03-22 01:25:30] Indexing 276 unique words from https://www.themoviedb.org/award/5-bafta-film-awards
+[2026-03-22 01:25:30] Crawled: https://www.themoviedb.org/award/40-internationale-filmfestspiele-berlin (200)
+[2026-03-22 01:25:30] Extracted 489 total words, 239 unique from https://www.themoviedb.org/award/40-internationale-filmfestspiele-berlin
+[2026-03-22 01:25:30] Indexing 239 unique words from https://www.themoviedb.org/award/40-internationale-filmfestspiele-berlin
+[2026-03-22 01:25:31] Crawled: http://www.themoviedb.org/terms-of-use (200)
+[2026-03-22 01:25:31] Extracted 4887 total words, 956 unique from http://www.themoviedb.org/terms-of-use
+[2026-03-22 01:25:31] Indexing 956 unique words from http://www.themoviedb.org/terms-of-use
+[2026-03-22 01:25:31] Crawled: https://www.themoviedb.org/movie/122-the-lord-of-the-rings-the-return-of-the-king (200)
+[2026-03-22 01:25:31] Extracted 729 total words, 422 unique from https://www.themoviedb.org/movie/122-the-lord-of-the-rings-the-return-of-the-king
+[2026-03-22 01:25:31] Indexing 422 unique words from https://www.themoviedb.org/movie/122-the-lord-of-the-rings-the-return-of-the-king
+[2026-03-22 01:25:32] Crawled: https://www.themoviedb.org/movie/155-the-dark-knight (200)
+[2026-03-22 01:25:32] Extracted 584 total words, 344 unique from https://www.themoviedb.org/movie/155-the-dark-knight
+[2026-03-22 01:25:32] Indexing 344 unique words from https://www.themoviedb.org/movie/155-the-dark-knight
+[2026-03-22 01:25:33] Crawled: https://www.themoviedb.org/movie/389-12-angry-men (200)
+[2026-03-22 01:25:33] Extracted 651 total words, 364 unique from https://www.themoviedb.org/movie/389-12-angry-men
+[2026-03-22 01:25:33] Indexing 364 unique words from https://www.themoviedb.org/movie/389-12-angry-men
+[2026-03-22 01:25:34] Crawled: https://www.themoviedb.org/movie/372058 (200)
+[2026-03-22 01:25:34] Extracted 572 total words, 337 unique from https://www.themoviedb.org/movie/372058
+[2026-03-22 01:25:34] Indexing 337 unique words from https://www.themoviedb.org/movie/372058
+[2026-03-22 01:25:35] Crawled: https://www.themoviedb.org/movie/424-schindler-s-list (200)
+[2026-03-22 01:25:35] Extracted 654 total words, 387 unique from https://www.themoviedb.org/movie/424-schindler-s-list
+[2026-03-22 01:25:35] Indexing 387 unique words from https://www.themoviedb.org/movie/424-schindler-s-list
+[2026-03-22 01:25:35] Crawled: https://www.themoviedb.org/movie/278-the-shawshank-redemption (200)
+[2026-03-22 01:25:35] Extracted 639 total words, 376 unique from https://www.themoviedb.org/movie/278-the-shawshank-redemption
+[2026-03-22 01:25:35] Indexing 376 unique words from https://www.themoviedb.org/movie/278-the-shawshank-redemption
+[2026-03-22 01:25:36] Crawled: https://www.themoviedb.org/movie/157336-interstellar (200)
+[2026-03-22 01:25:36] Extracted 623 total words, 372 unique from https://www.themoviedb.org/movie/157336-interstellar
+[2026-03-22 01:25:36] Indexing 372 unique words from https://www.themoviedb.org/movie/157336-interstellar
+[2026-03-22 01:25:36] Crawled: https://www.themoviedb.org/movie/240-the-godfather-part-ii (200)
+[2026-03-22 01:25:36] Extracted 568 total words, 322 unique from https://www.themoviedb.org/movie/240-the-godfather-part-ii
+[2026-03-22 01:25:36] Indexing 322 unique words from https://www.themoviedb.org/movie/240-the-godfather-part-ii
+[2026-03-22 01:25:37] Crawled: https://www.themoviedb.org/movie/129 (200)
+[2026-03-22 01:25:37] Extracted 543 total words, 320 unique from https://www.themoviedb.org/movie/129
+[2026-03-22 01:25:37] Indexing 320 unique words from https://www.themoviedb.org/movie/129
+[2026-03-22 01:25:38] Crawled: https://www.themoviedb.org/movie/680-pulp-fiction (200)
+[2026-03-22 01:25:38] Extracted 547 total words, 332 unique from https://www.themoviedb.org/movie/680-pulp-fiction
+[2026-03-22 01:25:38] Indexing 332 unique words from https://www.themoviedb.org/movie/680-pulp-fiction
+[2026-03-22 01:25:38] Crawled: https://www.themoviedb.org/movie/1181678-quieres-ser-mi-hijo (200)
+[2026-03-22 01:25:38] Extracted 458 total words, 263 unique from https://www.themoviedb.org/movie/1181678-quieres-ser-mi-hijo
+[2026-03-22 01:25:38] Indexing 263 unique words from https://www.themoviedb.org/movie/1181678-quieres-ser-mi-hijo
+[2026-03-22 01:25:39] Crawled: https://www.themoviedb.org/movie/238-the-godfather (200)
+[2026-03-22 01:25:39] Extracted 573 total words, 344 unique from https://www.themoviedb.org/movie/238-the-godfather
+[2026-03-22 01:25:39] Indexing 344 unique words from https://www.themoviedb.org/movie/238-the-godfather
+[2026-03-22 01:25:40] Crawled: https://www.themoviedb.org/movie/359364-human (200)
+[2026-03-22 01:25:40] Extracted 574 total words, 305 unique from https://www.themoviedb.org/movie/359364-human
+[2026-03-22 01:25:40] Indexing 305 unique words from https://www.themoviedb.org/movie/359364-human
+[2026-03-22 01:25:40] Crawled: https://www.themoviedb.org/movie/497-the-green-mile (200)
+[2026-03-22 01:25:40] Extracted 638 total words, 380 unique from https://www.themoviedb.org/movie/497-the-green-mile
+[2026-03-22 01:25:40] Indexing 380 unique words from https://www.themoviedb.org/movie/497-the-green-mile
+[2026-03-22 01:25:41] Crawled: https://www.themoviedb.org/movie/19404 (200)
+[2026-03-22 01:25:41] Extracted 604 total words, 339 unique from https://www.themoviedb.org/movie/19404
+[2026-03-22 01:25:41] Indexing 339 unique words from https://www.themoviedb.org/movie/19404
+[2026-03-22 01:25:41] Crawled: https://www.themoviedb.org/movie/top-rated?page=2 (200)
+[2026-03-22 01:25:41] Extracted 496 total words, 293 unique from https://www.themoviedb.org/movie/top-rated?page=2
+[2026-03-22 01:25:41] Indexing 293 unique words from https://www.themoviedb.org/movie/top-rated?page=2
+[2026-03-22 01:25:42] Crawled: https://www.themoviedb.org/movie/13-forrest-gump (200)
+[2026-03-22 01:25:42] Extracted 601 total words, 372 unique from https://www.themoviedb.org/movie/13-forrest-gump
+[2026-03-22 01:25:42] Indexing 372 unique words from https://www.themoviedb.org/movie/13-forrest-gump
+[2026-03-22 01:25:43] Crawled: https://www.themoviedb.org/movie/1022256-selena-gomez-my-mind-me (200)
+[2026-03-22 01:25:43] Extracted 490 total words, 274 unique from https://www.themoviedb.org/movie/1022256-selena-gomez-my-mind-me
+[2026-03-22 01:25:43] Indexing 274 unique words from https://www.themoviedb.org/movie/1022256-selena-gomez-my-mind-me
+[2026-03-22 01:25:44] Crawled: https://www.themoviedb.org/movie/769-goodfellas (200)
+[2026-03-22 01:25:44] Extracted 651 total words, 356 unique from https://www.themoviedb.org/movie/769-goodfellas
+[2026-03-22 01:25:44] Indexing 356 unique words from https://www.themoviedb.org/movie/769-goodfellas
+[2026-03-22 01:25:45] Crawled: https://www.themoviedb.org/movie/496243 (200)
+[2026-03-22 01:25:45] Extracted 570 total words, 339 unique from https://www.themoviedb.org/movie/496243
+[2026-03-22 01:25:45] Indexing 339 unique words from https://www.themoviedb.org/movie/496243
+[2026-03-22 01:25:46] Crawled: https://www.themoviedb.org/movie/429-il-buono-il-brutto-il-cattivo (200)
+[2026-03-22 01:25:46] Extracted 674 total words, 376 unique from https://www.themoviedb.org/movie/429-il-buono-il-brutto-il-cattivo
+[2026-03-22 01:25:46] Indexing 376 unique words from https://www.themoviedb.org/movie/429-il-buono-il-brutto-il-cattivo
+[2026-03-22 01:25:46] Crawled: https://www.themoviedb.org/movie/1325734-the-drama (200)
+[2026-03-22 01:25:46] Extracted 470 total words, 269 unique from https://www.themoviedb.org/movie/1325734-the-drama
+[2026-03-22 01:25:46] Indexing 269 unique words from https://www.themoviedb.org/movie/1325734-the-drama
+[2026-03-22 01:25:47] Crawled: https://www.themoviedb.org/movie/1226863-the-super-mario-galaxy-movie (200)
+[2026-03-22 01:25:47] Extracted 504 total words, 291 unique from https://www.themoviedb.org/movie/1226863-the-super-mario-galaxy-movie
+[2026-03-22 01:25:47] Indexing 291 unique words from https://www.themoviedb.org/movie/1226863-the-super-mario-galaxy-movie
+[2026-03-22 01:25:48] Crawled: https://www.themoviedb.org/movie/1292695-they-will-kill-you (200)
+[2026-03-22 01:25:48] Extracted 496 total words, 285 unique from https://www.themoviedb.org/movie/1292695-they-will-kill-you
+[2026-03-22 01:25:48] Indexing 285 unique words from https://www.themoviedb.org/movie/1292695-they-will-kill-you
+[2026-03-22 01:25:49] Crawled: https://www.themoviedb.org/movie/1598708-karabasan (200)
+[2026-03-22 01:25:49] Extracted 403 total words, 228 unique from https://www.themoviedb.org/movie/1598708-karabasan
+[2026-03-22 01:25:49] Indexing 228 unique words from https://www.themoviedb.org/movie/1598708-karabasan
+[2026-03-22 01:25:49] Crawled: https://www.themoviedb.org/movie/1207162-rise-of-the-conqueror (200)
+[2026-03-22 01:25:49] Extracted 502 total words, 300 unique from https://www.themoviedb.org/movie/1207162-rise-of-the-conqueror
+[2026-03-22 01:25:49] Indexing 300 unique words from https://www.themoviedb.org/movie/1207162-rise-of-the-conqueror
+[2026-03-22 01:25:50] Crawled: https://www.themoviedb.org/movie/1246049-dracula (200)
+[2026-03-22 01:25:50] Extracted 630 total words, 381 unique from https://www.themoviedb.org/movie/1246049-dracula
+[2026-03-22 01:25:50] Indexing 381 unique words from https://www.themoviedb.org/movie/1246049-dracula
+[2026-03-22 01:25:50] Crawled: https://www.themoviedb.org/movie/1580899-mitoloji-mafyasi (200)
+[2026-03-22 01:25:50] Extracted 401 total words, 226 unique from https://www.themoviedb.org/movie/1580899-mitoloji-mafyasi
+[2026-03-22 01:25:50] Indexing 226 unique words from https://www.themoviedb.org/movie/1580899-mitoloji-mafyasi
+[2026-03-22 01:25:52] Crawled: https://www.themoviedb.org/movie/467905-how-to-make-a-killing (200)
+[2026-03-22 01:25:52] Extracted 601 total words, 351 unique from https://www.themoviedb.org/movie/467905-how-to-make-a-killing
+[2026-03-22 01:25:52] Indexing 351 unique words from https://www.themoviedb.org/movie/467905-how-to-make-a-killing
+[2026-03-22 01:25:53] Crawled: https://www.themoviedb.org/discover/tv?with_genres=16 (200)
+[2026-03-22 01:25:53] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=16
+[2026-03-22 01:25:53] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=16
+[2026-03-22 01:25:54] Crawled: https://www.themoviedb.org/discover/tv?with_genres=80 (200)
+[2026-03-22 01:25:54] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=80
+[2026-03-22 01:25:54] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=80
+[2026-03-22 01:25:55] Crawled: https://www.themoviedb.org/tv/235635-como-agua-para-chocolate (200)
+[2026-03-22 01:25:55] Extracted 586 total words, 323 unique from https://www.themoviedb.org/tv/235635-como-agua-para-chocolate
+[2026-03-22 01:25:55] Indexing 323 unique words from https://www.themoviedb.org/tv/235635-como-agua-para-chocolate
+[2026-03-22 01:25:57] Crawled: https://www.themoviedb.org/discover/tv?with_genres=35 (200)
+[2026-03-22 01:25:57] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=35
+[2026-03-22 01:25:57] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=35
+[2026-03-22 01:25:57] Crawled: https://www.themoviedb.org/tv/237529 (200)
+[2026-03-22 01:25:57] Extracted 577 total words, 313 unique from https://www.themoviedb.org/tv/237529
+[2026-03-22 01:25:57] Indexing 313 unique words from https://www.themoviedb.org/tv/237529
+[2026-03-22 01:25:57] Crawled: https://www.themoviedb.org/tv/254492 (200)
+[2026-03-22 01:25:57] Extracted 550 total words, 302 unique from https://www.themoviedb.org/tv/254492
+[2026-03-22 01:25:57] Indexing 302 unique words from https://www.themoviedb.org/tv/254492
+[2026-03-22 01:25:58] Crawled: https://www.themoviedb.org/tv/117465 (200)
+[2026-03-22 01:25:58] Extracted 555 total words, 300 unique from https://www.themoviedb.org/tv/117465
+[2026-03-22 01:25:58] Indexing 300 unique words from https://www.themoviedb.org/tv/117465
+[2026-03-22 01:26:00] Crawled: https://www.themoviedb.org/tv/60694-last-week-tonight-with-john-oliver (200)
+[2026-03-22 01:26:00] Extracted 596 total words, 320 unique from https://www.themoviedb.org/tv/60694-last-week-tonight-with-john-oliver
+[2026-03-22 01:26:00] Indexing 320 unique words from https://www.themoviedb.org/tv/60694-last-week-tonight-with-john-oliver
+[2026-03-22 01:26:01] Crawled: https://www.themoviedb.org/discover/tv?with_genres=10764 (200)
+[2026-03-22 01:26:01] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=10764
+[2026-03-22 01:26:01] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=10764
+[2026-03-22 01:26:02] Crawled: https://www.themoviedb.org/tv/285166 (200)
+[2026-03-22 01:26:02] Extracted 570 total words, 302 unique from https://www.themoviedb.org/tv/285166
+[2026-03-22 01:26:02] Indexing 302 unique words from https://www.themoviedb.org/tv/285166
+[2026-03-22 01:26:03] Crawled: https://www.themoviedb.org/tv/285788 (200)
+[2026-03-22 01:26:03] Extracted 572 total words, 310 unique from https://www.themoviedb.org/tv/285788
+[2026-03-22 01:26:03] Indexing 310 unique words from https://www.themoviedb.org/tv/285788
+[2026-03-22 01:26:03] Crawled: https://www.themoviedb.org/tv/287591 (200)
+[2026-03-22 01:26:03] Extracted 580 total words, 307 unique from https://www.themoviedb.org/tv/287591
+[2026-03-22 01:26:03] Indexing 307 unique words from https://www.themoviedb.org/tv/287591
+[2026-03-22 01:26:04] Crawled: https://www.themoviedb.org/tv/242867-watson (200)
+[2026-03-22 01:26:04] Extracted 635 total words, 350 unique from https://www.themoviedb.org/tv/242867-watson
+[2026-03-22 01:26:04] Indexing 350 unique words from https://www.themoviedb.org/tv/242867-watson
+[2026-03-22 01:26:06] Crawled: https://www.themoviedb.org/discover/tv?with_genres=9648 (200)
+[2026-03-22 01:26:06] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=9648
+[2026-03-22 01:26:06] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=9648
+[2026-03-22 01:26:08] Crawled: https://www.themoviedb.org/tv/206828-my-dentist-s-murder-trial (200)
+[2026-03-22 01:26:08] Extracted 594 total words, 333 unique from https://www.themoviedb.org/tv/206828-my-dentist-s-murder-trial
+[2026-03-22 01:26:08] Indexing 333 unique words from https://www.themoviedb.org/tv/206828-my-dentist-s-murder-trial
+[2026-03-22 01:26:08] Crawled: https://www.themoviedb.org/tv/278043-you-and-i-are-polar-opposites (200)
+[2026-03-22 01:26:08] Extracted 576 total words, 304 unique from https://www.themoviedb.org/tv/278043-you-and-i-are-polar-opposites
+[2026-03-22 01:26:08] Indexing 304 unique words from https://www.themoviedb.org/tv/278043-you-and-i-are-polar-opposites
+[2026-03-22 01:26:10] Crawled: https://www.themoviedb.org/discover/tv?with_genres=10751 (200)
+[2026-03-22 01:26:10] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=10751
+[2026-03-22 01:26:10] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=10751
+[2026-03-22 01:26:11] Crawled: https://www.themoviedb.org/tv/airing-today?page=2 (200)
+[2026-03-22 01:26:11] Extracted 456 total words, 261 unique from https://www.themoviedb.org/tv/airing-today?page=2
+[2026-03-22 01:26:11] Indexing 261 unique words from https://www.themoviedb.org/tv/airing-today?page=2
+[2026-03-22 01:26:11] Crawled: https://www.themoviedb.org/tv/290856-y-marshals (200)
+[2026-03-22 01:26:11] Extracted 662 total words, 366 unique from https://www.themoviedb.org/tv/290856-y-marshals
+[2026-03-22 01:26:11] Indexing 366 unique words from https://www.themoviedb.org/tv/290856-y-marshals
+[2026-03-22 01:26:12] Crawled: https://www.themoviedb.org/tv/211288-tracker (200)
+[2026-03-22 01:26:12] Extracted 630 total words, 346 unique from https://www.themoviedb.org/tv/211288-tracker
+[2026-03-22 01:26:12] Indexing 346 unique words from https://www.themoviedb.org/tv/211288-tracker
+[2026-03-22 01:26:14] Crawled: https://www.themoviedb.org/discover/tv?with_genres=18 (200)
+[2026-03-22 01:26:14] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=18
+[2026-03-22 01:26:14] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=18
+[2026-03-22 01:26:14] Crawled: https://www.themoviedb.org/discover/tv?with_genres=10768 (200)
+[2026-03-22 01:26:14] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=10768
+[2026-03-22 01:26:14] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=10768
+[2026-03-22 01:26:14] Crawled: https://www.themoviedb.org/tv/93166-the-capture (200)
+[2026-03-22 01:26:14] Extracted 636 total words, 359 unique from https://www.themoviedb.org/tv/93166-the-capture
+[2026-03-22 01:26:14] Indexing 359 unique words from https://www.themoviedb.org/tv/93166-the-capture
+[2026-03-22 01:26:17] Crawled: https://www.themoviedb.org/discover/tv?with_genres=10762 (200)
+[2026-03-22 01:26:17] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=10762
+[2026-03-22 01:26:17] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=10762
+[2026-03-22 01:26:17] Crawled: https://www.themoviedb.org/discover/tv?with_genres=10766 (200)
+[2026-03-22 01:26:17] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=10766
+[2026-03-22 01:26:17] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=10766
+[2026-03-22 01:26:17] Crawled: https://www.themoviedb.org/discover/tv?with_genres=99 (200)
+[2026-03-22 01:26:17] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=99
+[2026-03-22 01:26:17] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=99
+[2026-03-22 01:26:19] Crawled: https://www.themoviedb.org/discover/tv?with_genres=10759 (200)
+[2026-03-22 01:26:19] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=10759
+[2026-03-22 01:26:19] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=10759
+[2026-03-22 01:26:20] Crawled: https://www.themoviedb.org/discover/tv?with_genres=10765 (200)
+[2026-03-22 01:26:20] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=10765
+[2026-03-22 01:26:20] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=10765
+[2026-03-22 01:26:21] Crawled: https://www.themoviedb.org/tv/254953-untitled-steve-carell-comedy-series (200)
+[2026-03-22 01:26:21] Extracted 497 total words, 272 unique from https://www.themoviedb.org/tv/254953-untitled-steve-carell-comedy-series
+[2026-03-22 01:26:21] Indexing 272 unique words from https://www.themoviedb.org/tv/254953-untitled-steve-carell-comedy-series
+[2026-03-22 01:26:22] Crawled: https://www.themoviedb.org/discover/tv?with_genres=10767 (200)
+[2026-03-22 01:26:22] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=10767
+[2026-03-22 01:26:22] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=10767
+[2026-03-22 01:26:22] Crawled: https://www.themoviedb.org/tv/58832-naked-and-afraid (200)
+[2026-03-22 01:26:22] Extracted 558 total words, 289 unique from https://www.themoviedb.org/tv/58832-naked-and-afraid
+[2026-03-22 01:26:22] Indexing 289 unique words from https://www.themoviedb.org/tv/58832-naked-and-afraid
+[2026-03-22 01:26:23] Crawled: https://www.themoviedb.org/discover/tv?with_genres=10763 (200)
+[2026-03-22 01:26:23] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=10763
+[2026-03-22 01:26:23] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=10763
+[2026-03-22 01:26:24] Crawled: https://www.themoviedb.org/tv/276393-tamon-kun-ima-docchi (200)
+[2026-03-22 01:26:24] Extracted 545 total words, 303 unique from https://www.themoviedb.org/tv/276393-tamon-kun-ima-docchi
+[2026-03-22 01:26:24] Indexing 303 unique words from https://www.themoviedb.org/tv/276393-tamon-kun-ima-docchi
+[2026-03-22 01:26:24] Crawled: https://www.themoviedb.org/discover/tv?with_genres=37 (200)
+[2026-03-22 01:26:24] Extracted 463 total words, 267 unique from https://www.themoviedb.org/discover/tv?with_genres=37
+[2026-03-22 01:26:24] Indexing 267 unique words from https://www.themoviedb.org/discover/tv?with_genres=37
+[2026-03-22 01:26:26] Crawled: https://www.themoviedb.org/tv/223911 (200)
+[2026-03-22 01:26:26] Extracted 602 total words, 327 unique from https://www.themoviedb.org/tv/223911
+[2026-03-22 01:26:26] Indexing 327 unique words from https://www.themoviedb.org/tv/223911
+[2026-03-22 01:26:26] Crawled: https://www.themoviedb.org/tv/259819-rooster-fighter (200)
+[2026-03-22 01:26:26] Extracted 550 total words, 302 unique from https://www.themoviedb.org/tv/259819-rooster-fighter
+[2026-03-22 01:26:26] Indexing 302 unique words from https://www.themoviedb.org/tv/259819-rooster-fighter
+[2026-03-22 01:26:27] Crawled: https://www.themoviedb.org/tv/154526-mf (200)
+[2026-03-22 01:26:27] Extracted 618 total words, 336 unique from https://www.themoviedb.org/tv/154526-mf
+[2026-03-22 01:26:27] Indexing 336 unique words from https://www.themoviedb.org/tv/154526-mf
+[2026-03-22 01:26:27] Crawled: https://www.themoviedb.org/movie/1236153-mercy (200)
+[2026-03-22 01:26:27] Extracted 636 total words, 365 unique from https://www.themoviedb.org/movie/1236153-mercy
+[2026-03-22 01:26:27] Indexing 365 unique words from https://www.themoviedb.org/movie/1236153-mercy
+[2026-03-22 01:26:28] Crawled: https://www.themoviedb.org/movie/1168190-the-wrecking-crew (200)
+[2026-03-22 01:26:28] Extracted 572 total words, 338 unique from https://www.themoviedb.org/movie/1168190-the-wrecking-crew
+[2026-03-22 01:26:28] Indexing 338 unique words from https://www.themoviedb.org/movie/1168190-the-wrecking-crew
+[2026-03-22 01:26:29] Crawled: https://www.themoviedb.org/movie/1265609-war-machine (200)
+[2026-03-22 01:26:29] Extracted 576 total words, 333 unique from https://www.themoviedb.org/movie/1265609-war-machine
+[2026-03-22 01:26:29] Indexing 333 unique words from https://www.themoviedb.org/movie/1265609-war-machine
+[2026-03-22 01:26:30] Crawled: https://www.themoviedb.org/movie/83533-avatar-fire-and-ash (200)
+[2026-03-22 01:26:30] Extracted 665 total words, 380 unique from https://www.themoviedb.org/movie/83533-avatar-fire-and-ash
+[2026-03-22 01:26:30] Indexing 380 unique words from https://www.themoviedb.org/movie/83533-avatar-fire-and-ash
+[2026-03-22 01:26:31] Crawled: https://www.themoviedb.org/movie/840464-greenland-2-migration (200)
+[2026-03-22 01:26:31] Extracted 575 total words, 344 unique from https://www.themoviedb.org/movie/840464-greenland-2-migration
+[2026-03-22 01:26:31] Indexing 344 unique words from https://www.themoviedb.org/movie/840464-greenland-2-migration
+[2026-03-22 01:26:32] Crawled: https://www.themoviedb.org/movie/1054867-one-battle-after-another (200)
+[2026-03-22 01:26:32] Extracted 646 total words, 381 unique from https://www.themoviedb.org/movie/1054867-one-battle-after-another
+[2026-03-22 01:26:32] Indexing 381 unique words from https://www.themoviedb.org/movie/1054867-one-battle-after-another
+[2026-03-22 01:26:32] Crawled: https://www.themoviedb.org/movie/1088434-hellfire (200)
+[2026-03-22 01:26:32] Extracted 574 total words, 334 unique from https://www.themoviedb.org/movie/1088434-hellfire
+[2026-03-22 01:26:32] Indexing 334 unique words from https://www.themoviedb.org/movie/1088434-hellfire
+[2026-03-22 01:26:33] Crawled: https://www.themoviedb.org/movie/1193501-whistle (200)
+[2026-03-22 01:26:33] Extracted 608 total words, 352 unique from https://www.themoviedb.org/movie/1193501-whistle
+[2026-03-22 01:26:33] Indexing 352 unique words from https://www.themoviedb.org/movie/1193501-whistle
+[2026-03-22 01:26:35] Crawled: https://www.themoviedb.org/movie/1311031 (200)
+[2026-03-22 01:26:35] Extracted 621 total words, 366 unique from https://www.themoviedb.org/movie/1311031
+[2026-03-22 01:26:35] Indexing 366 unique words from https://www.themoviedb.org/movie/1311031
+[2026-03-22 01:26:35] Crawled: https://www.themoviedb.org/movie/1084242-zootopia-2 (200)
+[2026-03-22 01:26:35] Extracted 652 total words, 379 unique from https://www.themoviedb.org/movie/1084242-zootopia-2
+[2026-03-22 01:26:35] Indexing 379 unique words from https://www.themoviedb.org/movie/1084242-zootopia-2
+[2026-03-22 01:26:36] Crawled: https://www.themoviedb.org/movie/1171145-crime-101 (200)
+[2026-03-22 01:26:36] Extracted 645 total words, 387 unique from https://www.themoviedb.org/movie/1171145-crime-101
+[2026-03-22 01:26:36] Indexing 387 unique words from https://www.themoviedb.org/movie/1171145-crime-101
+[2026-03-22 01:26:38] Crawled: https://www.themoviedb.org/movie/1523145 (200)
+[2026-03-22 01:26:38] Extracted 459 total words, 267 unique from https://www.themoviedb.org/movie/1523145
+[2026-03-22 01:26:38] Indexing 267 unique words from https://www.themoviedb.org/movie/1523145
+[2026-03-22 01:26:38] Crawled: https://www.themoviedb.org/movie/1233413-sinners (200)
+[2026-03-22 01:26:38] Extracted 578 total words, 359 unique from https://www.themoviedb.org/movie/1233413-sinners
+[2026-03-22 01:26:38] Indexing 359 unique words from https://www.themoviedb.org/movie/1233413-sinners
+[2026-03-22 01:26:39] Crawled: https://www.themoviedb.org/movie?page=2 (200)
+[2026-03-22 01:26:39] Extracted 467 total words, 269 unique from https://www.themoviedb.org/movie?page=2
+[2026-03-22 01:26:39] Indexing 269 unique words from https://www.themoviedb.org/movie?page=2
+[2026-03-22 01:26:39] Crawled: https://www.themoviedb.org/movie/875828-peaky-blinders-the-immortal-man (200)
+[2026-03-22 01:26:39] Extracted 592 total words, 343 unique from https://www.themoviedb.org/movie/875828-peaky-blinders-the-immortal-man
+[2026-03-22 01:26:39] Indexing 343 unique words from https://www.themoviedb.org/movie/875828-peaky-blinders-the-immortal-man
+[2026-03-22 01:26:46] Crawled: https://www.themoviedb.org/u/Samara/activity (200)
+[2026-03-22 01:26:46] Extracted 400 total words, 132 unique from https://www.themoviedb.org/u/Samara/activity
+[2026-03-22 01:26:46] Indexing 132 unique words from https://www.themoviedb.org/u/Samara/activity
+[2026-03-22 01:26:46] Crawled: https://www.themoviedb.org/u/Samara/lists (200)
+[2026-03-22 01:26:46] Extracted 306 total words, 155 unique from https://www.themoviedb.org/u/Samara/lists
+[2026-03-22 01:26:46] Indexing 155 unique words from https://www.themoviedb.org/u/Samara/lists
+[2026-03-22 01:26:46] Crawled: https://www.themoviedb.org/u/howardyu77/lists (200)
+[2026-03-22 01:26:46] Extracted 306 total words, 155 unique from https://www.themoviedb.org/u/howardyu77/lists
+[2026-03-22 01:26:46] Indexing 155 unique words from https://www.themoviedb.org/u/howardyu77/lists
+[2026-03-22 01:26:47] Crawled: https://www.themoviedb.org/tv/121513 (200)
+[2026-03-22 01:26:47] Extracted 560 total words, 307 unique from https://www.themoviedb.org/tv/121513
+[2026-03-22 01:26:47] Indexing 307 unique words from https://www.themoviedb.org/tv/121513
+[2026-03-22 01:26:49] Crawled: https://www.themoviedb.org/u/howardyu77/activity (200)
+[2026-03-22 01:26:49] Extracted 832 total words, 232 unique from https://www.themoviedb.org/u/howardyu77/activity
+[2026-03-22 01:26:49] Indexing 232 unique words from https://www.themoviedb.org/u/howardyu77/activity
+[2026-03-22 01:26:49] Crawled: https://www.themoviedb.org/award/67-deutscher-kamerapreis (200)
+[2026-03-22 01:26:49] Extracted 398 total words, 209 unique from https://www.themoviedb.org/award/67-deutscher-kamerapreis
+[2026-03-22 01:26:49] Indexing 209 unique words from https://www.themoviedb.org/award/67-deutscher-kamerapreis
+[2026-03-22 01:26:50] Crawled: https://www.themoviedb.org/documentation/api/terms-of-use (200)
+[2026-03-22 01:26:50] Extracted 2942 total words, 761 unique from https://www.themoviedb.org/documentation/api/terms-of-use
+[2026-03-22 01:26:50] Indexing 761 unique words from https://www.themoviedb.org/documentation/api/terms-of-use
+[2026-03-22 01:26:51] Crawled: http://www.themoviedb.org/privacy-policy (200)
+[2026-03-22 01:26:51] Extracted 4664 total words, 903 unique from http://www.themoviedb.org/privacy-policy
+[2026-03-22 01:26:51] Indexing 903 unique words from http://www.themoviedb.org/privacy-policy
+[2026-03-22 01:26:51] Crawled: https://www.themoviedb.org/reset-password (200)
+[2026-03-22 01:26:51] Extracted 262 total words, 132 unique from https://www.themoviedb.org/reset-password
+[2026-03-22 01:26:51] Indexing 132 unique words from https://www.themoviedb.org/reset-password
+[2026-03-22 01:26:52] Crawled: https://www.themoviedb.org/resend-email-verification (200)
+[2026-03-22 01:26:52] Extracted 253 total words, 130 unique from https://www.themoviedb.org/resend-email-verification
+[2026-03-22 01:26:52] Indexing 130 unique words from https://www.themoviedb.org/resend-email-verification
+[2026-03-22 01:26:53] Crawled: https://www.themoviedb.org/person/6085231-tim-lidster (200)
+[2026-03-22 01:26:53] Extracted 326 total words, 172 unique from https://www.themoviedb.org/person/6085231-tim-lidster
+[2026-03-22 01:26:53] Indexing 172 unique words from https://www.themoviedb.org/person/6085231-tim-lidster
+[2026-03-22 01:26:53] Crawled: https://www.themoviedb.org/movie/1012582-bury-me-when-i-m-dead (200)
+[2026-03-22 01:26:53] Extracted 471 total words, 276 unique from https://www.themoviedb.org/movie/1012582-bury-me-when-i-m-dead
+[2026-03-22 01:26:53] Indexing 276 unique words from https://www.themoviedb.org/movie/1012582-bury-me-when-i-m-dead
+[2026-03-22 01:26:54] Crawled: https://www.themoviedb.org/movie/752510-tin-can (200)
+[2026-03-22 01:26:54] Extracted 463 total words, 271 unique from https://www.themoviedb.org/movie/752510-tin-can
+[2026-03-22 01:26:54] Indexing 271 unique words from https://www.themoviedb.org/movie/752510-tin-can
+[2026-03-22 01:26:54] Crawled: https://www.themoviedb.org/tv/3380-starhunter (200)
+[2026-03-22 01:26:55] Extracted 468 total words, 255 unique from https://www.themoviedb.org/tv/3380-starhunter
+[2026-03-22 01:26:55] Indexing 255 unique words from https://www.themoviedb.org/tv/3380-starhunter
+[2026-03-22 01:26:55] Crawled: https://www.themoviedb.org/movie/469095-the-crescent (200)
+[2026-03-22 01:26:55] Extracted 433 total words, 250 unique from https://www.themoviedb.org/movie/469095-the-crescent
+[2026-03-22 01:26:55] Indexing 250 unique words from https://www.themoviedb.org/movie/469095-the-crescent
+[2026-03-22 01:26:56] Crawled: https://www.themoviedb.org/person/6085236-alison-lidster (200)
+[2026-03-22 01:26:56] Extracted 326 total words, 172 unique from https://www.themoviedb.org/person/6085236-alison-lidster
+[2026-03-22 01:26:56] Indexing 172 unique words from https://www.themoviedb.org/person/6085236-alison-lidster
+[2026-03-22 01:26:56] Crawled: https://www.themoviedb.org/person/6085239-ellen-cranford (200)
+[2026-03-22 01:26:56] Extracted 329 total words, 172 unique from https://www.themoviedb.org/person/6085239-ellen-cranford
+[2026-03-22 01:26:56] Indexing 172 unique words from https://www.themoviedb.org/person/6085239-ellen-cranford
+[2026-03-22 01:26:57] Crawled: https://www.themoviedb.org/u/amyslithium/activity (200)
+[2026-03-22 01:26:57] Extracted 367 total words, 191 unique from https://www.themoviedb.org/u/amyslithium/activity
+[2026-03-22 01:26:57] Indexing 191 unique words from https://www.themoviedb.org/u/amyslithium/activity
+[2026-03-22 01:26:57] Crawled: https://www.themoviedb.org/person/6085225-monique-malenfant (200)
+[2026-03-22 01:26:57] Extracted 330 total words, 173 unique from https://www.themoviedb.org/person/6085225-monique-malenfant
+[2026-03-22 01:26:57] Indexing 173 unique words from https://www.themoviedb.org/person/6085225-monique-malenfant
+[2026-03-22 01:26:58] Crawled: https://www.themoviedb.org/movie/161912-the-bay-of-love-and-sorrows (200)
+[2026-03-22 01:26:58] Extracted 602 total words, 327 unique from https://www.themoviedb.org/movie/161912-the-bay-of-love-and-sorrows
+[2026-03-22 01:26:58] Indexing 327 unique words from https://www.themoviedb.org/movie/161912-the-bay-of-love-and-sorrows
+[2026-03-22 01:26:58] Crawled: https://www.themoviedb.org/u/amyslithium/lists (200)
+[2026-03-22 01:26:58] Extracted 313 total words, 163 unique from https://www.themoviedb.org/u/amyslithium/lists
+[2026-03-22 01:26:58] Indexing 163 unique words from https://www.themoviedb.org/u/amyslithium/lists
+[2026-03-22 01:26:58] Crawled: https://www.themoviedb.org/person/6085240-robby-maccallum (200)
+[2026-03-22 01:26:58] Extracted 326 total words, 172 unique from https://www.themoviedb.org/person/6085240-robby-maccallum
+[2026-03-22 01:26:58] Indexing 172 unique words from https://www.themoviedb.org/person/6085240-robby-maccallum
+[2026-03-22 01:26:59] Crawled: https://www.themoviedb.org/tv/45790 (200)
+[2026-03-22 01:26:59] Extracted 588 total words, 338 unique from https://www.themoviedb.org/tv/45790
+[2026-03-22 01:26:59] Indexing 338 unique words from https://www.themoviedb.org/tv/45790
+[2026-03-22 01:27:00] Crawled: https://www.themoviedb.org/tv/65334-miraculous-les-aventures-de-ladybug-et-chat-noir (200)
+[2026-03-22 01:27:01] Extracted 789 total words, 426 unique from https://www.themoviedb.org/tv/65334-miraculous-les-aventures-de-ladybug-et-chat-noir
+[2026-03-22 01:27:01] Indexing 426 unique words from https://www.themoviedb.org/tv/65334-miraculous-les-aventures-de-ladybug-et-chat-noir
+[2026-03-22 01:27:01] Crawled: https://www.themoviedb.org/tv/90-mayday (200)
+[2026-03-22 01:27:01] Extracted 628 total words, 338 unique from https://www.themoviedb.org/tv/90-mayday
+[2026-03-22 01:27:01] Indexing 338 unique words from https://www.themoviedb.org/tv/90-mayday
+[2026-03-22 01:27:02] Crawled: https://www.themoviedb.org/tv/208569-will-trent (200)
+[2026-03-22 01:27:02] Extracted 659 total words, 367 unique from https://www.themoviedb.org/tv/208569-will-trent
+[2026-03-22 01:27:02] Indexing 367 unique words from https://www.themoviedb.org/tv/208569-will-trent
+[2026-03-22 01:27:02] Crawled: https://www.themoviedb.org/tv/on-the-air?page=2 (200)
+[2026-03-22 01:27:02] Extracted 481 total words, 283 unique from https://www.themoviedb.org/tv/on-the-air?page=2
+[2026-03-22 01:27:02] Indexing 283 unique words from https://www.themoviedb.org/tv/on-the-air?page=2
+[2026-03-22 01:27:03] Crawled: https://www.themoviedb.org/tv/4656-wwe-raw (200)
+[2026-03-22 01:27:03] Extracted 569 total words, 310 unique from https://www.themoviedb.org/tv/4656-wwe-raw
+[2026-03-22 01:27:03] Indexing 310 unique words from https://www.themoviedb.org/tv/4656-wwe-raw
+[2026-03-22 01:27:04] Crawled: https://www.themoviedb.org/tv/79744-the-rookie (200)
+[2026-03-22 01:27:04] Extracted 695 total words, 399 unique from https://www.themoviedb.org/tv/79744-the-rookie
+[2026-03-22 01:27:04] Indexing 399 unique words from https://www.themoviedb.org/tv/79744-the-rookie
+[2026-03-22 01:27:05] Crawled: https://www.themoviedb.org/tv/95479 (200)
+[2026-03-22 01:27:05] Extracted 683 total words, 383 unique from https://www.themoviedb.org/tv/95479
+[2026-03-22 01:27:05] Indexing 383 unique words from https://www.themoviedb.org/tv/95479
+[2026-03-22 01:27:05] Crawled: https://www.themoviedb.org/tv/250307-the-pitt (200)
+[2026-03-22 01:27:05] Extracted 630 total words, 348 unique from https://www.themoviedb.org/tv/250307-the-pitt
+[2026-03-22 01:27:05] Indexing 348 unique words from https://www.themoviedb.org/tv/250307-the-pitt
+[2026-03-22 01:27:06] Crawled: https://www.themoviedb.org/tv/45140-teen-titans-go (200)
+[2026-03-22 01:27:06] Extracted 670 total words, 351 unique from https://www.themoviedb.org/tv/45140-teen-titans-go
+[2026-03-22 01:27:06] Indexing 351 unique words from https://www.themoviedb.org/tv/45140-teen-titans-go
+[2026-03-22 01:27:06] Crawled: https://www.themoviedb.org/tv/95557-invincible (200)
+[2026-03-22 01:27:06] Extracted 760 total words, 399 unique from https://www.themoviedb.org/tv/95557-invincible
+[2026-03-22 01:27:06] Indexing 399 unique words from https://www.themoviedb.org/tv/95557-invincible
+[2026-03-22 01:27:07] Crawled: https://www.themoviedb.org/tv/30983 (200)
+[2026-03-22 01:27:07] Extracted 788 total words, 414 unique from https://www.themoviedb.org/tv/30983
+[2026-03-22 01:27:07] Indexing 414 unique words from https://www.themoviedb.org/tv/30983
+[2026-03-22 01:27:08] Crawled: https://www.themoviedb.org/tv/80748-fbi (200)
+[2026-03-22 01:27:08] Extracted 590 total words, 336 unique from https://www.themoviedb.org/tv/80748-fbi
+[2026-03-22 01:27:08] Indexing 336 unique words from https://www.themoviedb.org/tv/80748-fbi
+[2026-03-22 01:27:09] Crawled: https://www.themoviedb.org/tv/56570-outlander (200)
+[2026-03-22 01:27:09] Extracted 722 total words, 411 unique from https://www.themoviedb.org/tv/56570-outlander
+[2026-03-22 01:27:09] Indexing 411 unique words from https://www.themoviedb.org/tv/56570-outlander
+[2026-03-22 01:27:10] Crawled: https://www.themoviedb.org/tv/4614-ncis (200)
+[2026-03-22 01:27:10] Extracted 663 total words, 381 unique from https://www.themoviedb.org/tv/4614-ncis
+[2026-03-22 01:27:10] Indexing 381 unique words from https://www.themoviedb.org/tv/4614-ncis
+[2026-03-22 01:27:11] Crawled: https://www.themoviedb.org/tv/209867 (200)
+[2026-03-22 01:27:11] Extracted 713 total words, 393 unique from https://www.themoviedb.org/tv/209867
+[2026-03-22 01:27:11] Indexing 393 unique words from https://www.themoviedb.org/tv/209867
+[2026-03-22 01:27:12] Crawled: https://www.themoviedb.org/tv/1416-grey-s-anatomy (200)
+[2026-03-22 01:27:12] Extracted 552 total words, 314 unique from https://www.themoviedb.org/tv/1416-grey-s-anatomy
+[2026-03-22 01:27:12] Indexing 314 unique words from https://www.themoviedb.org/tv/1416-grey-s-anatomy
+[2026-03-22 01:27:12] Crawled: https://www.themoviedb.org/tv/101172 (200)
+[2026-03-22 01:27:12] Extracted 599 total words, 314 unique from https://www.themoviedb.org/tv/101172
+[2026-03-22 01:27:12] Indexing 314 unique words from https://www.themoviedb.org/tv/101172
+[2026-03-22 01:27:13] Crawled: https://www.themoviedb.org/tv/75219-9-1-1 (200)
+[2026-03-22 01:27:13] Extracted 662 total words, 384 unique from https://www.themoviedb.org/tv/75219-9-1-1
+[2026-03-22 01:27:13] Indexing 384 unique words from https://www.themoviedb.org/tv/75219-9-1-1
+[2026-03-22 01:27:14] Crawled: https://www.themoviedb.org/2024 (200)
+[2026-03-22 01:27:14] Extracted 1138 total words, 441 unique from https://www.themoviedb.org/2024
+[2026-03-22 01:27:14] Indexing 441 unique words from https://www.themoviedb.org/2024
+[2026-03-22 01:27:15] Crawled: https://www.themoviedb.org/tv/85077-the-chosen (200)
+[2026-03-22 01:27:15] Extracted 626 total words, 372 unique from https://www.themoviedb.org/tv/85077-the-chosen
+[2026-03-22 01:27:15] Indexing 372 unique words from https://www.themoviedb.org/tv/85077-the-chosen
+[2026-03-22 01:27:16] Crawled: https://www.themoviedb.org/tv/top-rated?page=2 (200)
+[2026-03-22 01:27:16] Extracted 478 total words, 277 unique from https://www.themoviedb.org/tv/top-rated?page=2
+[2026-03-22 01:27:16] Indexing 277 unique words from https://www.themoviedb.org/tv/top-rated?page=2
+[2026-03-22 01:27:17] Crawled: https://www.themoviedb.org/tv/1398-the-sopranos (200)
+[2026-03-22 01:27:17] Extracted 762 total words, 407 unique from https://www.themoviedb.org/tv/1398-the-sopranos
+[2026-03-22 01:27:17] Indexing 407 unique words from https://www.themoviedb.org/tv/1398-the-sopranos
+[2026-03-22 01:27:18] Crawled: https://www.themoviedb.org/tv/87108-chernobyl (200)
+[2026-03-22 01:27:18] Extracted 610 total words, 342 unique from https://www.themoviedb.org/tv/87108-chernobyl
+[2026-03-22 01:27:18] Indexing 342 unique words from https://www.themoviedb.org/tv/87108-chernobyl
+[2026-03-22 01:27:18] Crawled: https://www.themoviedb.org/tv/219246 (200)
+[2026-03-22 01:27:18] Extracted 714 total words, 385 unique from https://www.themoviedb.org/tv/219246
+[2026-03-22 01:27:18] Indexing 385 unique words from https://www.themoviedb.org/tv/219246
+[2026-03-22 01:27:18] Crawled: https://www.themoviedb.org/tv/92685-the-owl-house (200)
+[2026-03-22 01:27:18] Extracted 697 total words, 396 unique from https://www.themoviedb.org/tv/92685-the-owl-house
+[2026-03-22 01:27:18] Indexing 396 unique words from https://www.themoviedb.org/tv/92685-the-owl-house
+[2026-03-22 01:27:20] Crawled: https://www.themoviedb.org/tv/31911-fullmetal-alchemist (200)
+[2026-03-22 01:27:21] Extracted 625 total words, 347 unique from https://www.themoviedb.org/tv/31911-fullmetal-alchemist
+[2026-03-22 01:27:21] Indexing 347 unique words from https://www.themoviedb.org/tv/31911-fullmetal-alchemist
+[2026-03-22 01:27:21] Crawled: https://www.themoviedb.org/tv/301507-heated-rivalry (200)
+[2026-03-22 01:27:21] Extracted 632 total words, 344 unique from https://www.themoviedb.org/tv/301507-heated-rivalry
+[2026-03-22 01:27:21] Indexing 344 unique words from https://www.themoviedb.org/tv/301507-heated-rivalry
+[2026-03-22 01:27:22] Crawled: https://www.themoviedb.org/tv/131378-adventure-time-fionna-and-cake (200)
+[2026-03-22 01:27:22] Extracted 781 total words, 405 unique from https://www.themoviedb.org/tv/131378-adventure-time-fionna-and-cake
+[2026-03-22 01:27:22] Indexing 405 unique words from https://www.themoviedb.org/tv/131378-adventure-time-fionna-and-cake
+[2026-03-22 01:27:23] Crawled: https://www.themoviedb.org/tv/234763 (200)
+[2026-03-22 01:27:23] Extracted 648 total words, 355 unique from https://www.themoviedb.org/tv/234763
+[2026-03-22 01:27:23] Indexing 355 unique words from https://www.themoviedb.org/tv/234763
+[2026-03-22 01:27:24] Crawled: https://www.themoviedb.org/tv/280945 (200)
+[2026-03-22 01:27:24] Extracted 645 total words, 367 unique from https://www.themoviedb.org/tv/280945
+[2026-03-22 01:27:24] Indexing 367 unique words from https://www.themoviedb.org/tv/280945
+[2026-03-22 01:27:24] Crawled: https://www.themoviedb.org/tv/60625-rick-and-morty (200)
+[2026-03-22 01:27:25] Extracted 735 total words, 391 unique from https://www.themoviedb.org/tv/60625-rick-and-morty
+[2026-03-22 01:27:25] Indexing 391 unique words from https://www.themoviedb.org/tv/60625-rick-and-morty
+[2026-03-22 01:27:25] Crawled: https://www.themoviedb.org/tv/94605-arcane (200)
+[2026-03-22 01:27:25] Extracted 695 total words, 387 unique from https://www.themoviedb.org/tv/94605-arcane
+[2026-03-22 01:27:25] Indexing 387 unique words from https://www.themoviedb.org/tv/94605-arcane
+[2026-03-22 01:27:26] Crawled: https://www.themoviedb.org/tv/60059-better-call-saul (200)
+[2026-03-22 01:27:26] Extracted 662 total words, 369 unique from https://www.themoviedb.org/tv/60059-better-call-saul
+[2026-03-22 01:27:26] Indexing 369 unique words from https://www.themoviedb.org/tv/60059-better-call-saul
+[2026-03-22 01:27:27] Crawled: https://www.themoviedb.org/tv/46298-hunterxhunter (200)
+[2026-03-22 01:27:27] Extracted 616 total words, 341 unique from https://www.themoviedb.org/tv/46298-hunterxhunter
+[2026-03-22 01:27:27] Indexing 341 unique words from https://www.themoviedb.org/tv/46298-hunterxhunter
+[2026-03-22 01:27:27] Crawled: https://www.themoviedb.org/tv/1396-breaking-bad (200)
+[2026-03-22 01:27:27] Extracted 668 total words, 388 unique from https://www.themoviedb.org/tv/1396-breaking-bad
+[2026-03-22 01:27:27] Indexing 388 unique words from https://www.themoviedb.org/tv/1396-breaking-bad
+[2026-03-22 01:27:28] Crawled: https://www.themoviedb.org/tv/37854 (200)
+[2026-03-22 01:27:28] Extracted 797 total words, 429 unique from https://www.themoviedb.org/tv/37854
+[2026-03-22 01:27:28] Indexing 429 unique words from https://www.themoviedb.org/tv/37854
+[2026-03-22 01:27:28] Crawled: https://www.themoviedb.org/tv/1429 (200)
+[2026-03-22 01:27:28] Extracted 769 total words, 431 unique from https://www.themoviedb.org/tv/1429
+[2026-03-22 01:27:28] Indexing 431 unique words from https://www.themoviedb.org/tv/1429
+[2026-03-22 01:27:29] Crawled: https://www.themoviedb.org/tv/246-avatar-the-last-airbender (200)
+[2026-03-22 01:27:29] Extracted 766 total words, 433 unique from https://www.themoviedb.org/tv/246-avatar-the-last-airbender
+[2026-03-22 01:27:29] Indexing 433 unique words from https://www.themoviedb.org/tv/246-avatar-the-last-airbender
+[2026-03-22 01:27:29] Crawled: https://www.themoviedb.org/about/get-in-touch (200)
+[2026-03-22 01:27:29] Extracted 312 total words, 159 unique from https://www.themoviedb.org/about/get-in-touch
+[2026-03-22 01:27:29] Indexing 159 unique words from https://www.themoviedb.org/about/get-in-touch
+[2026-03-22 01:27:30] Crawled: https://www.themoviedb.org/about/logos-attribution (200)
+[2026-03-22 01:27:30] Extracted 340 total words, 180 unique from https://www.themoviedb.org/about/logos-attribution
+[2026-03-22 01:27:30] Indexing 180 unique words from https://www.themoviedb.org/about/logos-attribution
+[2026-03-22 01:27:36] Crawled: https://www.themoviedb.org/faq/general (200)
+[2026-03-22 01:27:36] Extracted 446 total words, 209 unique from https://www.themoviedb.org/faq/general
+[2026-03-22 01:27:36] Indexing 209 unique words from https://www.themoviedb.org/faq/general
+[2026-03-22 01:27:36] Crawled: https://www.themoviedb.org/faq/website (200)
+[2026-03-22 01:27:36] Extracted 876 total words, 325 unique from https://www.themoviedb.org/faq/website
+[2026-03-22 01:27:36] Indexing 325 unique words from https://www.themoviedb.org/faq/website
+[2026-03-22 01:27:37] Crawled: https://www.themoviedb.org/about/our-history (200)
+[2026-03-22 01:27:37] Extracted 704 total words, 339 unique from https://www.themoviedb.org/about/our-history
+[2026-03-22 01:27:37] Indexing 339 unique words from https://www.themoviedb.org/about/our-history
+[2026-03-22 01:27:38] Crawled: https://www.themoviedb.org/faq/account (200)
+[2026-03-22 01:27:38] Extracted 576 total words, 250 unique from https://www.themoviedb.org/faq/account
+[2026-03-22 01:27:38] Indexing 250 unique words from https://www.themoviedb.org/faq/account
+[2026-03-22 01:27:39] Crawled: https://www.themoviedb.org/signup?redirect=/discuss (200)
+[2026-03-22 01:27:39] Extracted 357 total words, 177 unique from https://www.themoviedb.org/signup?redirect=/discuss
+[2026-03-22 01:27:39] Indexing 177 unique words from https://www.themoviedb.org/signup?redirect=/discuss
+[2026-03-22 01:27:40] Crawled: https://www.themoviedb.org/discuss/tv (200)
+[2026-03-22 01:27:40] Extracted 396 total words, 198 unique from https://www.themoviedb.org/discuss/tv
+[2026-03-22 01:27:40] Indexing 198 unique words from https://www.themoviedb.org/discuss/tv
+[2026-03-22 01:27:41] Crawled: https://www.themoviedb.org/discuss/movies (200)
+[2026-03-22 01:27:41] Extracted 412 total words, 219 unique from https://www.themoviedb.org/discuss/movies
+[2026-03-22 01:27:41] Indexing 219 unique words from https://www.themoviedb.org/discuss/movies
+[2026-03-22 01:27:41] Crawled: https://www.themoviedb.org/discuss/people (200)
+[2026-03-22 01:27:41] Extracted 395 total words, 205 unique from https://www.themoviedb.org/discuss/people
+[2026-03-22 01:27:41] Indexing 205 unique words from https://www.themoviedb.org/discuss/people
+[2026-03-22 01:27:42] Crawled: https://www.themoviedb.org/dmca-takedown (200)
+[2026-03-22 01:27:42] Extracted 403 total words, 200 unique from https://www.themoviedb.org/dmca-takedown
+[2026-03-22 01:27:42] Indexing 200 unique words from https://www.themoviedb.org/dmca-takedown
+[2026-03-22 01:27:43] Crawled: https://www.themoviedb.org/tv/4607-lost (200)
+[2026-03-22 01:27:43] Extracted 723 total words, 383 unique from https://www.themoviedb.org/tv/4607-lost
+[2026-03-22 01:27:43] Indexing 383 unique words from https://www.themoviedb.org/tv/4607-lost
+[2026-03-22 01:27:43] Crawled: https://www.themoviedb.org/tv/34307-shameless (200)
+[2026-03-22 01:27:43] Extracted 765 total words, 415 unique from https://www.themoviedb.org/tv/34307-shameless
+[2026-03-22 01:27:43] Indexing 415 unique words from https://www.themoviedb.org/tv/34307-shameless
+[2026-03-22 01:27:45] Crawled: https://www.themoviedb.org/tv/1911-bones (200)
+[2026-03-22 01:27:45] Extracted 660 total words, 376 unique from https://www.themoviedb.org/tv/1911-bones
+[2026-03-22 01:27:45] Indexing 376 unique words from https://www.themoviedb.org/tv/1911-bones
+[2026-03-22 01:27:45] Crawled: https://www.themoviedb.org/tv/1434-family-guy (200)
+[2026-03-22 01:27:45] Extracted 760 total words, 406 unique from https://www.themoviedb.org/tv/1434-family-guy
+[2026-03-22 01:27:45] Indexing 406 unique words from https://www.themoviedb.org/tv/1434-family-guy
+[2026-03-22 01:27:46] Crawled: https://www.themoviedb.org/tv/2734-law-order-special-victims-unit (200)
+[2026-03-22 01:27:46] Extracted 651 total words, 380 unique from https://www.themoviedb.org/tv/2734-law-order-special-victims-unit
+[2026-03-22 01:27:46] Indexing 380 unique words from https://www.themoviedb.org/tv/2734-law-order-special-victims-unit
+[2026-03-22 01:27:47] Crawled: https://www.themoviedb.org/tv/456-the-simpsons (200)
+[2026-03-22 01:27:47] Extracted 717 total words, 397 unique from https://www.themoviedb.org/tv/456-the-simpsons
+[2026-03-22 01:27:47] Indexing 397 unique words from https://www.themoviedb.org/tv/456-the-simpsons
+[2026-03-22 01:27:48] Crawled: https://www.themoviedb.org/tv/1668-friends (200)
+[2026-03-22 01:27:48] Extracted 646 total words, 358 unique from https://www.themoviedb.org/tv/1668-friends
+[2026-03-22 01:27:48] Indexing 358 unique words from https://www.themoviedb.org/tv/1668-friends
+[2026-03-22 01:27:48] Crawled: https://www.themoviedb.org/tv/5920-the-mentalist (200)
+[2026-03-22 01:27:48] Extracted 715 total words, 399 unique from https://www.themoviedb.org/tv/5920-the-mentalist
+[2026-03-22 01:27:48] Indexing 399 unique words from https://www.themoviedb.org/tv/5920-the-mentalist
+[2026-03-22 01:27:49] Crawled: https://www.themoviedb.org/tv/1399-game-of-thrones (200)
+[2026-03-22 01:27:49] Extracted 721 total words, 409 unique from https://www.themoviedb.org/tv/1399-game-of-thrones
+[2026-03-22 01:27:49] Indexing 409 unique words from https://www.themoviedb.org/tv/1399-game-of-thrones
+[2026-03-22 01:27:50] Crawled: https://www.themoviedb.org/tv/1408-house (200)
+[2026-03-22 01:27:50] Extracted 722 total words, 408 unique from https://www.themoviedb.org/tv/1408-house
+[2026-03-22 01:27:50] Indexing 408 unique words from https://www.themoviedb.org/tv/1408-house
+[2026-03-22 01:27:51] Crawled: https://www.themoviedb.org/tv/4087-the-x-files (200)
+[2026-03-22 01:27:51] Extracted 718 total words, 399 unique from https://www.themoviedb.org/tv/4087-the-x-files
+[2026-03-22 01:27:51] Indexing 399 unique words from https://www.themoviedb.org/tv/4087-the-x-files
+[2026-03-22 01:27:51] Crawled: https://www.themoviedb.org/tv?page=2 (200)
+[2026-03-22 01:27:52] Extracted 464 total words, 270 unique from https://www.themoviedb.org/tv?page=2
+[2026-03-22 01:27:52] Indexing 270 unique words from https://www.themoviedb.org/tv?page=2
+[2026-03-22 01:27:52] Crawled: https://www.themoviedb.org/tv/4057-criminal-minds (200)
+[2026-03-22 01:27:52] Extracted 652 total words, 374 unique from https://www.themoviedb.org/tv/4057-criminal-minds
+[2026-03-22 01:27:52] Indexing 374 unique words from https://www.themoviedb.org/tv/4057-criminal-minds
+[2026-03-22 01:27:53] Crawled: https://www.themoviedb.org/tv/111110-one-piece (200)
+[2026-03-22 01:27:53] Extracted 669 total words, 386 unique from https://www.themoviedb.org/tv/111110-one-piece
+[2026-03-22 01:27:53] Indexing 386 unique words from https://www.themoviedb.org/tv/111110-one-piece
+[2026-03-22 01:27:54] Crawled: https://www.themoviedb.org/tv/4604-smallville (200)
+[2026-03-22 01:27:54] Extracted 619 total words, 359 unique from https://www.themoviedb.org/tv/4604-smallville
+[2026-03-22 01:27:54] Indexing 359 unique words from https://www.themoviedb.org/tv/4604-smallville
+[2026-03-22 01:27:55] Crawled: https://www.themoviedb.org/tv/1622-supernatural (200)
+[2026-03-22 01:27:55] Extracted 725 total words, 395 unique from https://www.themoviedb.org/tv/1622-supernatural
+[2026-03-22 01:27:55] Indexing 395 unique words from https://www.themoviedb.org/tv/1622-supernatural
+[2026-03-22 01:27:55] Crawled: https://www.themoviedb.org/u/RuiZafon/lists (200)
+[2026-03-22 01:27:55] Extracted 306 total words, 155 unique from https://www.themoviedb.org/u/RuiZafon/lists
+[2026-03-22 01:27:55] Indexing 155 unique words from https://www.themoviedb.org/u/RuiZafon/lists
+[2026-03-22 01:27:55] Crawled: https://www.themoviedb.org/person/6086784-arya (200)
+[2026-03-22 01:27:55] Extracted 330 total words, 177 unique from https://www.themoviedb.org/person/6086784-arya
+[2026-03-22 01:27:55] Indexing 177 unique words from https://www.themoviedb.org/person/6086784-arya
+[2026-03-22 01:27:56] Crawled: https://www.themoviedb.org/tv/204100-yashomati-maiyaa-ke-nandlala (200)
+[2026-03-22 01:27:56] Extracted 506 total words, 275 unique from https://www.themoviedb.org/tv/204100-yashomati-maiyaa-ke-nandlala
+[2026-03-22 01:27:56] Indexing 275 unique words from https://www.themoviedb.org/tv/204100-yashomati-maiyaa-ke-nandlala
+[2026-03-22 01:27:57] Crawled: https://www.themoviedb.org/tv/317158-gudiya-hamari-sabhi-pe-bhari (200)
+[2026-03-22 01:27:57] Extracted 460 total words, 238 unique from https://www.themoviedb.org/tv/317158-gudiya-hamari-sabhi-pe-bhari
+[2026-03-22 01:27:57] Indexing 238 unique words from https://www.themoviedb.org/tv/317158-gudiya-hamari-sabhi-pe-bhari
+[2026-03-22 01:27:58] Crawled: https://www.themoviedb.org/person/2065704-ashwanth-thilak (200)
+[2026-03-22 01:27:58] Extracted 377 total words, 203 unique from https://www.themoviedb.org/person/2065704-ashwanth-thilak
+[2026-03-22 01:27:58] Indexing 203 unique words from https://www.themoviedb.org/person/2065704-ashwanth-thilak
+[2026-03-22 01:27:58] Crawled: https://www.themoviedb.org/person/6086774-trisha-sarda (200)
+[2026-03-22 01:27:58] Extracted 331 total words, 178 unique from https://www.themoviedb.org/person/6086774-trisha-sarda
+[2026-03-22 01:27:58] Indexing 178 unique words from https://www.themoviedb.org/person/6086774-trisha-sarda
+[2026-03-22 01:27:59] Crawled: https://www.themoviedb.org/tv/317058-nenjam-marappathillai (200)
+[2026-03-22 01:27:59] Extracted 446 total words, 232 unique from https://www.themoviedb.org/tv/317058-nenjam-marappathillai
+[2026-03-22 01:27:59] Indexing 232 unique words from https://www.themoviedb.org/tv/317058-nenjam-marappathillai
+[2026-03-22 01:27:59] Crawled: https://www.themoviedb.org/person/4350027-sarika-bahroliya (200)
+[2026-03-22 01:27:59] Extracted 345 total words, 192 unique from https://www.themoviedb.org/person/4350027-sarika-bahroliya
+[2026-03-22 01:27:59] Indexing 192 unique words from https://www.themoviedb.org/person/4350027-sarika-bahroliya
+[2026-03-22 01:28:00] Crawled: https://www.themoviedb.org/tv/154625 (200)
+[2026-03-22 01:28:00] Extracted 509 total words, 269 unique from https://www.themoviedb.org/tv/154625
+[2026-03-22 01:28:00] Indexing 269 unique words from https://www.themoviedb.org/tv/154625
+[2026-03-22 01:28:01] Crawled: https://www.themoviedb.org/person/6084136-sharanya-turadi (200)
+[2026-03-22 01:28:01] Extracted 340 total words, 186 unique from https://www.themoviedb.org/person/6084136-sharanya-turadi
+[2026-03-22 01:28:01] Indexing 186 unique words from https://www.themoviedb.org/person/6084136-sharanya-turadi
+[2026-03-22 01:28:04] Crawled: https://www.themoviedb.org/u/RuiZafon/activity (200)
+[2026-03-22 01:28:04] Extracted 334 total words, 163 unique from https://www.themoviedb.org/u/RuiZafon/activity
+[2026-03-22 01:28:04] Indexing 163 unique words from https://www.themoviedb.org/u/RuiZafon/activity
+[2026-03-22 01:28:05] Crawled: https://www.themoviedb.org/tv/114340-namak-issk-ka (200)
+[2026-03-22 01:28:05] Extracted 466 total words, 247 unique from https://www.themoviedb.org/tv/114340-namak-issk-ka
+[2026-03-22 01:28:05] Indexing 247 unique words from https://www.themoviedb.org/tv/114340-namak-issk-ka
+[2026-03-22 01:28:06] Crawled: https://www.themoviedb.org/u/dkmovies/lists (200)
+[2026-03-22 01:28:06] Extracted 306 total words, 155 unique from https://www.themoviedb.org/u/dkmovies/lists
+[2026-03-22 01:28:06] Indexing 155 unique words from https://www.themoviedb.org/u/dkmovies/lists
+[2026-03-22 01:28:07] Crawled: https://www.themoviedb.org/person/6083565-anchal-takalkar (200)
+[2026-03-22 01:28:07] Extracted 326 total words, 173 unique from https://www.themoviedb.org/person/6083565-anchal-takalkar
+[2026-03-22 01:28:07] Indexing 173 unique words from https://www.themoviedb.org/person/6083565-anchal-takalkar
+[2026-03-22 01:28:07] Crawled: https://www.themoviedb.org/tv/317037-naam-gum-jayega (200)
+[2026-03-22 01:28:07] Extracted 446 total words, 239 unique from https://www.themoviedb.org/tv/317037-naam-gum-jayega
+[2026-03-22 01:28:07] Indexing 239 unique words from https://www.themoviedb.org/tv/317037-naam-gum-jayega
+[2026-03-22 01:28:08] Crawled: https://www.themoviedb.org/person/6083083-krishnanand-tiwari (200)
+[2026-03-22 01:28:08] Extracted 326 total words, 173 unique from https://www.themoviedb.org/person/6083083-krishnanand-tiwari
+[2026-03-22 01:28:08] Indexing 173 unique words from https://www.themoviedb.org/person/6083083-krishnanand-tiwari
+[2026-03-22 01:28:09] Crawled: https://www.themoviedb.org/u/dkmovies/activity (200)
+[2026-03-22 01:28:09] Extracted 356 total words, 154 unique from https://www.themoviedb.org/u/dkmovies/activity
+[2026-03-22 01:28:09] Indexing 154 unique words from https://www.themoviedb.org/u/dkmovies/activity
+[2026-03-22 01:28:09] Crawled: https://www.themoviedb.org/tv/315970-ghar-tera-mera (200)
+[2026-03-22 01:28:09] Extracted 473 total words, 267 unique from https://www.themoviedb.org/tv/315970-ghar-tera-mera
+[2026-03-22 01:28:09] Indexing 267 unique words from https://www.themoviedb.org/tv/315970-ghar-tera-mera
+[2026-03-22 01:28:10] Crawled: https://www.themoviedb.org/tv/309326-setu (200)
+[2026-03-22 01:28:10] Extracted 454 total words, 242 unique from https://www.themoviedb.org/tv/309326-setu
+[2026-03-22 01:28:10] Indexing 242 unique words from https://www.themoviedb.org/tv/309326-setu
+[2026-03-22 01:28:10] Crawled: https://www.themoviedb.org/tv/297669-pyaar-sey-bandhe-rishte (200)
+[2026-03-22 01:28:10] Extracted 607 total words, 338 unique from https://www.themoviedb.org/tv/297669-pyaar-sey-bandhe-rishte
+[2026-03-22 01:28:10] Indexing 338 unique words from https://www.themoviedb.org/tv/297669-pyaar-sey-bandhe-rishte
+[2026-03-22 01:28:11] Crawled: https://www.themoviedb.org/tv/302387-saas-bahu-aur-swaad (200)
+[2026-03-22 01:28:11] Extracted 491 total words, 273 unique from https://www.themoviedb.org/tv/302387-saas-bahu-aur-swaad
+[2026-03-22 01:28:11] Indexing 273 unique words from https://www.themoviedb.org/tv/302387-saas-bahu-aur-swaad
+[2026-03-22 01:28:11] Crawled: https://www.themoviedb.org/person/6083095-sagar-rambhiya (200)
+[2026-03-22 01:28:11] Extracted 328 total words, 175 unique from https://www.themoviedb.org/person/6083095-sagar-rambhiya
+[2026-03-22 01:28:11] Indexing 175 unique words from https://www.themoviedb.org/person/6083095-sagar-rambhiya
+[2026-03-22 01:28:12] Crawled: https://www.themoviedb.org/person/6083569-bahnishikha-das (200)
+[2026-03-22 01:28:12] Extracted 326 total words, 172 unique from https://www.themoviedb.org/person/6083569-bahnishikha-das
+[2026-03-22 01:28:12] Indexing 172 unique words from https://www.themoviedb.org/person/6083569-bahnishikha-das
+[2026-03-22 01:28:12] Crawled: https://www.themoviedb.org/person/6083566-veena-raina (200)
+[2026-03-22 01:28:12] Extracted 326 total words, 173 unique from https://www.themoviedb.org/person/6083566-veena-raina
+[2026-03-22 01:28:12] Indexing 173 unique words from https://www.themoviedb.org/person/6083566-veena-raina
+[2026-03-22 01:28:12] Crawled: https://www.themoviedb.org/bible/new_content/59f792cd9251413e93000004 (200)
+[2026-03-22 01:28:12] Extracted 3780 total words, 951 unique from https://www.themoviedb.org/bible/new_content/59f792cd9251413e93000004
+[2026-03-22 01:28:12] Indexing 951 unique words from https://www.themoviedb.org/bible/new_content/59f792cd9251413e93000004
+[2026-03-22 01:28:13] Crawled: https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000001 (200)
+[2026-03-22 01:28:13] Extracted 3134 total words, 854 unique from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000001
+[2026-03-22 01:28:13] Indexing 854 unique words from https://www.themoviedb.org/bible/movie/59f3b16d9251414f20000001
+[2026-03-22 01:28:14] Crawled: https://www.themoviedb.org/tv/313925-el-amor-ajeno (200)
+[2026-03-22 01:28:14] Extracted 482 total words, 255 unique from https://www.themoviedb.org/tv/313925-el-amor-ajeno
+[2026-03-22 01:28:14] Indexing 255 unique words from https://www.themoviedb.org/tv/313925-el-amor-ajeno
+[2026-03-22 01:28:15] Crawled: https://www.themoviedb.org/tv/317113-eclipse (200)
+[2026-03-22 01:28:15] Extracted 455 total words, 225 unique from https://www.themoviedb.org/tv/317113-eclipse
+[2026-03-22 01:28:15] Indexing 225 unique words from https://www.themoviedb.org/tv/317113-eclipse
+[2026-03-22 01:28:16] Crawled: https://www.themoviedb.org/movie/1312157-follemente (200)
+[2026-03-22 01:28:16] Extracted 503 total words, 288 unique from https://www.themoviedb.org/movie/1312157-follemente
+[2026-03-22 01:28:16] Indexing 288 unique words from https://www.themoviedb.org/movie/1312157-follemente
+[2026-03-22 01:28:16] Crawled: https://www.themoviedb.org/tv/133312-el-abuelo-y-yo (200)
+[2026-03-22 01:28:16] Extracted 515 total words, 266 unique from https://www.themoviedb.org/tv/133312-el-abuelo-y-yo
+[2026-03-22 01:28:16] Indexing 266 unique words from https://www.themoviedb.org/tv/133312-el-abuelo-y-yo
+[2026-03-22 01:28:17] Crawled: https://www.themoviedb.org/tv/115796-igra-sudbine (200)
+[2026-03-22 01:28:17] Extracted 523 total words, 282 unique from https://www.themoviedb.org/tv/115796-igra-sudbine
+[2026-03-22 01:28:17] Indexing 282 unique words from https://www.themoviedb.org/tv/115796-igra-sudbine
+[2026-03-22 01:28:17] Crawled: https://www.themoviedb.org/tv/317175-el-amor-de-mi-vida (200)
+[2026-03-22 01:28:17] Extracted 466 total words, 226 unique from https://www.themoviedb.org/tv/317175-el-amor-de-mi-vida
+[2026-03-22 01:28:17] Indexing 226 unique words from https://www.themoviedb.org/tv/317175-el-amor-de-mi-vida
+[2026-03-22 01:28:18] Crawled: https://www.themoviedb.org/tv/305271-el-alma-no-tiene-color (200)
+[2026-03-22 01:28:18] Extracted 480 total words, 251 unique from https://www.themoviedb.org/tv/305271-el-alma-no-tiene-color
+[2026-03-22 01:28:18] Indexing 251 unique words from https://www.themoviedb.org/tv/305271-el-alma-no-tiene-color
+[2026-03-22 01:28:18] Crawled: https://www.themoviedb.org/movie/1218628-trouble-man (200)
+[2026-03-22 01:28:18] Extracted 466 total words, 264 unique from https://www.themoviedb.org/movie/1218628-trouble-man
+[2026-03-22 01:28:18] Indexing 264 unique words from https://www.themoviedb.org/movie/1218628-trouble-man
+[2026-03-22 01:28:19] Crawled: https://www.themoviedb.org/u/qualitylover/lists (200)
+[2026-03-22 01:28:19] Extracted 306 total words, 155 unique from https://www.themoviedb.org/u/qualitylover/lists
+[2026-03-22 01:28:19] Indexing 155 unique words from https://www.themoviedb.org/u/qualitylover/lists
+[2026-03-22 01:28:19] Crawled: https://www.themoviedb.org/tv/317114-educando-a-nina (200)
+[2026-03-22 01:28:19] Extracted 458 total words, 225 unique from https://www.themoviedb.org/tv/317114-educando-a-nina
+[2026-03-22 01:28:19] Indexing 225 unique words from https://www.themoviedb.org/tv/317114-educando-a-nina
+[2026-03-22 01:28:21] Crawled: https://www.themoviedb.org/u/qualitylover/activity (200)
+[2026-03-22 01:28:22] Extracted 555 total words, 213 unique from https://www.themoviedb.org/u/qualitylover/activity
+[2026-03-22 01:28:22] Indexing 213 unique words from https://www.themoviedb.org/u/qualitylover/activity
+[2026-03-22 01:28:22] Crawled: https://www.themoviedb.org/movie/1450532-interior-zero (200)
+[2026-03-22 01:28:22] Extracted 543 total words, 314 unique from https://www.themoviedb.org/movie/1450532-interior-zero
+[2026-03-22 01:28:22] Indexing 314 unique words from https://www.themoviedb.org/movie/1450532-interior-zero
+[2026-03-22 01:28:23] Crawled: https://www.themoviedb.org/list/8427643 (200)
+[2026-03-22 01:28:23] Extracted 357 total words, 196 unique from https://www.themoviedb.org/list/8427643
+[2026-03-22 01:28:23] Indexing 196 unique words from https://www.themoviedb.org/list/8427643
+[2026-03-22 01:28:24] Crawled: https://www.themoviedb.org/u/Romika/watchlist/movie (200)
+[2026-03-22 01:28:24] Extracted 332 total words, 165 unique from https://www.themoviedb.org/u/Romika/watchlist/movie
+[2026-03-22 01:28:24] Indexing 165 unique words from https://www.themoviedb.org/u/Romika/watchlist/movie
+[2026-03-22 01:28:24] Crawled: https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=created_at&sort_order=desc (200)
+[2026-03-22 01:28:24] Extracted 332 total words, 165 unique from https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=created_at&sort_order=desc
+[2026-03-22 01:28:24] Indexing 165 unique words from https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=created_at&sort_order=desc
+[2026-03-22 01:28:25] Crawled: https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=popularity&sort_order=desc (200)
+[2026-03-22 01:28:25] Extracted 332 total words, 165 unique from https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=popularity&sort_order=desc
+[2026-03-22 01:28:25] Indexing 165 unique words from https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=popularity&sort_order=desc
+[2026-03-22 01:28:26] Crawled: https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=release_date&sort_order=desc (200)
+[2026-03-22 01:28:26] Extracted 332 total words, 165 unique from https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=release_date&sort_order=desc
+[2026-03-22 01:28:26] Indexing 165 unique words from https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=release_date&sort_order=desc
+[2026-03-22 01:28:26] Crawled: https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=upcoming&sort_order=desc (200)
+[2026-03-22 01:28:26] Extracted 345 total words, 172 unique from https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=upcoming&sort_order=desc
+[2026-03-22 01:28:26] Indexing 172 unique words from https://www.themoviedb.org/u/Romika/watchlist/movie?sort_by=upcoming&sort_order=desc
+[2026-03-22 01:28:27] Crawled: https://www.themoviedb.org/u/Romika/favorites/movie?sort_by=created_at&sort_order=desc (200)
+[2026-03-22 01:28:27] Extracted 753 total words, 417 unique from https://www.themoviedb.org/u/Romika/favorites/movie?sort_by=created_at&sort_order=desc
+[2026-03-22 01:28:27] Indexing 417 unique words from https://www.themoviedb.org/u/Romika/favorites/movie?sort_by=created_at&sort_order=desc
+[2026-03-22 01:28:28] Crawled: https://www.themoviedb.org/movie/63451-po-semeynym-obstoyatelstvam (200)
+[2026-03-22 01:28:28] Extracted 448 total words, 249 unique from https://www.themoviedb.org/movie/63451-po-semeynym-obstoyatelstvam
+[2026-03-22 01:28:28] Indexing 249 unique words from https://www.themoviedb.org/movie/63451-po-semeynym-obstoyatelstvam
+[2026-03-22 01:28:28] Crawled: https://www.themoviedb.org/u/Romika/favorites/movie?sort_by=popularity&sort_order=desc (200)
+[2026-03-22 01:28:28] Extracted 753 total words, 417 unique from https://www.themoviedb.org/u/Romika/favorites/movie?sort_by=popularity&sort_order=desc
+[2026-03-22 01:28:28] Indexing 417 unique words from https://www.themoviedb.org/u/Romika/favorites/movie?sort_by=popularity&sort_order=desc
+[2026-03-22 01:28:29] Crawled: https://www.themoviedb.org/movie/20949 (200)
+[2026-03-22 01:28:29] Extracted 560 total words, 326 unique from https://www.themoviedb.org/movie/20949
+[2026-03-22 01:28:29] Indexing 326 unique words from https://www.themoviedb.org/movie/20949
+[2026-03-22 01:28:30] Crawled: https://www.themoviedb.org/movie/92132 (200)
+[2026-03-22 01:28:30] Extracted 473 total words, 271 unique from https://www.themoviedb.org/movie/92132
+[2026-03-22 01:28:30] Indexing 271 unique words from https://www.themoviedb.org/movie/92132
+[2026-03-22 01:28:30] Crawled: https://www.themoviedb.org/movie/57770 (200)
+[2026-03-22 01:28:30] Extracted 461 total words, 266 unique from https://www.themoviedb.org/movie/57770
+[2026-03-22 01:28:30] Indexing 266 unique words from https://www.themoviedb.org/movie/57770
+[2026-03-22 01:28:31] Crawled: https://www.themoviedb.org/u/Romika/favorites/movie?sort_by=release_date&sort_order=desc (200)
+[2026-03-22 01:28:31] Extracted 753 total words, 417 unique from https://www.themoviedb.org/u/Romika/favorites/movie?sort_by=release_date&sort_order=desc
+[2026-03-22 01:28:31] Indexing 417 unique words from https://www.themoviedb.org/u/Romika/favorites/movie?sort_by=release_date&sort_order=desc
+[2026-03-22 01:28:31] Crawled: https://www.themoviedb.org/movie/20874 (200)
+[2026-03-22 01:28:31] Extracted 545 total words, 311 unique from https://www.themoviedb.org/movie/20874
+[2026-03-22 01:28:31] Indexing 311 unique words from https://www.themoviedb.org/movie/20874
+[2026-03-22 01:28:33] Crawled: https://www.themoviedb.org/movie/675360 (200)
+[2026-03-22 01:28:33] Extracted 531 total words, 298 unique from https://www.themoviedb.org/movie/675360
+[2026-03-22 01:28:33] Indexing 298 unique words from https://www.themoviedb.org/movie/675360
+[2026-03-22 01:28:34] Crawled: https://www.themoviedb.org/u/Romika/favorites/movie (200)
+[2026-03-22 01:28:34] Extracted 753 total words, 417 unique from https://www.themoviedb.org/u/Romika/favorites/movie
+[2026-03-22 01:28:34] Indexing 417 unique words from https://www.themoviedb.org/u/Romika/favorites/movie
+[2026-03-22 01:28:34] Crawled: https://www.themoviedb.org/movie/539415-no-parking (200)
+[2026-03-22 01:28:34] Extracted 427 total words, 229 unique from https://www.themoviedb.org/movie/539415-no-parking
+[2026-03-22 01:28:34] Indexing 229 unique words from https://www.themoviedb.org/movie/539415-no-parking
+[2026-03-22 01:28:35] Crawled: https://www.themoviedb.org/movie/1098006-fountain-of-youth (200)
+[2026-03-22 01:28:35] Extracted 617 total words, 356 unique from https://www.themoviedb.org/movie/1098006-fountain-of-youth
+[2026-03-22 01:28:35] Indexing 356 unique words from https://www.themoviedb.org/movie/1098006-fountain-of-youth
+[2026-03-22 01:28:36] Crawled: https://www.themoviedb.org/tv/250253 (200)
+[2026-03-22 01:28:36] Extracted 492 total words, 254 unique from https://www.themoviedb.org/tv/250253
+[2026-03-22 01:28:36] Indexing 254 unique words from https://www.themoviedb.org/tv/250253
+[2026-03-22 01:28:37] Crawled: https://www.themoviedb.org/tv/157769 (200)
+[2026-03-22 01:28:37] Extracted 615 total words, 337 unique from https://www.themoviedb.org/tv/157769
+[2026-03-22 01:28:37] Indexing 337 unique words from https://www.themoviedb.org/tv/157769
+[2026-03-22 01:28:37] Crawled: https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=release_date&sort_order=desc (200)
+[2026-03-22 01:28:37] Extracted 786 total words, 394 unique from https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=release_date&sort_order=desc
+[2026-03-22 01:28:37] Indexing 394 unique words from https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=release_date&sort_order=desc
+[2026-03-22 01:28:38] Crawled: https://www.themoviedb.org/tv/225246 (200)
+[2026-03-22 01:28:38] Extracted 464 total words, 249 unique from https://www.themoviedb.org/tv/225246
+[2026-03-22 01:28:38] Indexing 249 unique words from https://www.themoviedb.org/tv/225246
+[2026-03-22 01:28:38] Crawled: https://www.themoviedb.org/tv/212578 (200)
+[2026-03-22 01:28:38] Extracted 548 total words, 298 unique from https://www.themoviedb.org/tv/212578
+[2026-03-22 01:28:38] Indexing 298 unique words from https://www.themoviedb.org/tv/212578
+[2026-03-22 01:28:39] Crawled: https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=created_at&sort_order=desc (200)
+[2026-03-22 01:28:39] Extracted 786 total words, 394 unique from https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=created_at&sort_order=desc
+[2026-03-22 01:28:39] Indexing 394 unique words from https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=created_at&sort_order=desc
+[2026-03-22 01:28:40] Crawled: https://www.themoviedb.org/tv/294041-tyomnaya-loshadka (200)
+[2026-03-22 01:28:40] Extracted 478 total words, 253 unique from https://www.themoviedb.org/tv/294041-tyomnaya-loshadka
+[2026-03-22 01:28:40] Indexing 253 unique words from https://www.themoviedb.org/tv/294041-tyomnaya-loshadka
+[2026-03-22 01:28:41] Crawled: https://www.themoviedb.org/tv/153581 (200)
+[2026-03-22 01:28:41] Extracted 533 total words, 288 unique from https://www.themoviedb.org/tv/153581
+[2026-03-22 01:28:41] Indexing 288 unique words from https://www.themoviedb.org/tv/153581
+[2026-03-22 01:28:41] Crawled: https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=upcoming&sort_order=desc (200)
+[2026-03-22 01:28:41] Extracted 347 total words, 172 unique from https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=upcoming&sort_order=desc
+[2026-03-22 01:28:41] Indexing 172 unique words from https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=upcoming&sort_order=desc
+[2026-03-22 01:28:42] Crawled: https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=popularity&sort_order=desc (200)
+[2026-03-22 01:28:42] Extracted 786 total words, 394 unique from https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=popularity&sort_order=desc
+[2026-03-22 01:28:42] Indexing 394 unique words from https://www.themoviedb.org/u/Romika/watchlist/tv?sort_by=popularity&sort_order=desc
+[2026-03-22 01:28:42] Crawled: https://www.themoviedb.org/tv/231864 (200)
+[2026-03-22 01:28:42] Extracted 495 total words, 264 unique from https://www.themoviedb.org/tv/231864
+[2026-03-22 01:28:42] Indexing 264 unique words from https://www.themoviedb.org/tv/231864
+[2026-03-22 01:28:43] Crawled: https://www.themoviedb.org/network/7286 (200)
+[2026-03-22 01:28:43] Extracted 792 total words, 406 unique from https://www.themoviedb.org/network/7286
+[2026-03-22 01:28:43] Indexing 406 unique words from https://www.themoviedb.org/network/7286
+[2026-03-22 01:28:44] Crawled: https://www.themoviedb.org/tv/55165/changes (200)
+[2026-03-22 01:28:44] Extracted 666 total words, 206 unique from https://www.themoviedb.org/tv/55165/changes
+[2026-03-22 01:28:44] Indexing 206 unique words from https://www.themoviedb.org/tv/55165/changes
+[2026-03-22 01:28:45] Crawled: https://www.themoviedb.org/tv/55165/reviews (200)
+[2026-03-22 01:28:45] Extracted 290 total words, 155 unique from https://www.themoviedb.org/tv/55165/reviews
+[2026-03-22 01:28:45] Indexing 155 unique words from https://www.themoviedb.org/tv/55165/reviews
+[2026-03-22 01:28:46] Crawled: https://www.themoviedb.org/tv/55165/episode_groups (200)
+[2026-03-22 01:28:46] Extracted 288 total words, 160 unique from https://www.themoviedb.org/tv/55165/episode_groups
+[2026-03-22 01:28:46] Indexing 160 unique words from https://www.themoviedb.org/tv/55165/episode_groups
+[2026-03-22 01:28:47] Crawled: https://www.themoviedb.org/person/86687-leonyd-kanevskyi (200)
+[2026-03-22 01:28:47] Extracted 1379 total words, 533 unique from https://www.themoviedb.org/person/86687-leonyd-kanevskyi
+[2026-03-22 01:28:47] Indexing 533 unique words from https://www.themoviedb.org/person/86687-leonyd-kanevskyi
+[2026-03-22 01:28:47] Crawled: https://www.themoviedb.org/tv/55165/images/logos (200)
+[2026-03-22 01:28:47] Extracted 307 total words, 165 unique from https://www.themoviedb.org/tv/55165/images/logos
+[2026-03-22 01:28:47] Indexing 165 unique words from https://www.themoviedb.org/tv/55165/images/logos
+[2026-03-22 01:28:48] Crawled: https://www.themoviedb.org/genre/9648-mystery/tv (200)
+[2026-03-22 01:28:48] Extracted 1283 total words, 632 unique from https://www.themoviedb.org/genre/9648-mystery/tv
+[2026-03-22 01:28:48] Indexing 632 unique words from https://www.themoviedb.org/genre/9648-mystery/tv
+[2026-03-22 01:28:49] Crawled: https://www.themoviedb.org/person/4203933-erika-galimurza (200)
+[2026-03-22 01:28:49] Extracted 348 total words, 183 unique from https://www.themoviedb.org/person/4203933-erika-galimurza
+[2026-03-22 01:28:49] Indexing 183 unique words from https://www.themoviedb.org/person/4203933-erika-galimurza
+[2026-03-22 01:28:50] Crawled: https://www.themoviedb.org/tv/55165/seasons (200)
+[2026-03-22 01:28:50] Extracted 642 total words, 207 unique from https://www.themoviedb.org/tv/55165/seasons
+[2026-03-22 01:28:50] Indexing 207 unique words from https://www.themoviedb.org/tv/55165/seasons
+[2026-03-22 01:28:51] Crawled: https://www.themoviedb.org/tv/55165/season/21 (200)
+[2026-03-22 01:28:51] Extracted 443 total words, 169 unique from https://www.themoviedb.org/tv/55165/season/21
+[2026-03-22 01:28:51] Indexing 169 unique words from https://www.themoviedb.org/tv/55165/season/21
+[2026-03-22 01:28:52] Crawled: https://www.themoviedb.org/person/23924-devid-gamburg (200)
+[2026-03-22 01:28:52] Extracted 767 total words, 301 unique from https://www.themoviedb.org/person/23924-devid-gamburg
+[2026-03-22 01:28:52] Indexing 301 unique words from https://www.themoviedb.org/person/23924-devid-gamburg
+[2026-03-22 01:28:52] Crawled: https://www.themoviedb.org/tv/55165/episode_group/6436848f9ac5350129b436d6 (200)
+[2026-03-22 01:28:52] Extracted 343 total words, 186 unique from https://www.themoviedb.org/tv/55165/episode_group/6436848f9ac5350129b436d6
+[2026-03-22 01:28:52] Indexing 186 unique words from https://www.themoviedb.org/tv/55165/episode_group/6436848f9ac5350129b436d6
+[2026-03-22 01:28:54] Crawled: https://www.themoviedb.org/tv/55165/season/21/episode/7 (200)
+[2026-03-22 01:28:54] Extracted 479 total words, 183 unique from https://www.themoviedb.org/tv/55165/season/21/episode/7
+[2026-03-22 01:28:54] Indexing 183 unique words from https://www.themoviedb.org/tv/55165/season/21/episode/7
+[2026-03-22 01:28:54] Crawled: https://www.themoviedb.org/u/mcanz (200)
+[2026-03-22 01:28:54] Extracted 416 total words, 205 unique from https://www.themoviedb.org/u/mcanz
+[2026-03-22 01:28:54] Indexing 205 unique words from https://www.themoviedb.org/u/mcanz
+[2026-03-22 01:28:56] Crawled: https://www.themoviedb.org/tv/55165/cast (200)
+[2026-03-22 01:28:56] Extracted 317 total words, 172 unique from https://www.themoviedb.org/tv/55165/cast
+[2026-03-22 01:28:56] Indexing 172 unique words from https://www.themoviedb.org/tv/55165/cast
+[2026-03-22 01:28:56] Queue capacity 100% reached (20000). Auto-stopping crawler.
+[2026-03-22 01:28:56] Crawler finished. Status: Stopped, URLs crawled: 635

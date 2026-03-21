@@ -1,0 +1,20 @@
+{
+  "crawler_id": "1774128583_29484",
+  "origin": "https://letterboxd.com",
+  "status": "Finished",
+  "created_at": "2026-03-22T00:29:43.098730",
+  "started_at": "2026-03-22T00:29:43.348605",
+  "finished_at": "2026-03-22T00:29:51.248498",
+  "config": {
+    "max_depth": 7,
+    "hit_rate": 100,
+    "max_queue_capacity": 30000,
+    "max_urls_to_visit": 2000
+  },
+  "stats": {
+    "urls_crawled": 2,
+    "urls_failed": 88,
+    "urls_queued": 0,
+    "urls_visited": 90
+  }
+}

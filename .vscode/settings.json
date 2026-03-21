@@ -1,0 +1,5 @@
+{
+    "chat.planAgent.defaultModel": "Claude Sonnet 4.6 (claude-code)",
+    "github.copilot.chat.terminalChatLocation": "chatView",
+    "github.copilot.chat.switchAgent.enabled": true
+}

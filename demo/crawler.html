@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google in a Day - Crawler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --bg-primary: #f8f9fa;
+            --bg-secondary: #ffffff;
+            --text-primary: #202124;
+            --text-secondary: #5f6368;
+            --border-color: #dadce0;
+            --primary: #4285f4;
+            --success: #34a853;
+            --warning: #fbbc05;
+            --danger: #ea4335;
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #0f0f23;
+            --bg-secondary: #1a1a2e;
+            --text-primary: #e4e6eb;
+            --text-secondary: #b0b3b8;
+            --border-color: rgba(255, 255, 255, 0.1);
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Product Sans', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #4285f4, #58aefa, #5aaef7, #3084ce);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .nav-links a {
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: var(--text-primary);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background: var(--glass-bg);
+        }
+
+        .nav-links a.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .theme-toggle {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            color: var(--text-primary);
+        }
+
+        .theme-toggle:hover {
+            transform: rotate(15deg);
+            background: var(--bg-secondary);
+        }
+
+        .theme-toggle svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Cards with Glassmorphism */
+        .card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow);
+        }
+
+        .card h2 {
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        /* Form Elements */
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        input[type="text"],
+        input[type="url"],
+        input[type="number"] {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 1rem;
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.2);
+        }
+
+        .input-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        /* Checkbox styling */
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            color: var(--text-primary);
+        }
+
+        .checkbox-label input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: var(--primary);
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), #3367d6);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(66, 133, 244, 0.4);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, var(--danger), #c5221f);
+            color: white;
+        }
+
+        .btn-danger:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(234, 67, 53, 0.4);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, var(--success), #2e7d32);
+            color: white;
+        }
+
+        .btn-warning {
+            background: linear-gradient(135deg, var(--warning), #f9a825);
+            color: #202124;
+        }
+
+        .btn-sm {
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        /* Statistics Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stat-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            padding: 1.25rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), var(--success));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        /* Crawler List */
+        .crawler-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .crawler-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            border-left: 4px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .crawler-item:hover {
+            transform: translateX(4px);
+        }
+
+        .crawler-item.active { border-left-color: var(--success); }
+        .crawler-item.paused { border-left-color: var(--warning); }
+        .crawler-item.stopped { border-left-color: var(--danger); }
+        .crawler-item.finished { border-left-color: var(--primary); }
+
+        .crawler-info { flex: 1; }
+
+        .crawler-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .crawler-id {
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+        }
+
+        .crawler-timestamp {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            background: var(--glass-bg);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+        }
+
+        .crawler-origin {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            word-break: break-all;
+            margin-bottom: 0.5rem;
+        }
+
+        .crawler-stats {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .status-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .status-active { background: rgba(52, 168, 83, 0.2); color: var(--success); }
+        .status-paused { background: rgba(251, 188, 5, 0.2); color: var(--warning); }
+        .status-stopped { background: rgba(234, 67, 53, 0.2); color: var(--danger); }
+        .status-finished { background: rgba(66, 133, 244, 0.2); color: var(--primary); }
+
+        .crawler-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        /* Messages */
+        .message {
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .message-success {
+            background: rgba(52, 168, 83, 0.15);
+            color: var(--success);
+            border: 1px solid rgba(52, 168, 83, 0.3);
+        }
+
+        .message-error {
+            background: rgba(234, 67, 53, 0.15);
+            color: var(--danger);
+            border: 1px solid rgba(234, 67, 53, 0.3);
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+
+        .empty-state svg {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+            stroke: var(--text-secondary);
+        }
+
+        /* Advanced Options Toggle */
+        .advanced-toggle {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            color: var(--primary);
+            font-size: 0.9rem;
+            margin: 1rem 0;
+            user-select: none;
+        }
+
+        .advanced-toggle svg {
+            transition: transform 0.3s ease;
+            width: 16px;
+            height: 16px;
+        }
+
+        .advanced-toggle.open svg {
+            transform: rotate(180deg);
+        }
+
+        .advanced-options {
+            display: none;
+            padding: 1rem;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .advanced-options.show {
+            display: block;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .input-row {
+                grid-template-columns: 1fr;
+            }
+
+            .crawler-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
+            .crawler-actions {
+                width: 100%;
+                justify-content: flex-start;
+            }
+
+            .checkbox-group {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Google in a Day</div>
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="/crawler" class="active">Crawler</a>
+                <a href="/status">Status</a>
+                <a href="/search-page">Search</a>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
+                <i id="themeIconLight" data-lucide="sun"></i>
+                <i id="themeIconDark" data-lucide="moon" style="display: none;"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Message Area -->
+        <div id="message" class="message" style="display: none;"></div>
+
+        <!-- Statistics -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" id="stat-total">0</div>
+                <div class="stat-label">Total Crawlers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-active">0</div>
+                <div class="stat-label">Active</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-urls">0</div>
+                <div class="stat-label">URLs Crawled</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-words">0</div>
+                <div class="stat-label">Words Indexed</div>
+            </div>
+        </div>
+
+        <!-- Create Crawler Form -->
+        <div class="card">
+            <h2>Start New Crawler</h2>
+            <form id="createForm">
+                <div class="form-group">
+                    <label for="origin">Seed URL</label>
+                    <input type="url" id="origin" name="origin" placeholder="https://example.com" required>
+                </div>
+
+                <div class="input-row">
+                    <div class="form-group">
+                        <label for="max_depth">Max Depth (1-1000)</label>
+                        <input type="number" id="max_depth" name="max_depth" value="3" min="1" max="1000">
+                    </div>
+                    <div class="form-group">
+                        <label for="hit_rate">Hit Rate (req/s)</label>
+                        <input type="number" id="hit_rate" name="hit_rate" value="100" min="0.1" max="1000" step="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label for="max_urls">Max URLs</label>
+                        <input type="number" id="max_urls" name="max_urls_to_visit" value="1000" min="1" max="10000">
+                    </div>
+                    <div class="form-group">
+                        <label for="queue_capacity">Queue Capacity</label>
+                        <input type="number" id="queue_capacity" name="max_queue_capacity" value="10000" min="100" max="100000">
+                    </div>
+                </div>
+
+                <!-- Domain Filtering -->
+                <div class="advanced-toggle" onclick="toggleAdvanced()">
+                    <i data-lucide="chevron-down"></i>
+                    <span>Domain Filtering Options</span>
+                </div>
+
+                <div id="advancedOptions" class="advanced-options">
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="same_domain_only" checked>
+                            <span>Same Domain Only</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="include_subdomains">
+                            <span>Include Subdomains</span>
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="blocked_patterns">Blocked Patterns (comma-separated)</label>
+                        <input type="text" id="blocked_patterns" placeholder="tracking, analytics, ad, login, logout">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    <i data-lucide="play"></i>
+                    Start Crawler
+                </button>
+            </form>
+        </div>
+
+        <!-- Crawlers List -->
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h2>Crawlers</h2>
+                <button class="btn btn-danger btn-sm" onclick="clearAllData()">
+                    <i data-lucide="trash-2"></i>
+                    Clear All Data
+                </button>
+            </div>
+
+            <div id="crawlerList" class="crawler-list">
+                <div class="empty-state">
+                    <i data-lucide="info"></i>
+                    <p>No crawlers yet. Start one above!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = '';
+
+        // Initialize Lucide icons
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            initTheme();
+            loadStats();
+            loadCrawlers();
+        });
+
+        // Theme Management
+        function initTheme() {
+            const saved = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', saved);
+            updateThemeIcon(saved);
+        }
+
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            updateThemeIcon(next);
+        }
+
+        function updateThemeIcon(theme) {
+            const lightIcon = document.getElementById('themeIconLight');
+            const darkIcon = document.getElementById('themeIconDark');
+            if (theme === 'dark') {
+                lightIcon.style.display = 'block';
+                darkIcon.style.display = 'none';
+            } else {
+                lightIcon.style.display = 'none';
+                darkIcon.style.display = 'block';
+            }
+        }
+
+        // Advanced options toggle
+        function toggleAdvanced() {
+            const options = document.getElementById('advancedOptions');
+            const toggle = document.querySelector('.advanced-toggle');
+            options.classList.toggle('show');
+            toggle.classList.toggle('open');
+        }
+
+        // Show message
+        function showMessage(text, type = 'success') {
+            const msg = document.getElementById('message');
+            msg.textContent = text;
+            msg.className = `message message-${type}`;
+            msg.style.display = 'block';
+            setTimeout(() => msg.style.display = 'none', 5000);
+        }
+
+        // Format number
+        function formatNumber(num) {
+            return (num || 0).toLocaleString();
+        }
+
+        // Format datetime
+        function formatDateTime(isoString) {
+            if (!isoString) return 'N/A';
+            const date = new Date(isoString);
+            return date.toLocaleString('tr-TR', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+
+        // Load statistics
+        async function loadStats() {
+            try {
+                const res = await fetch(`${API_BASE}/crawler/stats`);
+                const stats = await res.json();
+
+                document.getElementById('stat-total').textContent = formatNumber(stats.total_crawlers);
+                document.getElementById('stat-active').textContent = formatNumber(stats.active_crawlers);
+                document.getElementById('stat-urls').textContent = formatNumber(stats.total_urls_crawled);
+                document.getElementById('stat-words').textContent = formatNumber(stats.total_words_indexed);
+            } catch (e) {
+                console.error('Failed to load stats:', e);
+            }
+        }
+
+        // Load crawler list
+        async function loadCrawlers() {
+            try {
+                const res = await fetch(`${API_BASE}/crawler/list`);
+                const crawlers = await res.json();
+
+                const list = document.getElementById('crawlerList');
+
+                if (!crawlers || crawlers.length === 0) {
+                    list.innerHTML = `
+                        <div class="empty-state">
+                            <i data-lucide="info"></i>
+                            <p>No crawlers yet. Start one above!</p>
+                        </div>
+                    `;
+                    lucide.createIcons();
+                    return;
+                }
+
+                list.innerHTML = crawlers.map(c => {
+                    const status = (c.status || 'Unknown').toLowerCase();
+                    const stats = c.stats || {};
+
+                    return `
+                        <div class="crawler-item ${status}">
+                            <div class="crawler-info">
+                                <div class="crawler-header">
+                                    <span class="crawler-id">${c.crawler_id}</span>
+                                    <span class="crawler-timestamp">${formatDateTime(c.created_at)}</span>
+                                    <span class="status-badge status-${status}">${c.status || 'Unknown'}</span>
+                                </div>
+                                <div class="crawler-origin">${c.origin || 'N/A'}</div>
+                                <div class="crawler-stats">
+                                    <span>Crawled: <strong>${formatNumber(stats.urls_crawled)}</strong></span>
+                                    <span>Queued: <strong>${formatNumber(stats.urls_queued)}</strong></span>
+                                    <span>Failed: <strong>${formatNumber(stats.urls_failed)}</strong></span>
+                                </div>
+                            </div>
+                            <div class="crawler-actions">
+                                ${status === 'active' ? `
+                                    <button class="btn btn-warning btn-sm" onclick="pauseCrawler('${c.crawler_id}')">Pause</button>
+                                    <button class="btn btn-danger btn-sm" onclick="stopCrawler('${c.crawler_id}')">Stop</button>
+                                ` : ''}
+                                ${status === 'paused' ? `
+                                    <button class="btn btn-success btn-sm" onclick="resumeCrawler('${c.crawler_id}')">Resume</button>
+                                    <button class="btn btn-danger btn-sm" onclick="stopCrawler('${c.crawler_id}')">Stop</button>
+                                ` : ''}
+                                ${status === 'stopped' ? `
+                                    <button class="btn btn-primary btn-sm" onclick="resumeFromFiles('${c.crawler_id}')">Resume</button>
+                                ` : ''}
+                                <a href="/status?id=${c.crawler_id}" class="btn btn-primary btn-sm">Details</a>
+                                <button class="btn btn-danger btn-sm" onclick="deleteCrawler('${c.crawler_id}')" title="Delete">
+                                    <i data-lucide="trash-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                lucide.createIcons();
+            } catch (e) {
+                console.error('Failed to load crawlers:', e);
+            }
+        }
+
+        // Create crawler
+        document.getElementById('createForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const form = e.target;
+            const data = {
+                origin: form.origin.value,
+                max_depth: parseInt(form.max_depth.value),
+                hit_rate: parseFloat(form.hit_rate.value),
+                max_urls_to_visit: parseInt(form.max_urls_to_visit.value),
+                max_queue_capacity: parseInt(form.max_queue_capacity.value),
+                same_domain_only: document.getElementById('same_domain_only').checked,
+                include_subdomains: document.getElementById('include_subdomains').checked,
+                blocked_patterns: document.getElementById('blocked_patterns').value
+            };
+
+            try {
+                const res = await fetch(`${API_BASE}/crawler/create`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+
+                const result = await res.json();
+
+                if (res.ok) {
+                    showMessage(`Crawler started: ${result.crawler_id}`, 'success');
+                    form.reset();
+                    form.max_depth.value = 3;
+                    form.hit_rate.value = 100;
+                    form.max_urls_to_visit.value = 1000;
+                    form.max_queue_capacity.value = 10000;
+                    document.getElementById('same_domain_only').checked = true;
+                    document.getElementById('include_subdomains').checked = false;
+                    loadCrawlers();
+                    loadStats();
+                } else {
+                    showMessage(result.error || 'Failed to create crawler', 'error');
+                }
+            } catch (e) {
+                showMessage('Network error', 'error');
+            }
+        });
+
+        // Pause crawler
+        async function pauseCrawler(id) {
+            try {
+                const res = await fetch(`${API_BASE}/crawler/pause/${id}`, { method: 'POST' });
+                if (res.ok) {
+                    showMessage('Crawler paused', 'success');
+                    loadCrawlers();
+                } else {
+                    const data = await res.json();
+                    showMessage(data.error || 'Failed to pause', 'error');
+                }
+            } catch (e) {
+                showMessage('Network error', 'error');
+            }
+        }
+
+        // Resume crawler
+        async function resumeCrawler(id) {
+            try {
+                const res = await fetch(`${API_BASE}/crawler/resume/${id}`, { method: 'POST' });
+                if (res.ok) {
+                    showMessage('Crawler resumed', 'success');
+                    loadCrawlers();
+                } else {
+                    const data = await res.json();
+                    showMessage(data.error || 'Failed to resume', 'error');
+                }
+            } catch (e) {
+                showMessage('Network error', 'error');
+            }
+        }
+
+        // Stop crawler
+        async function stopCrawler(id) {
+            if (!confirm('Are you sure you want to stop this crawler?')) return;
+
+            try {
+                const res = await fetch(`${API_BASE}/crawler/stop/${id}`, { method: 'POST' });
+                if (res.ok) {
+                    showMessage('Crawler stopped', 'success');
+                    loadCrawlers();
+                    loadStats();
+                } else {
+                    const data = await res.json();
+                    showMessage(data.error || 'Failed to stop', 'error');
+                }
+            } catch (e) {
+                showMessage('Network error', 'error');
+            }
+        }
+
+        // Delete crawler
+        async function deleteCrawler(id) {
+            if (!confirm('Delete this crawler and all its data?')) return;
+
+            try {
+                const res = await fetch(`${API_BASE}/crawler/${id}`, { method: 'DELETE' });
+                if (res.ok) {
+                    showMessage('Crawler deleted', 'success');
+                    loadCrawlers();
+                    loadStats();
+                } else {
+                    const data = await res.json();
+                    showMessage(data.error || 'Failed to delete', 'error');
+                }
+            } catch (e) {
+                showMessage('Network error', 'error');
+            }
+        }
+
+        // Resume from files
+        async function resumeFromFiles(id) {
+            try {
+                const res = await fetch(`${API_BASE}/crawler/resume-from-files/${id}`, { method: 'POST' });
+                if (res.ok) {
+                    showMessage('Crawler resumed from saved state', 'success');
+                    loadCrawlers();
+                } else {
+                    const data = await res.json();
+                    showMessage(data.error || 'Failed to resume', 'error');
+                }
+            } catch (e) {
+                showMessage('Network error', 'error');
+            }
+        }
+
+        // Clear all data
+        async function clearAllData() {
+            if (!confirm('Are you sure you want to clear ALL crawler data? This cannot be undone.')) return;
+
+            try {
+                const res = await fetch(`${API_BASE}/crawler/clear`, { method: 'POST' });
+                if (res.ok) {
+                    showMessage('All data cleared', 'success');
+                    loadCrawlers();
+                    loadStats();
+                } else {
+                    const data = await res.json();
+                    showMessage(data.error || 'Failed to clear data', 'error');
+                }
+            } catch (e) {
+                showMessage('Network error', 'error');
+            }
+        }
+
+        // Auto-refresh every 2 seconds
+        setInterval(() => {
+            loadStats();
+            loadCrawlers();
+        }, 2000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "crawler_id": "1774125913_3176",
+  "origin": "https://seriesboxd.com.tr",
+  "status": "Finished",
+  "created_at": "2026-03-21T23:45:13.246028",
+  "started_at": "2026-03-21T23:45:13.413133",
+  "finished_at": "2026-03-21T23:45:14.807522",
+  "config": {
+    "max_depth": 1,
+    "hit_rate": 10,
+    "max_queue_capacity": 10000,
+    "max_urls_to_visit": 3
+  },
+  "stats": {
+    "urls_crawled": 1,
+    "urls_failed": 0,
+    "urls_queued": 0,
+    "urls_visited": 1
+  }
+}
