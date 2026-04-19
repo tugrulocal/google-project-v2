@@ -1,0 +1,13 @@
+﻿# Data and Storage Outputs
+data/
+
+# Python caching
+__pycache__/
+*.pyc
+
+# Environment files
+venv/
+env/
+.env
+.DS_Store
+*.url
