@@ -14,7 +14,6 @@ import json
 import threading
 import urllib.parse
 from typing import Dict, List, Optional
-from datetime import datetime
 
 # Import CrawlerJob from utils
 import sys
@@ -82,7 +81,7 @@ class CrawlerService:
         max_depth = max(1, min(max_depth, 1000))
         hit_rate = max(0.1, min(hit_rate, 1000.0))
         max_queue_capacity = max(100, min(max_queue_capacity, 100000))
-        max_urls_to_visit = max(0, min(max_urls_to_visit, 10000))
+        max_urls_to_visit = max(1, min(max_urls_to_visit, 10000))
 
         # Generate crawler ID based on domain
         parsed_origin = urllib.parse.urlparse(origin)
@@ -122,6 +121,10 @@ class CrawlerService:
         crawler.start()
         
         return {
+            "crawler_id": crawler_id,
+            "origin": origin,
+            "k": max_depth,
+            "status": "Active"
         }
 
     def get_crawler_status(self, crawler_id: str) -> Optional[Dict]:

@@ -5,6 +5,7 @@ This module provides the REST API for the mini search engine.
 All endpoints follow the Gold Standard specification.
 
 Endpoints:
+- POST /index              - Start index crawl using origin + k contract
 - POST /crawler/create     - Start new crawler
 - GET  /crawler/status/<id> - Get crawler status
 - GET  /crawler/list       - List all crawlers
@@ -318,6 +319,65 @@ def get_statistics():
         return jsonify({"error": "Failed to get statistics", "details": str(e)}), 500
 
 
+@app.route('/index', methods=['POST'])
+def index_endpoint():
+    """
+    HW2 index contract endpoint.
+
+    Request Body (JSON):
+    {
+        "origin": "https://example.com",  # Required
+        "k": 3,                             # Optional depth, default: 3
+        "hit_rate": 100.0,                  # Optional
+        "max_queue_capacity": 10000,        # Optional
+        "max_urls_to_visit": 1000           # Optional
+    }
+
+    Response 201:
+    {
+        "crawler_id": "example.com",
+        "origin": "https://example.com",
+        "k": 3,
+        "status": "Active"
+    }
+    """
+    try:
+        data = request.get_json() or {}
+        origin = data.get('origin')
+        if not origin:
+            return jsonify({"error": "Missing required field: origin"}), 400
+
+        max_depth = data.get('k', data.get('max_depth', 3))
+        hit_rate = data.get('hit_rate', 100.0)
+        max_queue_capacity = data.get('max_queue_capacity', 10000)
+        max_urls_to_visit = data.get('max_urls_to_visit', 1000)
+        same_domain_only = data.get('same_domain_only', True)
+        include_subdomains = data.get('include_subdomains', False)
+        allowed_paths = data.get('allowed_paths')
+        blocked_patterns = data.get('blocked_patterns')
+
+        if isinstance(blocked_patterns, str):
+            blocked_patterns = [p.strip() for p in blocked_patterns.split(',') if p.strip()]
+
+        service = get_crawler_service()
+        result = service.create_crawler(
+            origin=origin,
+            max_depth=max_depth,
+            hit_rate=hit_rate,
+            max_queue_capacity=max_queue_capacity,
+            max_urls_to_visit=max_urls_to_visit,
+            same_domain_only=same_domain_only,
+            include_subdomains=include_subdomains,
+            allowed_paths=allowed_paths,
+            blocked_patterns=blocked_patterns,
+        )
+        return jsonify(result), 201
+    except ValueError as e:
+        return jsonify({"error": str(e)}), 400
+    except Exception as e:
+        return jsonify({"error": "Failed to index", "details": str(e)}), 500
+
+
 # =============================================================================
 # Search Endpoints
 # =============================================================================
@@ -418,7 +478,7 @@ def index_stats():
 # =============================================================================
 
 @app.route('/')
-def index():
+def home_page():
     """Serve the main dashboard page."""
     return send_from_directory('demo', 'crawler.html')
 
@@ -472,6 +532,7 @@ if __name__ == '__main__':
     ║  API Docs:     See product_prd.md                             ║
     ║                                                               ║
     ║  Endpoints:                                                   ║
+    ║    POST /index             - Start index crawl                ║
     ║    POST /crawler/create     - Start new crawler               ║
     ║    GET  /crawler/status/<id> - Get crawler status              ║
     ║    POST /crawler/pause/<id>  - Pause crawler                   ║

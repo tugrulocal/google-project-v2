@@ -13,7 +13,6 @@ import re
 import math
 import random
 from typing import Dict, List, Optional, Tuple
-from collections import defaultdict
 
 
 class SearchService:
@@ -54,6 +53,7 @@ class SearchService:
             return {
                 "query": "",
                 "results": [],
+                "triples": [],
                 "total_results": 0,
                 "page_limit": page_limit,
                 "page_offset": page_offset,
@@ -67,6 +67,7 @@ class SearchService:
             return {
                 "query": query,
                 "results": [],
+                "triples": [],
                 "total_results": 0,
                 "page_limit": page_limit,
                 "page_offset": page_offset,
@@ -135,10 +136,24 @@ class SearchService:
         total_results = len(all_results)
         paginated_results = all_results[page_offset:page_offset + page_limit]
 
+        # Keep backward compatibility while exposing HW2-required triples.
+        enriched_results = []
+        for result in paginated_results:
+            item = result.copy()
+            item["relevant_url"] = item.get("url", "")
+            item["origin_url"] = item.get("origin", "")
+            enriched_results.append(item)
+
+        triples = [
+            [item.get("relevant_url", ""), item.get("origin_url", ""), item.get("depth", 0)]
+            for item in enriched_results
+        ]
+
         return {
             "query": query,
             "query_words": query_words,
-            "results": paginated_results,
+            "results": enriched_results,
+            "triples": triples,
             "total_results": total_results,
             "page_limit": page_limit,
             "page_offset": page_offset,
