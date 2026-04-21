@@ -1,6 +1,4 @@
-﻿# Data and Storage Outputs
-data/
-
+﻿
 # Python caching
 __pycache__/
 *.pyc
