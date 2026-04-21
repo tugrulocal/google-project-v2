@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Tests](https://img.shields.io/badge/tests-21%20passed-success)](utils/__test__)
 
-A fully functional, educational search engine demonstrating core concepts of web crawling, inverted indexing, and relevance-based ranking—built entirely with native Python libraries (no Scrapy, BeautifulSoup, or external parsers).
+A fully functional, educational search engine demonstrating core concepts of web crawling, inverted indexing, and relevance-based ranking—built entirely with native Python libraries (no Scrapy, BeautifulSoup, or external parsers)
 
 **Course:** AI Aided Computer Engineering (İTÜ)
 **Reference:** [Gold Standard Repository](https://github.com/ereneld/crawler)
